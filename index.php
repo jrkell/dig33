@@ -2,5 +2,5 @@
 <p>Beer and tequila.. together at last!</p>
 
 <?php
-  echo "testing the cron job";
+  echo "testing the cron job~~";
 ?>
