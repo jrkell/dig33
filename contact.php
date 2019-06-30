@@ -1,11 +1,14 @@
 <!-- Header -->
 <?php
-  $title = "DESPERADOS - Porque no los dos?";
+  $title = "CONTACT DESPERADOS - Porque no los dos?";
   include 'header.php';
 ?>
+<main id="container">
 
-<!-- MAIN CONTENT -->
-<main>
+<h1>Contact Desperados</h1>
+
+<h2>Basic contact form</h2>
+
 
 
 

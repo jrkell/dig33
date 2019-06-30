@@ -4,7 +4,7 @@
 ?>
 
 <!-- PAGE CONTENT START -->
-<div id="container">
+<main id="container">
 
 
   <h1>DIG33 Website Page</h1>
@@ -17,7 +17,7 @@
 
 
 
-</div>
+</main>
 </body>
 <!-- PAGE CONTENT END -->
 

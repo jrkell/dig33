@@ -1,9 +1,40 @@
+
+/** LAYOUT **/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+#container {
+  width: 100%;
+  max-width: 1366px;
+  background-color: white;
+  margin: 0px auto 0px auto;
+}
+
+/** HEADINGS **/
+
+h1 {
+  font-family: 'Arbutus', cursive;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: red;
+}
 h2 {
-  color:red;
+  color:green;
   font-size:16px;
 }
 
-.bottom {
-  font-size:10px;
+
+
+/** FOOTER STYLES **/
+footer {
+  width: 100%;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.disclaimer {
+  font-size:12px;
   color:grey;
 }

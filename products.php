@@ -1,12 +1,13 @@
 <!-- Header -->
 <?php
-  $title = "DESPERADOS - Porque no los dos?";
+  $title = "OUR PRODUCTS - DESPERADOS - Porque no los dos?";
   include 'header.php';
 ?>
 
 <!-- MAIN CONTENT -->
-<main>
+<main id="container">
 
+<h1>PRODUCTS</h1>
 
 
 
