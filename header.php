@@ -14,3 +14,5 @@
         <script src="scripts/scripts.js"></script>
         <title><?php echo $title; ?></title>
 </head>
+
+<body>
