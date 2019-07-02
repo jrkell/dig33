@@ -9,6 +9,7 @@
 
         <!-- reference to external font, css and js -->
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <!-- link to Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Arbutus|Open+Sans&display=swap" rel="stylesheet">
 
@@ -20,14 +21,15 @@
 <!-- PAGE CONTENT START -->
 <body>
   <header>
-<nav id="main-navigation">
-  <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="products.php">Products</a></li>
-    <li><a href="events.php">Events</a></li>
-    <li><a href="stockists.php">Where to buy</a></li>
-    <li><a href="about.php">About</a></li>
-    <li><a href="contact.php">Contact Us</a></li>
-  </ul>
-</nav>
+    <img src="images/logo.png" alt="Desperados Logo" />
+    <nav id="main-navigation">
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="products.php">Products</a></li>
+        <li><a href="events.php">Events</a></li>
+        <li><a href="stockists.php">Where to buy</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+      </ul>
+    </nav>
 </header>
