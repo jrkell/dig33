@@ -86,3 +86,14 @@ footer {
   margin: 0px auto;
   padding: 10px;
 }
+
+
+/** CONTACT PAGE **/
+.contact-form div {
+  padding: 5px;
+}
+
+.contact-form label {
+  display: block;
+  width: 10%;
+}
