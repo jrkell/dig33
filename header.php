@@ -1,3 +1,13 @@
+
+<?php
+
+  if (!isset($_COOKIE["age_verified"])) {
+    header("Location: agegateway.php");
+    die();
+  }
+
+?>
+
 <!DOCTYPE html>
 
 <!-- This website by The Tequila Techies, for Curtin University DIG33-->
@@ -17,6 +27,9 @@
         <script src="scripts/scripts.js"></script>
         <title><?php echo $title; ?></title>
 </head>
+
+
+
 
 <!-- PAGE CONTENT START -->
 <body>
