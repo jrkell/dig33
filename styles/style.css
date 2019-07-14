@@ -56,10 +56,7 @@ h2 {
 /** FOOTER STYLES **/
 footer {
   width: 100%;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0; }
+  text-align: center; }
 
 .disclaimer {
   font-size: 12px;
