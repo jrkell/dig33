@@ -1,0 +1,79 @@
+/** HEADER STYLES **/
+header {
+  background-color: #000;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0px auto; }
+  header img {
+    padding: 10px; }
+
+#main-navigation {
+  float: right;
+  margin: 0px 0px 50px 0px; }
+  #main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000; }
+  #main-navigation li {
+    display: inline-block;
+    text-align: center; }
+  #main-navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none; }
+  #main-navigation a:hover {
+    background-color: red; }
+
+/** MAIN STYLES **/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
+#container {
+  width: 100%;
+  max-width: 1366px;
+  background-color: white;
+  margin: 0px auto 0px auto; }
+
+/** HEADINGS **/
+h1 {
+  font-family: "Arbutus", cursive;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #e10017; }
+
+h2 {
+  color: #169f00;
+  font-size: 16px; }
+
+/** FOOTER STYLES **/
+footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+
+.disclaimer {
+  font-size: 12px;
+  color: grey;
+  width: 100;
+  max-width: 1366px;
+  margin: 0px auto;
+  padding: 10px; }
+
+/** CONTACT FORM **/
+.contact-form div {
+  padding: 5px; }
+.contact-form label {
+  display: block;
+  width: 10%; }
+
+/*# sourceMappingURL=style.css.map */

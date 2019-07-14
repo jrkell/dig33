@@ -18,8 +18,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <!-- reference to external font, css and js -->
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
         <!-- link to Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Arbutus|Open+Sans&display=swap" rel="stylesheet">
 
