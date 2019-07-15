@@ -93,7 +93,7 @@ $(window).load(function() {
   });
     });
   </script>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

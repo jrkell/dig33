@@ -43,15 +43,35 @@
 <!-- PAGE CONTENT START -->
 <body>
   <header>
-    <img src="images/logo.png" alt="Desperados Logo" />
-    <nav id="main-navigation">
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="products.php">Products</a></li>
-        <li><a href="events.php">Events</a></li>
-        <li><a href="stockists.php">Where to buy</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="contact.php">Contact Us</a></li>
+    <div id="main-nav">
+    <nav class="navbar navbar-expand-lg">
+      <img src="images/logo.png" alt="Desperados Logo" />
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.php">Products</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="events.php">Events</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="stockists.php">Where to buy</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.php">About</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.php">Contact Us</a>
+          </li>
       </ul>
+    </div>
     </nav>
+  </div>
 </header>

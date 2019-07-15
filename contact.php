@@ -22,12 +22,12 @@
       <input type="text" name="email" id="email"><br>
     </div>
 
-    
+
     <div>
     <label for="email">Message:
       <textarea rows="4" cols="50" name="message" id="message"></textarea><br>
     </div>
-    
+
     <input type="submit" value="Send">
   </form>
 
@@ -35,7 +35,7 @@
 
 
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

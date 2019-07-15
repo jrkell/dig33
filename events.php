@@ -41,7 +41,7 @@
 
 
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

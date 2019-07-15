@@ -3,14 +3,11 @@ header {
   width: 100%;
   max-width: 1366px;
   margin: 0px auto;
-  img {
-  padding: 10px;
-}
 }
 
-#main-navigation {
-  float: right;
+#main-nav {
   margin: 0px 0px 50px 0px;
+  text-align: right;
   ul {
   list-style-type: none;
   margin: 0;
@@ -33,4 +30,8 @@ header {
     a:hover {
       background-color: red;
     }
+  img {
+    margin-right:50px;
+    float: left;
   }
+}

@@ -13,7 +13,7 @@
 <h2>WHOLESALE LOG IN CALL TO ACTION</h2>
 
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 
