@@ -5,27 +5,28 @@ header {
   max-width: 1366px;
   margin: 0px auto; }
 
-#main-nav {
-  margin: 0px 0px 50px 0px;
-  text-align: right; }
-  #main-nav ul {
+nav {
+  margin: 0px 0px 50px 0px; }
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #000; }
-  #main-nav li {
+  nav li {
     display: inline-block;
     text-align: center; }
-  #main-nav a {
+  nav a {
     display: block;
     color: white;
     text-align: center;
     padding: 12px 16px;
     text-decoration: none; }
-  #main-nav a:hover {
-    background-color: red; }
-  #main-nav img {
+  nav a:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold; }
+  nav img {
     margin-right: 50px;
     float: left; }
 
