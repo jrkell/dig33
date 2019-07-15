@@ -30,11 +30,30 @@
 <div class="row">
 <div class="col-sm-6">
   <p>PRODUCT IMAGE</p>
+  <h3>title</h3>
+  <p>long_desc</p>
 </div>
 
 <div class="col-sm-6">
-  <p>PRODUCT INFORMATION</p>
-</div>
+
+  <h4>PRODUCT INFO</h4>
+  <p>Description: short_desc</p>
+  <p>Content: content</p>
+  <p>Ingredients: ingredients</p>
+  <p>Allergy information:  allergens</p>
+  <p>Alcohol percentage: alcohol</p>
+  <p>Nutritional values: nutritional</p>
+  <div class="values">
+    <h5>Per 100ml</h5>
+    <p>Energy: energy</p>
+    <p>Fat: fat </p>
+    <p>Saturated fat: satfat </p>
+    <p>Carbohydrates: carbs </p>
+    <p>Sugar: sugar</p>
+    <p>Fibers: fiber</p>
+    <p>Protein: protein</p>
+    <p>Salt: salt</p>
+  </div>
 
 </div> <!-- close container -->
 </main>
