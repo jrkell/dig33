@@ -29,7 +29,7 @@
 <!-- PHP FOR PRODUCT -->
 <div class="row">
 <div class="col-sm-6">
-  <p>PRODUCT IMAGE</p>
+  <img src="images/placeholder.png" class="img-fluid" alt="Image Placeholder"/>
   <h3>title</h3>
   <p>long_desc</p>
 </div>
