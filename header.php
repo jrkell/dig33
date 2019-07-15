@@ -20,15 +20,20 @@
         <!-- reference to external font, css and js -->
         <link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/slider.css"
         <!-- link to Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Arbutus|Open+Sans&display=swap" rel="stylesheet">
         <!-- Bootstrap 4 CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-        <script src="scripts/scripts.js"></script>
+        <!-- Product slider script -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+        <script src="js/scripts.js"></script>
         <title><?php echo $title; ?></title>
 </head>
 
