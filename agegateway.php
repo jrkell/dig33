@@ -58,7 +58,7 @@
           <div class="col-sm-12">
         <img src="images/logo.png" class="img-fluid">
         <p>To continue, please enter your date of birth</p>
-        </div>
+
 
         <form action="agegateway.php" method="POST">
 
@@ -93,6 +93,7 @@
 
             <input type="submit" value="Go">
         </form>
+            </div>
 </div>
 </div>
 </main>

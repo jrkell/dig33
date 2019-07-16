@@ -20,7 +20,7 @@
         <!-- reference to external font, css and js -->
         <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <link rel="stylesheet" type="text/css" href="styles/slider.css"
+        <link rel="stylesheet" type="text/css" href="styles/slider.css">
         <!-- link to Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Arbutus|Permanent+Marker|Open+Sans&display=swap" rel="stylesheet">
         <!-- Bootstrap 4 CDN -->
