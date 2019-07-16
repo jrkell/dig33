@@ -1,5 +1,6 @@
 $font-stack: 'Open Sans', sans-serif;
 $font-title: 'Arbutus', cursive;
+$font-heading: 'Permanent Marker', serif;
 $tt-red: #e10017;
 $tt-green: #169f00;
 $tt-yellow: #ffcf11;
@@ -7,17 +8,18 @@ $tt-orange: #fe6600;
 
 body {
   font-family: $font-stack;
-  color: black;
+  color: white;
   margin: 0;
   padding: 0;
-  background-color:white;
+  background-color:black;
 }
 
 #container {
   width: 100%;
   max-width: 1366px;
-  background-color: white;
+  background-color: black;
   margin: 0px auto 0px auto;
+  padding:25px;
 }
 
 
@@ -30,6 +32,8 @@ h1 {
   color: $tt-red;
 }
 h2 {
-  color:$tt-green;
-  font-size:16px;
+  color:$tt-yellow;
+  font-size:1.8em;
+  font-family: $font-heading;
+  text-transform: uppercase;
 }

@@ -18,11 +18,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <!-- reference to external font, css and js -->
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
         <link rel="stylesheet" type="text/css" href="styles/slider.css"
         <!-- link to Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Arbutus|Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arbutus|Permanent+Marker|Open+Sans&display=swap" rel="stylesheet">
         <!-- Bootstrap 4 CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -41,12 +41,12 @@
 
 
 <!-- PAGE CONTENT START -->
-<body>
+<body class="bg-dark text-white">
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bj-dark">
+    <nav class="navbar navbar-expand-lg">
 
-      <img src="images/logo.png" alt="Desperados Logo" />
+      <img src="images/logo.png" alt="Desperados Logo" class="img-fluid" />
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
