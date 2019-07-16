@@ -24,8 +24,8 @@
       //TODO: HASH the password
       $pw = $_POST['pw'];
 
-      $query = "INSERT INTO stockist VALUES (DEFAULT,$name,$email,$address,$pw)";
-
+      $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
+      echo $query;
       // Perform queries
       if (mysqli_query($con, $query)) {
         //TODO: check if email is taken
@@ -43,12 +43,17 @@
     } else {
       //TODO: HASH the password
       $pw = $_POST['pw'];
-      $query = "SELECT pword_hash FROM stockist WHERE email = $pw";
+      $email = $_POST['login'];
+      $query = "SELECT pword_hash FROM stockist WHERE email = '$email'";
+
       if ($result = $con->query($query)) {
         while ($row = $result->fetch_row()) {
-          if ($pw == $row[0]) {
+          if ($pw === $row[0]) {
+            
             //TODO: actually log them in
-            echo 'SUCESSFULLY LOGGED IN';
+            echo 'Sucessfully Logged In.';
+          } else {
+            echo 'Incorrect Password. Please try again.';
           }
         }
       }
@@ -75,7 +80,7 @@
         <input type="password" name="pw" id="pw" required><br>
       </div>
 
-      <input type="submit" value="Login">
+      <input type="submit" value="Signup">
       </form>
       <p>Already signed up? <a href="stockists.php">Log in!</a></p>';
   } else {
@@ -97,10 +102,7 @@
   }
 ?>
 
-
-
 </main>
-
 <!-- PAGE CONTENT END -->
 
 
