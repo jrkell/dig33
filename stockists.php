@@ -18,18 +18,23 @@
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
     } else {
 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $address = $_POST['address'];
-    //TODO: HASH the password
-    $pw = $_POST['pw'];
+      $name = $_POST['name'];
+      $email = $_POST['email'];
+      $address = $_POST['address'];
+      //TODO: HASH the password
+      $pw = $_POST['pw'];
 
-    // Perform queries
-    mysqli_query($con,"INSERT INTO stockist VALUES (DEFAULT,$name,$email,$address,$pw)");
-    mysqli_close($con);
-    //TODO: check if email is taken
-    echo '<p>Successfully signed up. Welcome!</p>';
+      $query = "INSERT INTO stockist VALUES (DEFAULT,$name,$email,$address,$pw)";
+
+      // Perform queries
+      if (mysqli_query($con, $query)) {
+        //TODO: check if email is taken
+        echo '<p>Successfully signed up. Welcome!</p>';
+      } else {
+        echo '<p>Oops! Error signing up. Please try again or contact Desperados if issues persist.</p>';
+      }
     }
+    mysqli_close($con);
   } else if (isset($_POST["login"])) {
     $con=mysqli_connect("localhost","root","D3sperad0s","desperados");
     // Check connection
@@ -51,12 +56,12 @@
   } else if (isset($_GET["signup"])) {
     echo '<form method="post">
       <div>
-        <label for="email">Business Name:</label>
+        <label for="name">Business Name:</label>
         <input type="text" name="name" id="name" required><br>
       </div>
 
       <div>
-        <label for="email">Business Address:</label>
+        <label for="address">Business Address:</label>
         <input type="text" name="address" id="address" required><br>
       </div>
 
