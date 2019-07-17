@@ -25,7 +25,7 @@
       $pw = $_POST['pw'];
 
       $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
-      echo $query;
+      
       // Perform queries
       if (mysqli_query($con, $query)) {
         //TODO: check if email is taken
