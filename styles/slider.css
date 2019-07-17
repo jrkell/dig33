@@ -1,51 +1,52 @@
-
 .clearout {
-height:20px;
-clear:both;
+    height: 20px;
+    clear: both;
 }
 
 #product-slider {
-display:none;
+    display: none;
 }
 
 .slider-row {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .nbs-flexisel-container {
-    position:relative;
-    max-width:100%;
+    position: relative;
+    max-width: 100%;
 }
 
 .nbs-flexisel-ul {
-    position:relative;
-    width:99999px;
-    margin:0px;
-    padding:0px;
-    list-style-type:none;
-    text-align:center;
+    position: relative;
+    width: 99999px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
     overflow: auto;
 }
 
 .nbs-flexisel-inner {
     position: relative;
     overflow: hidden;
-    float:left;
-    width:100%;
-    background:#fff;
-    border:1px solid #ccc;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
+    float: left;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 .nbs-flexisel-item {
-    float:left;
-    margin:0px;
-    padding:0px;
-    cursor:pointer;
-    position:relative;
-    line-height:0px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+    line-height: 0px;
 }
+
 .nbs-flexisel-item img {
     max-width: 100%;
     cursor: pointer;
@@ -58,16 +59,16 @@ display:none;
 
 .nbs-flexisel-nav-left,
 .nbs-flexisel-nav-right {
-    padding:5px 10px;
-    border-radius:15px;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
     position: absolute;
     cursor: pointer;
     z-index: 4;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
