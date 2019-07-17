@@ -27,10 +27,15 @@
         </div>
 
         <div class='row' id='product'>
-            <script>
-                displayDefaultProduct();
+            <?php
+            if(isset($_GET['product'])) {
+                $product = $_GET['product'];
+                echo "<script>displayProduct('$product')</script>";
+            } else {
+                echo "<script>displayProduct()</script>";
+            }
+            ?>
 
-            </script>
         </div>
 
 
@@ -40,7 +45,7 @@
 <script type="text/javascript">
     $(window).load(productSlider());
 
-    $(document).ready(displayProduct());
+    $(document).ready(productClickListener());
 
 </script>
 
