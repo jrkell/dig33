@@ -1,10 +1,79 @@
+//------------------- Pinata Bash relevant code -------------------
+var clickCount = 0;
+var iterations = 500;
+var swingTime = 1;
+
+$("#pinata-div").click(function () {
+    switch (clickCount) {
+
+        case 0:
+            $("#pinata").attr("src", "images/pinata/pinata2.png");
+            swing();
+            ++clickCount;
+            break;
+
+        case 1:
+            $("#pinata").attr("src", "images/pinata/pinata3.png");
+            swing();
+            ++clickCount;
+            break;
+
+        case 2:
+
+            $("#pinata").attr("src", "images/pinata/pinata4.png");
+            resetSwing();
+            $("#pinata").explode({
+                "minWidth": 3,
+                "maxWidth": 12,
+                "radius": 350,
+                "minRadius": 15,
+                "release": false,
+                "fadeTime": 300,
+                "recycle": false,
+                "recycleDelay": 500,
+                "explodeTime": 300,
+                "round": false,
+                "minAngle": 0,
+                "maxAngle": 360,
+                "gravity": 0,
+                "groundDistance": 500
+            });
+
+            $("#ticket-div").fadeIn(400);
+
+            ++clickCount;
+            break;
+    }
+});
+
+function restore() {
+    $("#ticket-div").css("display", "none");
+    $("#pinata-div").html('<img src="images/pinata/pinata.png" id="pinata">');
+    clickCount = 0;
+    resetSwing();
+}
+
+function swing() {
+    $(".content").css("-webkit-transform-origin", "50% 0");
+    $(".content").css("transform-origin", "50% 0");
+    $(".content").css("-webkit-animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
+    $(".content").css("animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
+}
+
+function resetSwing() {
+    $(".content").css("-webkit-transform-origin", "none");
+    $(".content").css("transform-origin", "none");
+    $(".content").css("-webkit-animation", "none");
+    $(".content").css("animation", "none");
+}
+//------------------------------------------------------------------
+
 function productSlider() {
     $("#product-slider").flexisel({
         visibleItems: 5,
         itemsToScroll: 3,
         animationSpeed: 200,
         infinite: true,
-        //            focusOnSelect: true,
         navigationTargetSelector: null,
         autoPlay: {
             enable: false,
