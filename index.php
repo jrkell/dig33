@@ -5,8 +5,11 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-
+  <div class="home-header">
+    <img class="img-fluid" src="images/bg_home.png" />
+  </div>
   <div class="container-fluid">
+    <div class="text-center">
   <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
   <p>Beer and tequila.. together at last!</p>
 
@@ -22,6 +25,7 @@
       <li><img src="images/products/slider-red.png" /></li>
       <li><img src="images/products/slider-sangre.png" /></li>
   </ul>
+</div>
 </div>
 </div>
   <div class="row">

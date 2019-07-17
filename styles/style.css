@@ -43,7 +43,9 @@ body {
   max-width: 1366px;
   background-color: black;
   background-image: url("images/bg_dark.jpg");
-  margin: 0px auto 0px auto;
+  margin: 0px auto 0px auto; }
+
+.row {
   padding: 25px; }
 
 /** HEADINGS **/
