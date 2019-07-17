@@ -112,23 +112,21 @@ function productSlider() {
     });
 }
 
-function displayProduct() {
+function redirectToProduct() {
     $('#product-slider').find("img").click(function () {
-        var title = $(this).attr('id');
-
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("product").innerHTML = this.responseText;
-            }
-        };
-        xhttp.open("GET", "api/product.php?product=" + title, true);
-        xhttp.send();
-
+        var product = $(this).attr('id');
+        window.location.href = "products.php?product=" + product;
     });
 }
 
-function displayDefaultProduct(title = "original") {
+function productClickListener() {
+    $('#product-slider').find("img").click(function () {
+        var title = $(this).attr('id');
+        displayProduct(title);
+    });
+}
+
+function displayProduct(title = "original") {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
