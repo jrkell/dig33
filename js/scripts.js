@@ -136,3 +136,46 @@ function displayProduct(title = "original") {
     xhttp.open("GET", "api/product.php?product=" + title, true);
     xhttp.send();
 }
+
+function changeToSignUp() {
+    document.getElementById("pinata-container").innerHTML =
+        "<h1>Sign Up</h1>\
+            <form action='api/user_signup.php' method='post'>\
+                Email:<br>\
+                <input type='email' name='email'>\
+                <br>\
+                First Name:<br>\
+                <input type='text' name='first'>\
+                <br>\
+                Surname:<br>\
+                <input type='text' name='sur'>\
+                <br>\
+                Password:<br>\
+                <input type='password' name='password1'>\
+                <br>\
+                Re-Enter Password:<br>\
+                <input type='password' name='password2'>\
+                <br><br>\
+                <input type='submit' value='Sign Up'>\
+            </form>\
+            <br><br>\
+            <p>Already have an account?</p>\
+            <button onclick='changeToLogin()'>Login</button>";
+}
+
+function changeToLogin() {
+    document.getElementById("pinata-container").innerHTML =
+        "<h1>Login</h1>\
+            <form action='api/user_login.php' method='post'>\
+                Email:<br>\
+                <input type='email' name='email'>\
+                <br>\
+                Password:<br>\
+                <input type='password' name='password'>\
+                <br><br>\
+                <input type='submit' value='Login'>\
+            </form>\
+            <br><br>\
+            <p>Don't have an account?</p>\
+            <button onclick='changeToSignUp()'>Sign Up</button>";
+}

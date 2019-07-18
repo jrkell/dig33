@@ -29,8 +29,8 @@
             </div>
         </div>
 
-        <div class='row' id='product'>
-            <?php
+        <div class='row' id='product'></div>
+        <?php
             if(isset($_GET['product'])) {
                 $product = $_GET['product'];
                 echo "<script>displayProduct('$product')</script>";
@@ -38,8 +38,6 @@
                 echo "<script>displayProduct()</script>";
             }
             ?>
-
-        </div>
 
 
     </div> <!-- close container -->

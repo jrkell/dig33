@@ -37,4 +37,34 @@ function getProduct($title) {
     return $result;
 }
 
+function userExists($userId) {
+    $query = "SELECT email FROM pinata_user WHERE email = '$userId'";
+    global $connection;
+    
+    $result = mysqli_query($connection, $query);
+    
+    //Check for query errors
+    if(!$result) {
+        die("Database Query Failed: Get Product");
+    }
+    
+    if (mysqli_num_rows($result) == 0) {
+        return FALSE;
+    }
+    return TRUE;
+}
+
+function addUser($email, $first, $sur, $pass) {
+    $query = "INSERT INTO pinata_user VALUES ('$email', '$first', '$sur', '$pass')";
+    global $connection;
+    
+    if(mysqli_query($connection, $query)) {
+        echo "User successfully added!";
+    } else {
+        echo "Failed to add user!";
+    }
+    
+    mysqli_close($connection);
+}
+
 ?>

@@ -12,7 +12,6 @@ error_reporting(E_ALL);
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "D3sperad0s";
-//$dbpass = "mysql";
 $dbname = "desperados";
 
 //MySql Connection
