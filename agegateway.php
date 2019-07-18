@@ -65,7 +65,7 @@
             <select name="day" required>
                 <option value="">Day</option>
                 <?php
-                    for ($i = 1; $i <= 12; $i++) {
+                    for ($i = 1; $i <= 31; $i++) {
                         $num = str_pad($i, 2, '0', STR_PAD_LEFT);
                         echo "<option value='$num'>$num</option>";
                     }
@@ -75,7 +75,7 @@
             <select name="month" required>
                 <option value="">Month</option>
                 <?php
-                    for ($i = 1; $i <= 31; $i++) {
+                    for ($i = 1; $i <= 12; $i++) {
                         $num = str_pad($i, 2, '0', STR_PAD_LEFT);
                         echo "<option value='$num'>$num</option>";
                     }

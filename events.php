@@ -6,13 +6,16 @@
 
 <!-- MAIN CONTENT -->
 <main id="container">
-
-<h1>AUSSIE MUSIC FESTIVALS</h1>
+<div class="container-fluid">
+<h1 class="text-center">AUSSIE MUSIC FESTIVALS</h1>
 
 <div class="row">
   <div class="col-sm-6">
     <h2>JAZZ CLUB</h2>
-    <p>Bacon ipsum dolor amet buffalo frankfurter in enim pork chop do tenderloin cillum ham hock ball tip in pork. Cillum commodo jerky, culpa landjaeger enim porchetta et tempor cow exercitation cupim. Exercitation leberkas irure in ham hock landjaeger aliquip lorem porchetta short ribs adipisicing. Lorem in ground round jerky boudin aliqua. Pork chop non shoulder ullamco, irure tongue aute doner t-bone fugiat picanha swine bresaola. Pork chop reprehenderit aute veniam tail shankle, shank dolore. Ball tip buffalo do sed ullamco, chuck picanha kevin tempor pancetta.</p>
+    <p>Get your groove on at the big band music festival. <p>
+<p>Artists playing tribute to some of the worlds most famous Jazz musicians in an open-air concert that will get your toes tapping and your fingers clicking.</p>
+<p>Jazz is making its way back to the top of the pack and you should not miss it.</p>
+
   </div>
   <div class="col-sm-6">
       <img src="images/placeholder.png" class="img-fluid" alt="Image Placeholder"/>
@@ -25,18 +28,24 @@
   </div>
   <div class="col-sm-6">
     <h2>BIG DAY OUT</h2>
-    <p>Ut porchetta laboris ex pastrami fugiat cillum. Shank nostrud adipisicing leberkas qui. Corned beef burgdoggen beef ribs commodo swine ex pancetta ground round. Quis commodo in doner in ex jowl ad leberkas qui meatloaf ea salami. Nulla alcatra excepteur officia cupim voluptate. Proident mollit burgdoggen ham hock, ipsum prosciutto chicken kevin aute salami bacon. Turducken turkey officia doner nostrud cillum.</p>
+<p>Top bands from Australia and over seas will come together to present an awesome day and evening of top hits.</p>
+<p>Big Day Out has been in hibernation but is ready to explode back into action this year for a one-day event.</p>
+<p>Be the one who attended the biggest event of the year, get in early and get your tickets.</p>
   </div>
 
   <div class="col-sm-6">
     <h2>RIVER ROCK FEST</h2>
-    <p>Bacon ipsum dolor amet buffalo frankfurter in enim pork chop do tenderloin cillum ham hock ball tip in pork. Cillum commodo jerky, culpa landjaeger enim porchetta et tempor cow exercitation cupim. Exercitation leberkas irure in ham hock landjaeger aliquip lorem porchetta short ribs adipisicing. Lorem in ground round jerky boudin aliqua. Pork chop non shoulder ullamco, irure tongue aute doner t-bone fugiat picanha swine bresaola. Pork chop reprehenderit aute veniam tail shankle, shank dolore. Ball tip buffalo do sed ullamco, chuck picanha kevin tempor pancetta.</p>
+    <p>Aussie legends will be playing in a town near you for the River Rock Fest.</p>
+<p>With big names like Jimmy Barnes and the Chantoozies you can’t miss your chance to step back in time and sing along to the classic hits, some music never goes out of style,
+  it just gains a bigger audience.</p>
+<p>An open air event with drinks available at the venue.</p>
+
   </div>
   <div class="col-sm-6">
       <img src="images/placeholder.png" class="img-fluid" alt="Image Placeholder"/>
   </div>
   </div>
-
+</div>
 </div>
 
 

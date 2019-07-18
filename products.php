@@ -8,12 +8,15 @@
 <main id="container">
 
     <div class="container-fluid">
-        <h1>BROWSE OUR PRODUCTS</h1>
-        <p>Beer and tequila.. together at last!</p>
-
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1>BROWSE OUR PRODUCTS</h1>
+          <p>Beer and tequila.. together at last!</p>
+        </div>
+      </div>
         <div class="row slider-row">
             <div class="col-sm-12">
-                <h2>OUR BEER+ EXPERIENCE</h2>
+                <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
                 <ul id="product-slider">
                     <li><img src="images/products/slider-ginger.png" id="ginger" /></li>
                     <li><img src="images/products/slider-lime.png" id="lime" /></li>

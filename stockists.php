@@ -7,7 +7,31 @@
 <!-- MAIN CONTENT -->
 <main id="container">
 
-  <h1>WHERE TO BUY DESPERADOS</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>WHERE TO BUY DESPERADOS</h1>
+      <p>Find your nearest Desperados stockist</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+<!-- ADD YOUR PHP MAGIN JARED - Just a list -->
+
+      <h3>Stockist Name</h3>
+      <p>Street</p>
+      <p>Suburb</p>
+      <p>State</p>
+      <p>Ph number</p>
+      <p>Link</p>
+
+    </div>
+  </row>
+
+<div class="row">
+  <div class="col-sm-12">
+
   <h2>WHOLESALE LOG IN CALL TO ACTION</h2>
 
 <?php
@@ -25,7 +49,7 @@
       $pw = $_POST['pw'];
 
       $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
-      echo $query;
+
       // Perform queries
       if (mysqli_query($con, $query)) {
         //TODO: check if email is taken
@@ -49,7 +73,7 @@
       if ($result = $con->query($query)) {
         while ($row = $result->fetch_row()) {
           if ($pw === $row[0]) {
-            
+
             //TODO: actually log them in
             echo 'Sucessfully Logged In.';
           } else {
@@ -98,10 +122,13 @@
       <input type="submit" value="Login">
     </form>
     <p>New here? <a href="stockists.php?signup=true">Sign up!</a></p>';
-    
+
   }
 ?>
 
+
+</div>
+</div>
 </main>
 <!-- PAGE CONTENT END -->
 

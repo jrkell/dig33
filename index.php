@@ -31,7 +31,12 @@
         <div class="row">
             <div class="col-sm-6">
                 <h2>PRODUCT LAUNCH</h2>
-                <p>Bacon ipsum dolor amet buffalo frankfurter in enim pork chop do tenderloin cillum ham hock ball tip in pork. Cillum commodo jerky, culpa landjaeger enim porchetta et tempor cow exercitation cupim. Exercitation leberkas irure in ham hock landjaeger aliquip lorem porchetta short ribs adipisicing. Lorem in ground round jerky boudin aliqua. Pork chop non shoulder ullamco, irure tongue aute doner t-bone fugiat picanha swine bresaola. Pork chop reprehenderit aute veniam tail shankle, shank dolore. Ball tip buffalo do sed ullamco, chuck picanha kevin tempor pancetta.</p>
+                <p>Desperados is proud to be introducing their exciting beer+ product to the Australian Market.<p>
+<p>First created in 1995 we remove the boring from beer by pushing boundaries of what is expected.</p>
+<p>Do you embrace your inner tequila? Are you bending the rules of life? This could be the drink for you.</p>
+<p>Beer with a dash of tequila in a range of flavours and an attitude that gets any party started.</p>
+<p>Our beer+ product will become your new go to drink.</p>
+</p>
             </div>
             <div class="col-sm-6">
                 <img src="images/placeholder.png" class="img-fluid" alt="Image Placeholder" />
@@ -44,7 +49,9 @@
             </div>
             <div class="col-sm-6">
                 <h2>COMPETITIONS</h2>
-                <p>Ut porchetta laboris ex pastrami fugiat cillum. Shank nostrud adipisicing leberkas qui. Corned beef burgdoggen beef ribs commodo swine ex pancetta ground round. Quis commodo in doner in ex jowl ad leberkas qui meatloaf ea salami. Nulla alcatra excepteur officia cupim voluptate. Proident mollit burgdoggen ham hock, ipsum prosciutto chicken kevin aute salami bacon. Turducken turkey officia doner nostrud cillum.</p>
+<p>In the Desperados spirit of fun, we have an exciting new competition for you to enter.</p>
+<p>Purchase one of our participating products to receive a unique code for your chance to win a ticket to one of the upcoming music festivals.<p>
+<p>Hit the Pinata in the Pinata Bash competition to see if you are one of the lucky players to win a ticket. Its fun, its easy and it can be rewarding.</p>
                 <a href="pinata.php">Pinata Bash Demo</a>
             </div>
         </div>
