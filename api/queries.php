@@ -54,8 +54,8 @@ function userExists($userId) {
     return TRUE;
 }
 
-function addUser($email, $first, $sur, $pass) {
-    $query = "INSERT INTO pinata_user VALUES ('$email', '$first', '$sur', '$pass')";
+function addUser($email, $first, $dob, $sur, $pass) {
+    $query = "INSERT INTO pinata_user VALUES ('$email', '$first', '$dob', '$sur', '$pass')";
     global $connection;
     
     if(mysqli_query($connection, $query)) {
