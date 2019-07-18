@@ -4,13 +4,15 @@
   include 'header.php';
 ?>
 <main id="container">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>Contact Desperados</h1>
+      <p>Got a question or some feedback for us? Drop us a line below.</p>
+    </div>
+  </div>
 
-  <h1>Contact Desperados</h1>
-
-  <p>Got a question or some feedback for us? Drop us a line below.</p>
-
-
-
+<div class="contact-form">
   <form class="contact-form" action="https://formspree.io/jarredkelly@gmail.com" method="POST">
     <div>
       <label for="name">Name:</label>
@@ -22,7 +24,6 @@
       <input type="text" name="email" id="email"><br>
     </div>
 
-
     <div>
     <label for="email">Message:
       <textarea rows="4" cols="50" name="message" id="message"></textarea><br>
@@ -30,10 +31,9 @@
 
     <input type="submit" value="Send">
   </form>
+</div>
 
-
-
-
+</div>
 </main>
 
 <!-- PAGE CONTENT END -->
