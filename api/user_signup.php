@@ -6,6 +6,10 @@ if(isset($_POST)) {
     $userId = $_POST['email'];
     $first = $_POST['first'];
     $sur = $_POST['sur'];
+    $day = $_POST['day'];
+    $month = $_POST['month'];
+    $year = $_POST['year'];
+    $dob = $year . "-" . $month . "-" . $day;
     $pass1 = $_POST['password1'];
     $pass2 = $_POST['password2'];
 }
@@ -19,7 +23,7 @@ if(userExists($userId)) {
 } else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
 } else {
-    addUser($userId, $first, $sur, $pass1);
+    addUser($userId, $first, $dob, $sur, $pass1);
 }
 
 include '../footer.php'; ?>
