@@ -19,13 +19,29 @@
     <div class="col-sm-6">
 <!-- ADD YOUR PHP MAGIN JARED - Just a list -->
 
-      <h3>Stockist Name</h3>
-      <p>Street</p>
-      <p>Suburb</p>
-      <p>State</p>
-      <p>Ph number</p>
-      <p>Link</p>
+<?php
+  $con=mysqli_connect("localhost","root","D3sperad0s","desperados");
+  // Check connection
+  if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  } else {
+    //TODO: HASH the password
+    $sql = "SELECT * FROM suppliers ORDER BY name";
+    $result = $con->query($sql);
 
+    if ($result->num_rows > 0) {
+      while ($row = $result->fetch_assoc()) {
+        echo "<h3>".$row['name']."</h3>";
+        echo "<p>".$row['street']."</p>";
+        echo "<p>".$row['suburb']."</p>";
+        echo "<p>".$row['state']."</p>";
+        echo "<p>".$row['phone']."</p>";
+        echo "<a href='".$row['url']."'>Website</a><br><br>";        
+      }
+    }
+  }
+  mysqli_close($con);
+?>
     </div>
   </row>
 
