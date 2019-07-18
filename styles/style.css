@@ -30,6 +30,9 @@ nav {
     margin-right: 50px;
     float: left; }
 
+a.navbar-brand:hover {
+  background-color: transparent; }
+
 /** MAIN STYLES **/
 body {
   font-family: "Open Sans", sans-serif;
@@ -50,7 +53,7 @@ body {
 
 /** HEADINGS **/
 h1 {
-  font-family: "Arbutus", cursive;
+  font-family: "Arbutus", serif;
   text-transform: uppercase;
   font-size: 2em;
   color: #e10017; }
