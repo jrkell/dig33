@@ -54,7 +54,6 @@
                         <a href="pinata.php?demo">Pinata Bash Demo</a>
             </div>
         </div>
-
     </div>
 </main>
 
