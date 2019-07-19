@@ -23,7 +23,9 @@ if(userExists($userId)) {
 } else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
 } else {
-    addUser($userId, $first, $dob, $sur, $pass1);
+    $hash = password_hash($pass1, PASSWORD_DEFAULT);
+    addUser($userId, $first, $sur, $dob, $hash);
+    header("Location: ../pinata_bash.php");
 }
 
 include '../footer.php'; ?>

@@ -67,4 +67,21 @@ function addUser($email, $first, $dob, $sur, $pass) {
     mysqli_close($connection);
 }
 
+function getUser($userId) {
+    $query = "SELECT * FROM pinata_user WHERE email = '$userId'";
+    global $connection;
+    
+    $result = mysqli_query($connection, $query);
+    
+    //Check for query errors
+    if(!$result) {
+        die("Database Query Failed: Get Product");
+    }
+    
+    if (mysqli_num_rows($result) == 0) {
+        die("No rows found, nothing to print so am exiting");
+    }
+    return $result;
+}
+
 ?>

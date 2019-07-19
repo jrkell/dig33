@@ -1,4 +1,4 @@
-<h1>Login</h1>
+<h1 class="text-center">Login</h1>
 <form action='api/user_login.php' method='post'>
     Email:<br>
     <input type='email' name='email'>
