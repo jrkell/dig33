@@ -62,3 +62,7 @@
         transform: rotate(10deg);
     }
 }
+
+.error {
+    color: red;
+}

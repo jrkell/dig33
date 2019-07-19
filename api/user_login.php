@@ -10,26 +10,25 @@ if(isset($_POST)) {
 
 
 if(userExists($userId)) {
-    // Create hash of input password
-    $hash = password_hash($pass, PASSWORD_DEFAULT);
     
     // Retrieve stored hash
     $user = mysqli_fetch_assoc(getUser($userId));
     $stored = $user['pword_hash'];
-    
+
     // Check for password match
-    if($hash == $stored) {
+    if(password_verify($pass, $stored)) {
         echo "<script>alert('Passed')</script>";
-        setcookie("user_verified","true", 0 , "/"); // create cookie
-        header("Location: ../pinata_bash.php");
-        die();
+        setcookie('user_verified', 'true', 0 , '/'); // create cookie
+//        echo "<script>window.location.href = '../pinata_bash.php'</script>";
+        
     } else {
-        echo "<script>alert('incorrect password')</script>";
         // incorrect password
+        echo "<script>window.location.href = '../pinata_bash.php?fail=pass'</script>";
     }
     
 } else {
     // Reject login attempt
+    echo "<script>window.location.href = '../pinata_bash.php?fail=user'</script>";
 }
 
 include '../footer.php'; ?>

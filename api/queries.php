@@ -12,8 +12,8 @@ function performQuery($query) {
         die("Database Query Failed: Perform Query");
     }
     
-    mysqli_close($connection);
     return $result;
+    mysqli_close($connection);
 }
 
 // Retrieves a product and its associated image from the database
