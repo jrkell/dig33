@@ -5,8 +5,12 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-    <div class="home-header">
-        <img class="img-fluid" src="images/bg_home.png" />
+    <div class="card bg-dark text-white">
+        <img class="card-img img-fluid" src="images/bg_home.png" />
+        <div class="card-img-overlay text-center">
+          <h1 class="card-title win-tix">WIN TICKETS</h1>
+          <p class="card-text">TO AUSTRALIAN MUSIC FESTIVALS</p>
+        </div>
     </div>
     <div class="container-fluid">
         <div class="text-center">

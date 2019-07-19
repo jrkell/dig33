@@ -33,6 +33,19 @@ nav {
 a.navbar-brand:hover {
   background-color: transparent; }
 
+.win-tix {
+  color: black;
+  -webkit-text-fill-color: #e10017;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  padding-top: 50px;
+  margin-top: 25px;
+  font-size: 4em; }
+
+.card-img-overlay p {
+  font-size: 2.2em; }
+
 /** MAIN STYLES **/
 body {
   font-family: "Open Sans", sans-serif;
