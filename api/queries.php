@@ -69,7 +69,8 @@ function sliderProducts() {
     $result = performQuery($query);
     
     while($row = mysqli_fetch_assoc($result)) {
-        echo "<li><img src='images/products/slider-{$row['title']}.png' id='{$row['title']}' /></li>";
+        $title = strtolower($row['title']);
+        echo "<li><img src='images/products/slider-$title.png' id='$title' /></li>";
     }
 }
 
