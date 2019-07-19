@@ -1,6 +1,7 @@
 <?php
 include '../header.php';
-require 'queries.php';
+
+//This feature is a work in progress and should be regarded as such
 
 if(isset($_POST)) {
     $userId = $_POST['email'];
@@ -16,6 +17,7 @@ if(isset($_POST)) {
 
 
 if(userExists($userId)) {
+    // Checks if account already exists and notifies user
     echo "<script>
         alert('An account already exists with that email!<br>Try logging in instead.');
         window.location.href = '../pinata_bash.php';
@@ -23,6 +25,7 @@ if(userExists($userId)) {
 } else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
 } else {
+    // Password is hashed, user is added to database, page is redirected to login
     $hash = password_hash($pass1, PASSWORD_DEFAULT);
     addUser($userId, $first, $sur, $dob, $hash);
     header("Location: ../pinata_bash.php");

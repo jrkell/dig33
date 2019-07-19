@@ -1,3 +1,4 @@
+<!--This file contains the markup for displaying the login form and is a work in progress-->
 <h1 class="text-center">Login</h1>
 <form action='api/user_login.php' method='post'>
     Email:<br>

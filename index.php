@@ -17,13 +17,8 @@
                 <div class="col-sm-12">
                     <h2>OUR PRODUCTS</h2>
                     <ul id="product-slider">
-                        <li><img src="images/products/slider-ginger.png" id="ginger" /></li>
-                        <li><img src="images/products/slider-lime.png" id="lime" /></li>
-                        <li><img src="images/products/slider-mojito.png" id="mojito" /></li>
-                        <li><img src="images/products/slider-nocturno.png" id="nocturno" /></li>
-                        <li><img src="images/products/slider-original.png" id="original" /></li>
-                        <li><img src="images/products/slider-red.png" id="red" /></li>
-                        <li><img src="images/products/slider-sangre.png" id="sangre" /></li>
+                        <!--Call to a php function which executes an sql query to display all products in the slider-->
+                        <?php sliderProducts() ?>
                     </ul>
                 </div>
             </div>
@@ -52,7 +47,7 @@
                 <p>In the Desperados spirit of fun, we have an exciting new competition for you to enter.</p>
                 <p>Purchase one of our participating products to receive a unique code for your chance to win a ticket to one of the upcoming music festivals.<p>
                         <p>Hit the Pinata in the Pinata Bash competition to see if you are one of the lucky players to win a ticket. Its fun, its easy and it can be rewarding.</p>
-                        <a href="pinata_bash.php">Pinata Bash Demo</a>
+                        <a href="pinata.php?demo">Pinata Bash Demo</a>
             </div>
         </div>
 
@@ -60,8 +55,10 @@
 </main>
 
 <script type="text/javascript">
+    //JS function to load product slider plugin
     $(window).load(productSlider());
 
+    //jQuery function that adds a click event listener and handler to each product in the slider
     $(document).ready(redirectToProduct());
 
 </script>

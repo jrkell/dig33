@@ -3,6 +3,7 @@ var clickCount = 0;
 var iterations = 500;
 var swingTime = 1;
 
+//Changes the pinata image with each click and executes the explode plugin on the third click
 $("#pinata-div").click(function () {
     switch (clickCount) {
 
@@ -46,6 +47,7 @@ $("#pinata-div").click(function () {
     }
 });
 
+//Resets changes made by clicking or the explode plugin
 function restore() {
     $("#ticket-div").css("display", "none");
     $("#pinata-div").html('<img src="images/pinata/pinata.png" id="pinata">');
@@ -53,21 +55,24 @@ function restore() {
     resetSwing();
 }
 
+//Triggers CSS animation to create the swinging effect
 function swing() {
-    $(".content").css("-webkit-transform-origin", "50% 0");
-    $(".content").css("transform-origin", "50% 0");
-    $(".content").css("-webkit-animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
-    $(".content").css("animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
+    $(".pinata-content").css("-webkit-transform-origin", "50% 0");
+    $(".pinata-content").css("transform-origin", "50% 0");
+    $(".pinata-content").css("-webkit-animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
+    $(".pinata-content").css("animation", "swinging " + swingTime + "s ease-in-out forwards infinite");
 }
 
+//Cancels CSS animations
 function resetSwing() {
-    $(".content").css("-webkit-transform-origin", "none");
-    $(".content").css("transform-origin", "none");
-    $(".content").css("-webkit-animation", "none");
-    $(".content").css("animation", "none");
+    $(".pinata-content").css("-webkit-transform-origin", "none");
+    $(".pinata-content").css("transform-origin", "none");
+    $(".pinata-content").css("-webkit-animation", "none");
+    $(".pinata-content").css("animation", "none");
 }
 //------------------------------------------------------------------
 
+//Executes and configures product slider plugin
 function productSlider() {
     $("#product-slider").flexisel({
         visibleItems: 5,
@@ -112,6 +117,7 @@ function productSlider() {
     });
 }
 
+// Click listener for home page product slider which redirects browser to products page
 function redirectToProduct() {
     $('#product-slider').find("img").click(function () {
         var product = $(this).attr('id');
@@ -119,6 +125,7 @@ function redirectToProduct() {
     });
 }
 
+// Click listener for products page product slider
 function productClickListener() {
     $('#product-slider').find("img").click(function () {
         var title = $(this).attr('id');
@@ -126,6 +133,7 @@ function productClickListener() {
     });
 }
 
+// Utilises AJAX so that each product selected can be displayed without reloading the products page
 function displayProduct(title = "original") {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -137,6 +145,7 @@ function displayProduct(title = "original") {
     xhttp.send();
 }
 
+// The following two functions utilise AJAX so that the pinata bash page can toggle between login and signup without reloading----------
 function changeToSignUp() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -158,3 +167,4 @@ function changeToLogin() {
     xhttp.open("GET", "user_login.php", true);
     xhttp.send();
 }
+// -----------------------------------------------------------------------------------------------------------------------------------------

@@ -1,3 +1,4 @@
+<!--This file contains the markup for displaying the sign up form and is a work in progress-->
 <h1>Sign Up</h1>
 <form action='api/user_signup.php' method='post'>
     Email:<br>
