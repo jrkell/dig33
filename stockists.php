@@ -17,18 +17,24 @@
 
   <div class="row">
     <div class="col-sm-6">
-<!-- ADD YOUR PHP MAGIN JARED - Just a list -->
+
 
 <?php
+  // establish connection with database
   $con=mysqli_connect("localhost","root","D3sperad0s","desperados");
-  // Check connection
+
+  // Check connection is working
   if (mysqli_connect_errno()) {
+    // show error if not working
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
   } else {
     //TODO: HASH the password
+
+    // run the query
     $sql = "SELECT * FROM suppliers ORDER BY name";
     $result = $con->query($sql);
 
+    // for each row, output as list
     if ($result->num_rows > 0) {
       while ($row = $result->fetch_assoc()) {
         echo "<h3>".$row['name']."</h3>";
@@ -40,6 +46,7 @@
       }
     }
   }
+  // close connection
   mysqli_close($con);
 ?>
     </div>
@@ -52,18 +59,20 @@
 
 <?php
   if (isset($_POST["name"])) {
+    // establish connection
     $con=mysqli_connect("localhost","root","D3sperad0s","desperados");
     // Check connection
     if (mysqli_connect_errno()) {
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
     } else {
-
+      // get form results
       $name = $_POST['name'];
       $email = $_POST['email'];
       $address = $_POST['address'];
       //TODO: HASH the password
       $pw = $_POST['pw'];
 
+      // create query
       $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
 
       // Perform queries
@@ -74,23 +83,30 @@
         echo '<p>Oops! Error signing up. Please try again or contact Desperados if issues persist.</p>';
       }
     }
+
+    // close connection
     mysqli_close($con);
+
   } else if (isset($_POST["login"])) {
+    // establish connection
     $con=mysqli_connect("localhost","root","D3sperad0s","desperados");
     // Check connection
     if (mysqli_connect_errno()) {
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
     } else {
       //TODO: HASH the password
+
+      // create and run query
       $pw = $_POST['pw'];
       $email = $_POST['login'];
       $query = "SELECT pword_hash FROM stockist WHERE email = '$email'";
 
+      // check result matches password
       if ($result = $con->query($query)) {
         while ($row = $result->fetch_row()) {
           if ($pw === $row[0]) {
 
-            //TODO: actually log them in
+            //TODO: create log in cookie
             echo 'Sucessfully Logged In.';
           } else {
             echo 'Incorrect Password. Please try again.';
@@ -98,6 +114,8 @@
         }
       }
     }
+
+    // else show signup form
   } else if (isset($_GET["signup"])) {
     echo '<form method="post">
       <div>
@@ -123,6 +141,8 @@
       <input type="submit" value="Signup">
       </form>
       <p>Already signed up? <a href="stockists.php">Log in!</a></p>';
+
+  // default - show login form
   } else {
     echo '<form method="post">
       <div>

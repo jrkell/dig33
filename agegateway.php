@@ -1,5 +1,6 @@
 <?php
 
+    // if form has been submitted, check date is 18+
     if (isset($_POST['day'])) {
 
         $day = $_POST['day'];
@@ -12,16 +13,16 @@
         $min_date = $min_year.date("md");
 
 
-
+        // if they are over 18, create cookie to not show age gate for 30 days
         if ($dob <= $min_date) {
             setcookie("age_verified","true", time() + (86400*30) , "/"); // create cookie
             header("Location: index.php");
+
+        // else give an error
         } else {
             echo "Sorry you must be at least 18 to enter this site.";
         }
-
     }
-
 ?>
 
 <!DOCTYPE html>
@@ -65,6 +66,7 @@
             <select name="day" required>
                 <option value="">Day</option>
                 <?php
+                    // for loop to show dropdown with 31 days
                     for ($i = 1; $i <= 31; $i++) {
                         $num = str_pad($i, 2, '0', STR_PAD_LEFT);
                         echo "<option value='$num'>$num</option>";
@@ -75,6 +77,7 @@
             <select name="month" required>
                 <option value="">Month</option>
                 <?php
+                    // for loop to show 12 months in dropdown
                     for ($i = 1; $i <= 12; $i++) {
                         $num = str_pad($i, 2, '0', STR_PAD_LEFT);
                         echo "<option value='$num'>$num</option>";
@@ -85,6 +88,7 @@
             <select name="year" required>
                 <option value="">Year</option>
                 <?php
+                    // for loop to create dates
                     for ($i = 2019; $i >= 1900; $i--) {
                         echo "<option value='$i'>$i</option>";
                     }
@@ -97,4 +101,4 @@
 </div>
 </div>
 </main>
-    </body>
+</body>
