@@ -7,7 +7,7 @@
 <main id="container">
     <div class="card bg-dark text-white">
         <img class="card-img img-fluid" src="images/bg_home.png" />
-        <div class="card-img-overlay text-center">
+        <div class="card-img-overlay text-right">
           <h1 class="card-title win-tix">WIN TICKETS</h1>
           <p class="card-text">TO AUSTRALIAN MUSIC FESTIVALS</p>
         </div>

@@ -12,6 +12,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-size:1em;
+  background-image: url("images/bg_dark.jpg");
 }
 
 #container {
@@ -44,4 +46,16 @@ h2 {
 .contact-form {
   width: 50%;
   margin: 10px auto 10px auto;
+}
+
+@mixin transform($event) {
+  -ms-transform: $event; /* IE 9 */
+  -webkit-transform: $event; /* Safari 3-8 */
+}
+.event-left {
+  @include transform(rotate(-10deg));
+}
+
+.event-right {
+  @include transform(rotate(10deg));
 }
