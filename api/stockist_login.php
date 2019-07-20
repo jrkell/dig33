@@ -8,10 +8,10 @@ if(isset($_POST)) {
     $pw = $_POST['pw'];
 }
 
-if(stockistExists($email)) {
+if(userExists($email, 'stockist')) {
     
     // Retrieve stored hash
-    $user = mysqli_fetch_assoc(getStockist($email));
+    $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
     $stored = $user['pword_hash'];
 
     // Check for password match
@@ -24,11 +24,13 @@ if(stockistExists($email)) {
     } else {
         // incorrect password
         // Redirect?
+        echo "<script>window.location.href = '../stockists.php'</script>";
     }
     
 } else {
     // Reject login attempt
     // Redirect?
+    echo "<script>window.location.href = '../stockists.php'</script>";
 }
     
 include '../footer.php'; ?>

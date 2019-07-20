@@ -16,7 +16,7 @@ if(isset($_POST)) {
 }
 
 
-if(userExists($userId)) {
+if(userExists($userId, 'pinata_user')) {
     // Checks if account already exists and notifies user
     echo "<script>
         alert('An account already exists with that email!<br>Try logging in instead.');

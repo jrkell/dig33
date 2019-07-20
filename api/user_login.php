@@ -9,10 +9,10 @@ if(isset($_POST)) {
 }
 
 
-if(userExists($userId)) {
+if(userExists($userId, 'pinata_user')) {
     
     // Retrieve stored hash
-    $user = mysqli_fetch_assoc(getUser($userId));
+    $user = mysqli_fetch_assoc(getUser($userId, 'pinata_user'));
     $stored = $user['pword_hash'];
 
     // Check for password match

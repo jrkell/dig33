@@ -11,7 +11,7 @@ if(isset($_POST)) {
 }
 
 
-if(stockistExists($email)) {
+if(userExists($email, 'stockist')) {
     // Checks if account already exists and notifies user
     echo "<script>
         alert('An account already exists with that email!<br>Try logging in instead.');
