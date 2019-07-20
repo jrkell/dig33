@@ -28,8 +28,8 @@ function getProduct($title) {
 }
 
 // Checks the database to see if an account exists for the email address entered
-function userExists($userId) {
-    $query = "SELECT email FROM pinata_user WHERE email = '$userId'";
+function userExists($userId, $table) {
+    $query = "SELECT email FROM $table WHERE email = '$userId'";
     $result = performQuery($query);
     
     if (mysqli_num_rows($result) == 0) {
@@ -37,19 +37,6 @@ function userExists($userId) {
     }
     return TRUE;
 }
-
-// Checks the database to see if an account exists for the email address entered
-function stockistExists($userId) {
-    $query = "SELECT email FROM stockist WHERE email = '$userId'";
-    $result = performQuery($query);
-    
-    if (mysqli_num_rows($result) == 0) {
-        return FALSE;
-    }
-    return TRUE;
-}
-
-
 
 // Query to add user to database using information entered (work in progress)
 function addUser($email, $first, $dob, $sur, $pass) {
@@ -80,19 +67,8 @@ function addStockist($name, $email, $address, $pw) {
 }
 
 // Retrieves user from database with the id passed in (work in progress)
-function getUser($userId) {
-    $query = "SELECT * FROM pinata_user WHERE email = '$userId'";
-    $result = performQuery($query);
-    
-    if (mysqli_num_rows($result) == 0) {
-        die("No user found!");
-    }
-    return $result;
-}
-
-// Retrieves stockist from database with the id passed in (work in progress)
-function getStockist($userId) {
-    $query = "SELECT * FROM stockist WHERE email = '$userId'";
+function getUser($userId, $table) {
+    $query = "SELECT * FROM $table WHERE email = '$userId'";
     $result = performQuery($query);
     
     if (mysqli_num_rows($result) == 0) {
