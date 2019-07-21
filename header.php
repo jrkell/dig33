@@ -49,9 +49,9 @@
 <!-- PAGE CONTENT START -->
 
 <body class="bg-dark text-white">
-    <header>
+    <header class="textured">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
 
             <a class="navbar-brand" href="index.php"><img src="images/logo-sml.png" alt="Desperados Logo" class="img-fluid" /></a>
 

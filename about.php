@@ -13,7 +13,7 @@
   </div>
   <div class="row">
     <div class="col-sm-6">
-      <img src="images/placeholder.png" />
+      <img src="images/placeholder.png" class="img-fuild"/>
     </div>
     <div class="col-sm-6">
       <p>We have been wanting to come to Australia for quite some time, and now we are here.

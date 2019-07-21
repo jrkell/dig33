@@ -9,7 +9,7 @@
         <img class="card-img img-fluid" src="images/bg_home.png" />
         <div class="card-img-overlay text-right">
           <h1 class="card-title win-tix">WIN TICKETS</h1>
-          <p class="card-text">TO AUSTRALIAN MUSIC FESTIVALS</p>
+          <p class="card-text ausmusic">TO AUSTRALIAN MUSIC FESTIVALS</p>
         </div>
     </div>
     <div class="container-fluid">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row textured">
             <div class="col-sm-6">
                 <h2>PRODUCT LAUNCH</h2>
                 <p>Desperados is proud to be introducing their exciting beer+ product to the Australian Market.<p>

@@ -6,6 +6,7 @@ $tt-green: #169f00;
 $tt-yellow: #ffcf11;
 $tt-orange: #fe6600;
 
+
 body {
   font-family: $font-stack;
   color: white;
@@ -13,14 +14,12 @@ body {
   padding: 0;
   background-color: black;
   font-size:1em;
-  background-image: url("images/bg_dark.jpg");
 }
 
 #container {
   width: 100%;
   max-width: 1366px;
   background-color: black;
-  background-image: url("images/bg_dark.jpg");
   margin: 0px auto 0px auto;
 }
 
@@ -28,6 +27,9 @@ body {
   padding: 25px;
 }
 
+.textured {
+  background-image: url(../images/bg_dark.jpg);
+}
 /** HEADINGS **/
 
 h1 {
