@@ -1,5 +1,5 @@
 <?php
-include '../header.php';
+include 'queries.php';
 
 //This feature is a work in progress and should be regarded as such
 
@@ -13,20 +13,16 @@ if(isset($_POST)) {
 
 if(userExists($email, 'stockist')) {
     // Checks if account already exists and notifies user
-    echo "<script>
-        alert('An account already exists with that email!<br>Try logging in instead.');
-        window.location.href = '../stockists.php';
-    </script>";
+    header("Location: ../stockists.php");
+    echo "<script>alert('An account already exists with that email!<br>Try logging in instead.');</script>";
 //} else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
 } else {
     // Password is hashed, stockist is added to database, page is redirected to login
     $hash = password_hash($pw, PASSWORD_DEFAULT);
     addStockist($name, $email, $address, $hash);
-    echo "<script>
-    alert('Successfully signed up. Welcome!');
-    window.location.href = '../stockists.php'
-    </script>;";
+    header("Location: ../stockists.php");
+    echo "<script>alert('Successfully signed up. Welcome!');</script>;";
 }
 
-include '../footer.php'; ?>
+?>

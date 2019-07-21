@@ -9,6 +9,7 @@
             <?php
             if(isset($_COOKIE["user_verified"]))
             {
+                echo "<p>Welcome!</p>";
                 include "pinata.php";
             }
             else
@@ -22,6 +23,10 @@
                     else if($_GET['fail'] == 'user')
                     {
                         echo "<p class='error'>No account associated with the email address entered!</p>";
+                    }
+                    else if($_GET['fail'] == 'exists')
+                    {
+                        echo "<p class='error'>An account already exists with that email!<br>Try logging in instead.</p>";
                     }
                 }
                 else

@@ -1,11 +1,10 @@
 <?php
+    if (!isset($_COOKIE["age_verified"]))
+    {
+        header("Location: agegateway.php");
+        die();
+    }
     include 'api/queries.php';
-
-  if (!isset($_COOKIE["age_verified"])) {
-    header("Location: agegateway.php");
-    die();
-  }
-
 ?>
 
 <!DOCTYPE html>

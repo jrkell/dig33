@@ -1,5 +1,5 @@
 <?php
-include '../header.php';
+include 'queries.php';
 
 //This feature is a work in progress and should be regarded as such
 
@@ -16,21 +16,17 @@ if(userExists($email, 'stockist')) {
 
     // Check for password match
     if(password_verify($pw, $stored)) {
-        echo "<script>alert('Passed')</script>";
-        setcookie('stockist_verified', 'true', 0 , '/'); // create cookie
-        // Redirect?
-        echo "<script>window.location.href = '../stockists.php?success'</script>";
-        
+        setcookie('stockist_verified', 'true', 0 , '/'); // create cookie     
+        header("Location: ../stockists.php?success");
+        echo "<script>alert('Passed')</script>";   
     } else {
         // incorrect password
-        // Redirect?
-        echo "<script>window.location.href = '../stockists.php'</script>";
+        header("Location: ../stockists.php");
     }
     
 } else {
     // Reject login attempt
-    // Redirect?
-    echo "<script>window.location.href = '../stockists.php'</script>";
+    header("Location: ../stockists.php");
 }
     
-include '../footer.php'; ?>
+?>
