@@ -72,9 +72,6 @@ h2 {
   font-family: "Permanent Marker", serif;
   text-transform: uppercase; }
 
-.jumbotron {
-  background-image: url("../images/bg_home.png"); }
-
 .contact-form {
   width: 50%;
   margin: 10px auto 10px auto; }
@@ -91,10 +88,20 @@ h2 {
   -webkit-transform: rotate(10deg);
   /* Safari 3-8 */ }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* Set card-overlay font-size to 5vw on small screens*/
 @media screen and (max-width: 600px) {
-  div.jumbotron {
-    font-size: 30px; } }
+  div.card-img-overlay h1 {
+    font-size: 5vw; }
+
+  div.card-img-overlay p {
+    font-size: 5vw; } }
+/* Enlarge card-overlay font size on wide screens */
+@media screen and (min-width: 601px) {
+  div.card-img-overlay h1 {
+    font-size: 4em; }
+
+  div.card-img-overlay p {
+    font-size: 2.8em; } }
 /** FOOTER STYLES **/
 footer {
   width: 100%;

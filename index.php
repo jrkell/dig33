@@ -6,10 +6,11 @@
 <!-- PAGE CONTENT START -->
 <main id="container">
     <div>
-        <div class="jumbotron jumbotron-fluid text-center">
-          <div class="container">
-          <h1>WIN TICKETS</h1>
-          <p>TO AUSTRALIAN MUSIC FESTIVALS</p>
+        <div class=" card bg-dark text-white">
+          <img class="card-img img-fluid" src="images/bg_home.png" alt="Desperados home page"/>
+          <div class="card-img-overlay text-center">
+          <h1 class="card-title">WIN TICKETS</h1>
+          <p class="card-text">TO AUSTRALIAN MUSIC FESTIVALS</p>
         </div>
         </div>
     </div>
