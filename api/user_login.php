@@ -1,5 +1,6 @@
 <?php
-include '../header.php';
+
+include 'queries.php';
 
 //This feature is a work in progress and should be regarded as such
 
@@ -7,7 +8,6 @@ if(isset($_POST)) {
     $userId = $_POST['email'];
     $pass = $_POST['password'];
 }
-
 
 if(userExists($userId, 'pinata_user')) {
     
@@ -17,18 +17,16 @@ if(userExists($userId, 'pinata_user')) {
 
     // Check for password match
     if(password_verify($pass, $stored)) {
-        echo "<script>alert('Passed')</script>";
         setcookie('user_verified', 'true', 0 , '/'); // create cookie
-//        echo "<script>window.location.href = '../pinata_bash.php'</script>";
+        header("Location: ../pinata_bash.php");
         
     } else {
         // incorrect password
-        echo "<script>window.location.href = '../pinata_bash.php?fail=pass'</script>";
+        header("Location: ../pinata_bash.php?fail=pass");
     }
     
 } else {
     // Reject login attempt
-    echo "<script>window.location.href = '../pinata_bash.php?fail=user'</script>";
+    header("Location: ../pinata_bash.php?fail=user");
 }
-
-include '../footer.php'; ?>
+?>

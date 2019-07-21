@@ -1,7 +1,8 @@
-<?php include 'header.php';
+<?php
 
 //Displays different markup for the demo version while the release version is being finalised
 if(isset($_GET['demo'])) {
+    include 'header.php';
     echo "<body>
             <main class='pinata-content'>
                 <div class='row'>
@@ -20,6 +21,7 @@ if(isset($_GET['demo'])) {
                 <button id='restore' type='button' onclick='restore()'>Reset</button>
             </div>
         </body>";
+    include 'footer.php';
 } else {
     echo "<div class='row'>
             <div id='pinata-div'>
@@ -35,6 +37,4 @@ if(isset($_GET['demo'])) {
         <div class='row'>
             <button id='restore' type='button' onclick='restore()'>Reset</button>
         </div>";
-}
-
-include 'footer.php'; ?>
+} ?>

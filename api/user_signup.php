@@ -1,5 +1,5 @@
 <?php
-include '../header.php';
+include 'queries.php';
 
 //This feature is a work in progress and should be regarded as such
 
@@ -18,10 +18,7 @@ if(isset($_POST)) {
 
 if(userExists($userId, 'pinata_user')) {
     // Checks if account already exists and notifies user
-    echo "<script>
-        alert('An account already exists with that email!<br>Try logging in instead.');
-        window.location.href = '../pinata_bash.php';
-    </script>";
+    header("Location: ../pinata_bash.php?fail=exists");
 } else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
 } else {
@@ -30,5 +27,4 @@ if(userExists($userId, 'pinata_user')) {
     addUser($userId, $first, $sur, $dob, $hash);
     header("Location: ../pinata_bash.php");
 }
-
-include '../footer.php'; ?>
+?>
