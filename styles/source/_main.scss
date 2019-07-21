@@ -45,6 +45,9 @@ h2 {
   text-transform: uppercase;
 }
 
+.jumbotron {
+  background-image:url("../images/bg_home.png")
+}
 .contact-form {
   width: 50%;
   margin: 10px auto 10px auto;
@@ -60,4 +63,11 @@ h2 {
 
 .event-right {
   @include transform(rotate(10deg));
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.jumbotron {
+    font-size: 30px;
+  }
 }

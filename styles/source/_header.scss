@@ -7,9 +7,7 @@ header {
 
 }
 
-.bg-dark {
-  background-image:url(images/bg_dark.jpg);
-}
+
 nav {
   margin: 0;
   ul {
@@ -50,28 +48,3 @@ a.navbar-brand:hover {
     background-color: transparent;
     border: none;
   }
-
-.win-tix {
-  color: black;
-  -webkit-text-fill-color: $tt-red; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  padding-top:25px;
-  margin-top:25px;
-  font-size:3em;
-}
-.ausmusic {
-  font-size: 2.2em;
-}
-
-@media only screen and (max-width: 320px) {
-  .win-tix {
-    font-size:5vw;
-  }
-  .ausmusic {
-    font-size:5vw;
-  }
-  h1 {
-    font-size:10vw;
-  }
-}
