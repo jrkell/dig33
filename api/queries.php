@@ -90,18 +90,22 @@ function sliderProducts() {
 
 // Retrieves all stockists to display in the "Where to Buy" page
 function listStockists() {
-    $query = "SELECT * FROM suppliers ORDER BY name";
+    $query = "SELECT image.url AS imgurl, suppliers.url as supurl, name, street, suburb, state, phone
+    FROM suppliers, image WHERE suppliers.name = image.title ORDER BY suppliers.name";
     $result = performQuery($query);
 
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
       while ($row = mysqli_fetch_assoc($result)) {
-        echo "<h3>".$row['name']."</h3>";
-        echo "<p>".$row['street']."</p>";
-        echo "<p>".$row['suburb']."</p>";
-        echo "<p>".$row['state']."</p>";
-        echo "<p>".$row['phone']."</p>";
-        echo "<a href='".$row['url']."'>Website</a><br><br>";        
+        echo
+        "<div>
+        <img src='{$row['imgurl']}'/>
+        </div><div>
+        <h3>{$row['name']}</h3>
+        <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
+        <p>Give us a call: {$row['phone']}</p>
+        <a href='{$row['supurl']}'>Website</a><br><br>
+        </div>";        
       }
     }
 }
