@@ -12,8 +12,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6">
-      <img src="images/placeholder.png" class="img-fuild"/>
+    <div class="col-sm-6 text-center">
+      <img src="images/about_image.png" class="img-fuild" alt="Desperados Australia"/>
+      <h2>Save the Koala</h2>
+      <p>To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
     </div>
     <div class="col-sm-6">
       <p>We have been wanting to come to Australia for quite some time, and now we are here.
@@ -31,7 +33,12 @@
       <p>To coincide with our Australian release, we have a competition that is open only to Australian residents.</p>
       <p>The Pinata Bash will be a limited time only competition for our launch. But watch this space for upcoming competitions.
         We have random competitions for all Desperados customers to participate in that are fun to play and have great prizes.</p>
+
+
       </div>
+
+
+
     </div>
 
 </div>

@@ -40,13 +40,13 @@
                     </p>
             </div>
             <div class="col-sm-6">
-                <img src="images/placeholder.png" class="img-fluid" alt="Image Placeholder" />
+                <img src="images/launch.png" class="img-fluid" alt="Desperados Australia Launch" />
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-6 text-right">
-                <img src="images/competition.png" class="img-fluid" alt="Image Placeholder" />
+                <img src="images/competition.png" class="img-fluid" alt="Desperados Competitions" />
             </div>
             <div class="col-sm-6">
                 <h2>COMPETITIONS</h2>
