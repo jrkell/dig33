@@ -84,7 +84,8 @@ function sliderProducts() {
 
     while($row = mysqli_fetch_assoc($result)) {
         $title = strtolower($row['title']);
-        echo "<li><img src='images/products/slider-$title.png' id='$title' /></li>";
+        $desc = $row['short_desc'];
+        echo "<li><img src='images/products/slider-$title.png' id='$title' alt='$desc' /></li>";
     }
 }
 
@@ -99,7 +100,7 @@ function listStockists() {
         while ($row = mysqli_fetch_assoc($result)) {
             echo
             "<div class='col-sm-6 text-right'>
-            <img src='{$row['imgurl']}'/>
+            <img src='{$row['imgurl']}' alt={$row['name']}/>
             </div><div class='col-sm-6 text-left'>
             <h3>{$row['name']}</h3>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>

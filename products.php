@@ -40,7 +40,7 @@
     </div> <!-- close container -->
 </main>
 
-<script type="text/javascript">
+<script>
     //JS function to load product slider plugin
     $(window).load(productSlider());
 

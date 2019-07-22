@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="styles/slider.css">
     <link rel="stylesheet" type="text/css" href="styles/pinata.css">
     <!-- link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Arbutus|Permanent+Marker|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus%7CPermanent+Marker%7COpen+Sans&display=swap" rel="stylesheet">
     <!-- Bootstrap 4 CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -33,9 +33,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- Product slider script -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-    <script type="text/javascript" src="js/jquery.imgexplode.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.flexisel.js"></script>
+    <script src="js/jquery.imgexplode.js"></script>
     <script src="js/scripts.js"></script>
     <title>
         <?php echo $title; ?>

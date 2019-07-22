@@ -20,12 +20,12 @@
     </div>
 
     <div>
-    <label for="email">Email Address:
+    <label for="email">Email Address:</label>
       <input type="text" name="email" id="email"><br>
     </div>
 
     <div>
-    <label for="email">Message:
+    <label for="message">Message:</label>
       <textarea rows="4" cols="50" name="message" id="message"></textarea><br>
     </div>
 
