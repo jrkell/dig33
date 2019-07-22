@@ -26,7 +26,7 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 text-right">
       <img src="images/events/event-rock.png" class="img-fluid event-left" alt="Image Placeholder"/>
   </div>
   <div class="col-sm-6">
@@ -48,7 +48,7 @@
       <p>Be the one who attended the biggest event of the year, get in early and get your tickets.</p>
   </div>
   <div class="col-sm-6">
-      <img src="images/placeholder.png" class="img-fluid event-right" alt="Image Placeholder"/>
+      <img src="images/events/event-bdo.png" class="img-fluid event-right" alt="Image Placeholder"/>
   </div>
 </div>
 
