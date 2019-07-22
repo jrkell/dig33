@@ -6,12 +6,12 @@ require 'config.php';
 function performQuery($query) {
     global $connection;
     $result = mysqli_query($connection, $query);
-    
+
     //Check for query errors
     if(!$result) {
         die("Database Query Failed: Perform Query");
     }
-    
+
     return $result;
     mysqli_close($connection);
 }
@@ -20,7 +20,7 @@ function performQuery($query) {
 function getProduct($title) {
     $query = "SELECT * FROM product, image WHERE product.title = '$title' AND product.title = image.title";
     $result = performQuery($query);
-    
+
     if (mysqli_num_rows($result) == 0) {
         die("No product found!");
     }
@@ -31,7 +31,7 @@ function getProduct($title) {
 function userExists($userId, $table) {
     $query = "SELECT email FROM $table WHERE email = '$userId'";
     $result = performQuery($query);
-    
+
     if (mysqli_num_rows($result) == 0) {
         return FALSE;
     }
@@ -42,13 +42,13 @@ function userExists($userId, $table) {
 function addUser($email, $first, $dob, $sur, $pass) {
     $query = "INSERT INTO pinata_user VALUES ('$email', '$first', '$dob', '$sur', '$pass')";
     global $connection;
-    
+
     if(mysqli_query($connection, $query)) {
         echo "User successfully added!";
     } else {
         echo "Failed to add user!";
     }
-    
+
     mysqli_close($connection);
 }
 
@@ -56,13 +56,13 @@ function addUser($email, $first, $dob, $sur, $pass) {
 function addStockist($name, $email, $address, $pw) {
     $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
     global $connection;
-    
+
     if(mysqli_query($connection, $query)) {
         echo "Stockist successfully added!";
     } else {
         echo "Failed to add stockist!";
     }
-    
+
     mysqli_close($connection);
 }
 
@@ -70,7 +70,7 @@ function addStockist($name, $email, $address, $pw) {
 function getUser($userId, $table) {
     $query = "SELECT * FROM $table WHERE email = '$userId'";
     $result = performQuery($query);
-    
+
     if (mysqli_num_rows($result) == 0) {
         die("No user found!");
     }
@@ -81,7 +81,7 @@ function getUser($userId, $table) {
 function sliderProducts() {
     $query = "SELECT * FROM product";
     $result = performQuery($query);
-    
+
     while($row = mysqli_fetch_assoc($result)) {
         $title = strtolower($row['title']);
         echo "<li><img src='images/products/slider-$title.png' id='$title' /></li>";
@@ -98,14 +98,14 @@ function listStockists() {
     if (mysqli_num_rows($result) > 0) {
       while ($row = mysqli_fetch_assoc($result)) {
         echo
-        "<div>
+        "<div class='text-center'>
         <img src='{$row['imgurl']}'/>
         </div><div>
         <h3>{$row['name']}</h3>
         <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
         <p>Give us a call: {$row['phone']}</p>
         <a href='{$row['supurl']}'>Website</a><br><br>
-        </div>";        
+        </div>";
       }
     }
 }
