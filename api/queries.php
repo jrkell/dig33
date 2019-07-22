@@ -96,17 +96,17 @@ function listStockists() {
 
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
-      while ($row = mysqli_fetch_assoc($result)) {
-        echo
-        "<div class='col-sm-6 text-right'>
-        <img src='{$row['imgurl']}'/>
-        </div><div class='col-sm-6 text-left'>
-        <h3>{$row['name']}</h3>
-        <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
-        <p>Give us a call: {$row['phone']}</p>
-        <a href='{$row['supurl']}'>Purchase from our Website</a><br><br>
-        </div>";
-      }
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo
+            "<div class='col-sm-6 text-right'>
+            <img src='{$row['imgurl']}'/>
+            </div><div class='col-sm-6 text-left'>
+            <h3>{$row['name']}</h3>
+            <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
+            <p>Give us a call: {$row['phone']}</p>
+            <a href='{$row['supurl']}'>Purchase from our Website</a><br><hr><br>
+            </div>";
+        }
     }
 }
 
