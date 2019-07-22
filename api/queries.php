@@ -100,11 +100,11 @@ function listStockists() {
         echo
         "<div class='text-center'>
         <img src='{$row['imgurl']}'/>
-        </div><div>
+        </div><div class='text-center'>
         <h3>{$row['name']}</h3>
         <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
         <p>Give us a call: {$row['phone']}</p>
-        <a href='{$row['supurl']}'>Website</a><br><br>
+        <a href='{$row['supurl']}'>Purchase from our Website</a><br><br>
         </div>";
       }
     }
