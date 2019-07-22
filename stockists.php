@@ -16,13 +16,10 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-6">
-
 
                 <?php listStockists() ?>
-
-            </div>
-            </row>
+          
+        </div>
 
             <div class="row">
                 <div class="col-sm-12">

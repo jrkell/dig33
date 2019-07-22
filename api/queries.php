@@ -98,9 +98,9 @@ function listStockists() {
     if (mysqli_num_rows($result) > 0) {
       while ($row = mysqli_fetch_assoc($result)) {
         echo
-        "<div class='text-center'>
+        "<div class='col-sm-6 text-right'>
         <img src='{$row['imgurl']}'/>
-        </div><div class='text-center'>
+        </div><div class='col-sm-6 text-left'>
         <h3>{$row['name']}</h3>
         <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
         <p>Give us a call: {$row['phone']}</p>
