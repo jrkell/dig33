@@ -70,7 +70,7 @@
       </div>
 
       <div>
-      <label for="pw">Password:
+      <label for="pw">Password:</label>
         <input type="password" name="pw" id="pw" required><br>
       </div>
 

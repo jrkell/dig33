@@ -40,7 +40,7 @@
         <link rel="stylesheet" type="text/css" href="styles/slider.css">
         <link rel="stylesheet" type="text/css" href="styles/agecheck.css">
         <!-- link to Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Arbutus|Permanent+Marker|Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arbutus%7CPermanent+Marker%7COpen+Sans&display=swap" rel="stylesheet">
         <!-- Bootstrap 4 CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -57,7 +57,7 @@
       <main id="container" class="text-center">
         <div class="row">
           <div class="col-sm-12">
-        <img src="images/logo.png" class="img-fluid">
+        <img src="images/logo.png" class="img-fluid" alt="Desperados - Tequila Flavoured Beer">
         <p>To continue, please enter your date of birth</p>
 
 
@@ -98,7 +98,7 @@
             <input type="submit" value="Go">
         </form>
             </div>
-</div>
+
 </div>
 </main>
 </body>

@@ -100,7 +100,7 @@ function listStockists() {
         while ($row = mysqli_fetch_assoc($result)) {
             echo
             "<div class='col-sm-6 text-right'>
-            <img src='{$row['imgurl']}' alt={$row['name']}/>
+            <img src='{$row['imgurl']}' alt='{$row['name']}'/>
             </div><div class='col-sm-6 text-left'>
             <h3>{$row['name']}</h3>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
