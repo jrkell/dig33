@@ -1,0 +1,83 @@
+$font-stack: 'Open Sans', sans-serif;
+$font-title: 'Arbutus', serif;
+$font-heading: 'Permanent Marker', serif;
+$tt-red: #e10017;
+$tt-green: #169f00;
+$tt-yellow: #ffcf11;
+$tt-orange: #fe6600;
+
+
+body {
+  font-family: $font-stack;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size:1em;
+}
+
+#container {
+  width: 100%;
+  max-width: 1366px;
+  background-color: black;
+  margin: 0px auto 0px auto;
+}
+
+.row {
+  padding: 25px;
+}
+
+.textured {
+  background-image: url(../images/bg_dark.jpg);
+}
+/** HEADINGS **/
+
+h1 {
+  font-family: $font-title;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: $tt-red;
+}
+h2 {
+  color:$tt-yellow;
+  font-size:1.8em;
+  font-family: $font-heading;
+  text-transform: uppercase;
+}
+
+
+.contact-form {
+  width: 50%;
+  margin: 10px auto 10px auto;
+}
+
+@mixin transform($event) {
+  -ms-transform: $event; /* IE 9 */
+  -webkit-transform: $event; /* Safari 3-8 */
+}
+.event-left {
+  @include transform(rotate(-10deg));
+}
+
+.event-right {
+  @include transform(rotate(10deg));
+}
+
+/* Set card-overlay font-size to 5vw on small screens*/
+@media screen and (max-width: 600px) {
+  div.card-img-overlay  h1 {
+    font-size: 5vw;
+  }
+  div.card-img-overlay p {
+    font-size: 5vw;
+  }
+}
+/* Enlarge card-overlay font size on wide screens */
+@media screen and (min-width: 601px) {
+  div.card-img-overlay  h1 {
+    font-size: 4em;
+  }
+  div.card-img-overlay p {
+    font-size: 2.8em;
+  }
+}
