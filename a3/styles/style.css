@@ -1,6 +1,6 @@
 /** HEADER STYLES **/
 header {
-  background-color: #000;
+  background-color: transparent;
   width: 100%;
   max-width: 1366px;
   margin: 0px auto; }
@@ -45,6 +45,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  background-image: url(../images/pg-background.png);
   font-size: 1em; }
 
 #container {

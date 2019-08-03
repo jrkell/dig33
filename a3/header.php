@@ -48,7 +48,7 @@
 <!-- PAGE CONTENT START -->
 
 <body class="bg-dark text-white">
-    <header class="textured">
+    <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark">
 

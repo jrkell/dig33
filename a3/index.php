@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="row textured">
+        <div class="row">
             <div class="col-sm-6">
                 <h2>PRODUCT LAUNCH</h2>
                 <p>Desperados is proud to be introducing their exciting beer+ product to the Australian Market.</p>
@@ -37,7 +37,7 @@
                         <p>Do you embrace your inner tequila? Are you bending the rules of life? This could be the drink for you.</p>
                         <p>Beer with a dash of tequila in a range of flavours and an attitude that gets any party started.</p>
                         <p>Our beer+ product will become your new go to drink.</p>
-                    
+
             </div>
             <div class="col-sm-6">
                 <img src="images/launch.png" class="img-fluid" alt="Desperados Australia Launch" />
