@@ -21,7 +21,7 @@
 
             <div class="row slider-row">
                 <div class="col-sm-12">
-                    <h2>OUR PRODUCTS</h2>
+                    <h2>Our Products</h2>
                     <ul id="product-slider">
                         <!--Call to a php function which executes an sql query to display all products in the slider-->
                         <?php sliderProducts() ?>

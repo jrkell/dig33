@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="styles/slider.css">
     <link rel="stylesheet" type="text/css" href="styles/pinata.css">
     <!-- link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Arbutus%7CPermanent+Marker%7COpen+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus%7CRanchers%7COpen+Sans&display=swap" rel="stylesheet">
     <!-- Bootstrap 4 CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 

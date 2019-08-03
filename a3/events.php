@@ -21,13 +21,13 @@
       <p>Jazz is making its way back to the top of the pack and you should not miss it.</p>
   </div>
   <div class="col-sm-6">
-      <img src="images/events/event-jazz.png" class="img-fluid event-right" alt="Image Placeholder"/>
+      <img src="images/events/event-jazz.png" class="img-fluid" alt="Image Placeholder"/>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-6 text-right">
-      <img src="images/events/event-rock.png" class="img-fluid event-left" alt="Image Placeholder"/>
+      <img src="images/events/event-rock.png" class="img-fluid" alt="Image Placeholder"/>
   </div>
   <div class="col-sm-6">
     <h2>RIVER ROCK FEST</h2>
@@ -48,7 +48,7 @@
       <p>Be the one who attended the biggest event of the year, get in early and get your tickets.</p>
   </div>
   <div class="col-sm-6">
-      <img src="images/events/event-bdo.png" class="img-fluid event-right" alt="Image Placeholder"/>
+      <img src="images/events/event-bdo.png" class="img-fluid" alt="Image Placeholder"/>
   </div>
 </div>
 

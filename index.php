@@ -21,7 +21,7 @@
 
             <div class="row slider-row">
                 <div class="col-sm-12">
-                    <h2>OUR PRODUCTS</h2>
+                    <h2>Our ProductsS</h2>
                     <ul id="product-slider">
                         <!--Call to a php function which executes an sql query to display all products in the slider-->
                         <?php sliderProducts() ?>
@@ -37,7 +37,7 @@
                         <p>Do you embrace your inner tequila? Are you bending the rules of life? This could be the drink for you.</p>
                         <p>Beer with a dash of tequila in a range of flavours and an attitude that gets any party started.</p>
                         <p>Our beer+ product will become your new go to drink.</p>
-                    
+
             </div>
             <div class="col-sm-6">
                 <img src="images/launch.png" class="img-fluid" alt="Desperados Australia Launch" />

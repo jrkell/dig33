@@ -8,7 +8,8 @@
 <main id="container">
   <div class="container-fluid">
       <div class="text-center">
-          <h1>OOPS! That page is missing?</h1>
+          <img src="images/404-bg.png" class="img-fluid" />
+          <h1>OOPS! That page is missing.</h1>
           <p>Sorry, we can't find that page. It might be an old link or maybe it moved.</p>
       </div>
 
