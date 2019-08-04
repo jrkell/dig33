@@ -1,8 +1,7 @@
 /** HEADER STYLES **/
 header {
-  background-color: transparent;
+  background-color: black;
   width: 100%;
-  max-width: 1366px;
   margin: 0px auto; }
 
 nav {
@@ -12,7 +11,7 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: transparent; }
+    background-color: black; }
   nav li {
     display: inline-block;
     text-align: center;
