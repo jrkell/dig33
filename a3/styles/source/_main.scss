@@ -51,17 +51,6 @@ h2 {
   margin: 10px auto 10px auto;
 }
 
-@mixin transform($event) {
-  -ms-transform: $event; /* IE 9 */
-  -webkit-transform: $event; /* Safari 3-8 */
-}
-.event-left {
-  @include transform(rotate(-10deg));
-}
-
-.event-right {
-  @include transform(rotate(10deg));
-}
 
 /* Set card-overlay font-size to 5vw on small screens*/
 @media screen and (max-width: 600px) {
