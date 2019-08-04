@@ -19,7 +19,6 @@ body {
 
 #container {
   width: 100%;
-  max-width: 1366px;
   background-color: black;
   margin: 0px auto 0px auto;
 }
@@ -81,4 +80,12 @@ h2 {
   div.card-img-overlay p {
     font-size: 2.8em;
   }
+}
+
+.bg-404 {
+  background-image: url("../images/bg-oops.jpg");
+  width: 100%;
+  min-height:800px;
+  background-position: top center;
+
 }
