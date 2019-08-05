@@ -55,6 +55,10 @@
     margin-bottom: 10px;
 }
 
+.nbs-flexisel-item img:hover {
+    border-bottom: 5px red solid;
+}
+
 /*** Navigation ***/
 
 .nbs-flexisel-nav-left,
