@@ -99,13 +99,29 @@ h2 {
   margin: 0;
   padding: 0; }
 
-.event-text {
+.event-box {
   background-color: #222; }
+
+.event-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  color: #f0f0f0; }
 
 .tt-icon {
   margin-top: 50px;
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .tt-icon {
+    margin: 10px; } }
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .event-small {
+    background-color: red; }
+
+  img.event-small {
+    max-width: none; } }
 /** FOOTER STYLES **/
 footer {
   width: 100%;
