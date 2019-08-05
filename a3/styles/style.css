@@ -2,6 +2,7 @@
 header {
   background-color: black;
   width: 100%;
+  max-width: 1366px;
   margin: 0px auto; }
 
 nav {
@@ -44,11 +45,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  background-image: url(../images/pg-background.png);
+  background-image: url(../images/bg-textured.jpg);
+  background-size: contain;
   font-size: 1em; }
 
 #container {
   width: 100%;
+  max-width: 1366px;
   background-color: black;
   margin: 0px auto 0px auto; }
 
@@ -126,7 +129,7 @@ h2 {
 footer {
   width: 100%;
   text-align: center;
-  background-color: black; }
+  background-color: transparent; }
 
 .disclaimer {
   font-size: 12px;

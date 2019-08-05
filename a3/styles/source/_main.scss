@@ -13,12 +13,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  background-image:url(../images/pg-background.png);
+  background-image:url(../images/bg-textured.jpg);
+  background-size: contain;
   font-size:1em;
 }
 
 #container {
   width: 100%;
+  max-width:1366px;
   background-color: black;
   margin: 0px auto 0px auto;
 }

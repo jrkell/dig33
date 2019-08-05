@@ -31,7 +31,7 @@
         </div>
       </div>
         <div class="row no-gutters">
-            <div class="col-sm-6 event-box text-center textured">
+            <div class="col-sm-6 event-box text-center">
               <div class="event-text">
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
                 <h2>PRODUCT LAUNCH</h2>
@@ -51,7 +51,7 @@
             <div class="col-sm-6">
                 <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
             </div>
-            <div class="col-sm-6 event-box text-center textured">
+            <div class="col-sm-6 event-box text-center">
               <div class="event-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                 <h2>PROMOTIONS</h2>

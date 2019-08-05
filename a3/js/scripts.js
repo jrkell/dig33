@@ -75,8 +75,8 @@ function resetSwing() {
 //Executes and configures product slider plugin
 function productSlider() {
     $("#product-slider").flexisel({
-        visibleItems: 4,
-        itemsToScroll: 2,
+        visibleItems: 3,
+        itemsToScroll: 1,
         animationSpeed: 200,
         infinite: true,
         navigationTargetSelector: null,
@@ -94,12 +94,12 @@ function productSlider() {
             landscape: {
                 changePoint: 640,
                 visibleItems: 2,
-                itemsToScroll: 2
+                itemsToScroll: 1
             },
             tablet: {
                 changePoint: 768,
                 visibleItems: 3,
-                itemsToScroll: 3
+                itemsToScroll: 1
             }
         },
         loaded: function (object) {

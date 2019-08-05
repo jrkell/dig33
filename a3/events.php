@@ -14,7 +14,7 @@
   </div>
 </div>
 <div class="row no-gutters">
-  <div class="col-sm-6 event-box text-center textured">
+  <div class="col-sm-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
     <h2>JAZZ CLUB</h2>
@@ -32,7 +32,7 @@
   <div class="col-sm-6">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
   </div>
-  <div class="col-sm-6 event-box text-center textured">
+  <div class="col-sm-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
     <h2>RIVER ROCK FEST</h2>
@@ -45,7 +45,7 @@
 </div>
 
 <div class="row no-gutters">
-  <div class="col-sm-6 event-box text-center textured">
+  <div class="col-sm-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
     <h2>BIG DAY OUT</h2>
