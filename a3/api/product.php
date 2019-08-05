@@ -16,13 +16,13 @@ $product = mysqli_fetch_assoc(getProduct($title));
         $salt=number_format($product['salt'],2);
     }
 
-    echo "<div class='col-sm-6 text-center'>
+    echo "<div class='col-sm-6 text-center' style='padding:20px;'>
             <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
             <h3>" . strtoupper($product['title']) . "</h3>
             <p>{$product['long_desc']}</p>
         </div>
 
-        <div class='col-sm-6'>
+        <div class='col-sm-6' style='padding:20px;'>
           <table class='table table-dark table-striped'>
           <thead>
           <tr>

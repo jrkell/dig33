@@ -8,20 +8,20 @@ $("#pinata-div").click(function () {
     switch (clickCount) {
 
         case 0:
-            $("#pinata").attr("src", "images/pinata/pinata2.png");
+            $("#pinata").attr("src", "images/pinata/pinata-small-swing.gif");
             swing();
             ++clickCount;
             break;
 
         case 1:
-            $("#pinata").attr("src", "images/pinata/pinata3.png");
+            $("#pinata").attr("src", "images/pinata/pinata-medium-swing.gif");
             swing();
             ++clickCount;
             break;
 
         case 2:
 
-            $("#pinata").attr("src", "images/pinata/pinata4.png");
+            $("#pinata").attr("src", "images/pinata/pinata-big-swing.gif");
             resetSwing();
             $("#pinata").explode({
                 "minWidth": 3,
@@ -50,7 +50,7 @@ $("#pinata-div").click(function () {
 //Resets changes made by clicking or the explode plugin
 function restore() {
     $("#ticket-div").css("display", "none");
-    $("#pinata-div").html('<img src="images/pinata/pinata.png" id="pinata">');
+    $("#pinata-div").html('<img src="images/pinata/pinata.gif" id="pinata">');
     clickCount = 0;
     resetSwing();
 }
