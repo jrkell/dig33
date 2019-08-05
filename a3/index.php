@@ -8,10 +8,6 @@
     <div>
         <div class=" card bg-dark text-white">
           <img class="card-img img-fluid" src="images/homepage.jpg" alt="Desperados home page"/>
-          <div class="card-img-overlay text-center">
-          <h1 class="card-title">WIN TICKETS</h1>
-          <p class="card-text">TO AUSTRALIAN MUSIC FESTIVALS</p>
-        </div>
         </div>
     </div>
     <div class="container-fluid">
