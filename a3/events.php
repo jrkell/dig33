@@ -23,7 +23,7 @@
       <p>Jazz is making its way back to the top of the pack and you should not miss it.</p>
     </div>
   </div>
-  <div class="col-sm-6 event-small">
+  <div class="col-sm-6">
       <img src="images/events/event-jazz.jpg" class="img-fluid event-small" alt="Jazz Club"/>
   </div>
 </div>
