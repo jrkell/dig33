@@ -40,7 +40,7 @@ h1 {
 }
 h2 {
   color:$tt-yellow;
-  font-size:1.8em;
+  font-size:3em;
   font-family: $font-heading;
   text-transform: uppercase;
 }
@@ -77,4 +77,18 @@ h2 {
   min-height:800px;
   background-position: top center;
 
+}
+
+.no-gutters {
+  margin:0;
+  padding:0;
+}
+
+.event-text {
+  background-color: #222;
+}
+
+.tt-icon {
+  margin-top:50px;
+  margin-bottom: 20px;
 }

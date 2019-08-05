@@ -67,7 +67,7 @@ h1 {
 
 h2 {
   color: #ffcf11;
-  font-size: 1.8em;
+  font-size: 3em;
   font-family: "Ranchers", serif;
   text-transform: uppercase; }
 
@@ -94,6 +94,17 @@ h2 {
   width: 100%;
   min-height: 800px;
   background-position: top center; }
+
+.no-gutters {
+  margin: 0;
+  padding: 0; }
+
+.event-text {
+  background-color: #222; }
+
+.tt-icon {
+  margin-top: 50px;
+  margin-bottom: 20px; }
 
 /** FOOTER STYLES **/
 footer {
