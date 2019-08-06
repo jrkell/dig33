@@ -40,14 +40,14 @@ a.navbar-brand:hover {
 
 /** MAIN STYLES **/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: white;
+  font-family: "Allerta", sans-serif;
+  color: #f8f8ff;
   margin: 0;
   padding: 0;
   background-color: black;
   background-image: url(../images/bg-textured.jpg);
   background-size: contain;
-  font-size: 1em; }
+  font-size: 16px; }
 
 #container {
   width: 100%;
@@ -103,14 +103,14 @@ h2 {
   padding: 0; }
 
 .event-box {
-  background-color: #1b1b1b; }
+  background-color: #111111; }
 
 .event-text {
   width: 80%;
   margin-left: auto;
-  margin-right: auto;
-  text-transform: uppercase;
-  color: #f0f0f0; }
+  margin-right: auto; }
+  .event-text p {
+    text-align: left; }
 
 .tt-icon {
   margin-top: 50px;

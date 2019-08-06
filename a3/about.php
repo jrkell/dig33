@@ -20,13 +20,11 @@
     <div class="col-sm-6 event-box text-center">
       <div class="event-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
-      <p>We have been wanting to come to Australia for quite some time, and now we are here.</p>
-      <p>We offer you a new unique experience with our beer+ product.
-          Desperados wants to be there enhancing your party spirit, bringing the spice to your life with a daring edge found in the touch of tequila.</p>
+            <h2>Beer + Down Under</h2>
+      <p>We are excited to introduce Australia to a new unique experience with our beer+ products.
+          Desperados will enhance your party spirit, bringing the spice to your life with a daring edge found in the touch of tequila.</p>
 
-      <h2>Beer +</h2>
-
-      <p>The beer+ industry is growing, and we are proud to be a leader of that industry with the world’s first tequila flavoured beer.</p>
+      <p>We are proud to be a leader of beer+ industry with the world’s first tequila flavoured beer.</p>
       <p>Flavour is our specialty and by adding spices and zest to our beer we have
         created something that you have to taste to believe.</p>
       </div>
@@ -38,15 +36,27 @@
       <div class="col-sm-6 event-box text-center">
         <div class="event-text">
           <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
-          <h2>Promotions</h2>
-          <p>To coincide with our Australian release, we have a competition that is open to Australian residents.</p>
-          <p>The Pinata Bash is a limited time only competition for our launch. But watch this space for upcoming competitions for all Desperados customers.</p>
-        <h2>Save the Koala</h2>
+                <h2>Save the Koala</h2>
         <p>To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
       </div>
     </div>
       <div class="col-sm-6 text-center">
         <img src="images/koala.jpg" class="img-fluid" alt="Save the Koala" />
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm-6 text-center">
+
+    </div>
+      <div class="col-sm-6 event-box text-center">
+        <div class="event-text">
+          <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
+          <h2>Promotions</h2>
+          <p>To coincide with our Australian release, we have a competition that is open to Australian residents.</p>
+          <p>The Pinata Bash gives you the chance to win tickets to one of our Launch Parties!</p>
+          <p class="disclaimer">For a limited time only. Conditions Apply.</p>
+        </div>
       </div>
     </div>
 </main>

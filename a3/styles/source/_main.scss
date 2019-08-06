@@ -1,4 +1,4 @@
-$font-stack: 'Open Sans', sans-serif;
+$font-stack: 'Allerta', sans-serif;
 $font-title: 'Arbutus', serif;
 $font-heading: 'Ranchers', serif;
 $tt-red: #e10017;
@@ -9,13 +9,13 @@ $tt-orange: #fe6600;
 
 body {
   font-family: $font-stack;
-  color: white;
+  color: #f8f8ff;
   margin: 0;
   padding: 0;
   background-color: black;
   background-image:url(../images/bg-textured.jpg);
   background-size: contain;
-  font-size:1em;
+  font-size:16px;
 }
 
 #container {
@@ -86,15 +86,17 @@ h2 {
 }
 
 .event-box {
-  background-color: #1b1b1b;
+  background-color: #111111;
 }
 .event-text {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  text-transform: uppercase;
-  color: #f0f0f0;
+  p {
+    text-align: left;
+  }
 }
+
 
 
 .tt-icon {
