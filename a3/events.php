@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="col-sm-6">
-      <img src="images/events/event-jazz.jpg" class="img-fluid event-small" alt="Jazz Club"/>
+      <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
   </div>
 </div>
 

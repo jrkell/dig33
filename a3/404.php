@@ -6,14 +6,21 @@
 
 <!-- MAIN CONTENT -->
 <main id="container">
-  <div class="container-fluid bg-404">
-      <div class="text-center" style="padding-top:500px">
-          <h1>That page is missing.</h1>
-          <p>Sorry, we can't find that page. It might be an old link or maybe it moved.</p>
-          <p>
-      </div>
-
+  <div class="row no-gutters">
+    <div class="col-sm-12">
+      <img src="images/bg-oops2.jpg" class="img-fluid" alt="Page missing" />
+    </div>
   </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm-12 event-box text-center c2a">
+          <p></p><p>Sorry, we can't find that page. It might be an old link or maybe it moved.</p>
+          <a href="products.php">BROWSE OUR FLAVOURED BEER?</a>
+          <br />
+          <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
+
+      </div>
+    </div>
 
 
 

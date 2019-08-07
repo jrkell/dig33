@@ -78,6 +78,18 @@ h2 {
   width: 50%;
   margin: 10px auto 10px auto; }
 
+/* Call to Action links */
+.c2a a {
+  color: #ffcf11;
+  font-family: "Ranchers", serif;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 1.8em; }
+.c2a a:hover {
+  text-decoration: none;
+  color: #fe6600; }
+
 /* Set card-overlay font-size to 5vw on small screens*/
 @media screen and (max-width: 600px) {
   div.card-img-overlay h1 {
@@ -92,12 +104,6 @@ h2 {
 
   div.card-img-overlay p {
     font-size: 2.8em; } }
-.bg-404 {
-  background-image: url("../images/bg-oops.jpg");
-  width: 100%;
-  min-height: 800px;
-  background-position: top center; }
-
 .no-gutters {
   margin: 0;
   padding: 0; }
