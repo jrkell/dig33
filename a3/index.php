@@ -5,10 +5,8 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-    <div>
-        <div class=" card bg-dark text-white">
-          <img class="card-img img-fluid" src="images/banner.jpg" alt="Desperados home page"/>
-        </div>
+    <div class="row no-gutters">
+        <img class="img-fluid" src="images/banner.jpg" alt="Desperados home page"/>
     </div>
     <div class="container-fluid">
         <div class="text-center">
