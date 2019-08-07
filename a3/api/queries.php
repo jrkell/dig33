@@ -109,8 +109,8 @@ function listStockists() {
             </article>";
             echo '<div>';
         }
-        echo '<div>';
     }
+    echo '<div>';
 }
 
 ?>
