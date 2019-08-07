@@ -90,7 +90,7 @@ function sliderProducts() {
 }
 
 // Retrieves all stockists to display in the "Where to Buy" page
-function listStockists() {
+function listStockistsBarb() {
     $query = "SELECT image.url AS imgurl, suppliers.url as supurl, name, street, suburb, state, phone
     FROM suppliers, image WHERE suppliers.name = image.title ORDER BY suppliers.name";
     $result = performQuery($query);
