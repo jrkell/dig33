@@ -107,10 +107,10 @@ function listStockists() {
             <p>Give us a call: {$row['phone']}</p>
             <a href='{$row['supurl']}'>Purchase from our Website</a><br><hr><br>
             </article>";
-            echo '<div>';
+            echo '</div>';
         }
     }
-    echo '<div>';
+    echo '</div>';
 }
 
 ?>
