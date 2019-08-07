@@ -94,7 +94,7 @@ function listStockists() {
     $query = "SELECT image.url AS imgurl, suppliers.url as supurl, name, street, suburb, state, phone
     FROM suppliers, image WHERE suppliers.name = image.title ORDER BY suppliers.name";
     $result = performQuery($query);
-    echo '<div class="row"'>;
+    echo '<div class="row">';
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
