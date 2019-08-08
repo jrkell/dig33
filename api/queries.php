@@ -111,4 +111,27 @@ function listStockists() {
     }
 }
 
+// GETTING THE LAYOUT RIGHT
+function listStockistsBarb() {
+    $query = "SELECT image.url AS imgurl, suppliers.url as supurl, name, street, suburb, state, phone
+    FROM suppliers, image WHERE suppliers.name = image.title ORDER BY suppliers.name";
+    $result = performQuery($query);
+
+    // for each row, output as list
+    if (mysqli_num_rows($result) > 0) {
+      echo "<div class='row'>";
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo
+            "<div class='col-sm-4'>
+            <img src='{$row['imgurl']}' alt='{$row['name']}'/>
+            <h3>{$row['name']}</h3>
+            <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
+            <p>Give us a call: {$row['phone']}</p>
+            <a href='{$row['supurl']}'>Purchase from our Website</a><br><hr><br>
+            </div>";
+        }
+        echo "</div>";
+    }
+
+}
 ?>
