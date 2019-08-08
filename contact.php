@@ -12,27 +12,50 @@
     </div>
   </div>
 
-<div class="contact-form">
-  <form class="contact-form" action="https://formspree.io/jarredkelly@gmail.com" method="POST">
-    <div>
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="socialhover">
+      <img src="images/social/social.jpg" class="img-fluid" alt="Social Media links" />
+      <div class="socialoverlay">
+        <h2>CONNECT WITH US</h2>
+        <p>
+        <a href="#">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-dribbble"></i>
+        </a>
+      </p>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+  <form action="https://formspree.io/jarredkelly@gmail.com" method="POST">
+    <div class="form-group">
       <label for="name">Name:</label>
-      <input type="text" name="name" id="name"><br>
+      <input type="text" class="form-control" name="name" id="name"><br>
     </div>
 
-    <div>
+    <div class="form-group">
     <label for="email">Email Address:</label>
-      <input type="text" name="email" id="email"><br>
+      <input type="email" class="form-control" name="email" id="email"><br>
     </div>
 
     <div>
     <label for="message">Message:</label>
-      <textarea rows="4" cols="50" name="message" id="message"></textarea><br>
+      <textarea rows="4" cols="50" name="message" id="message" class="form-control"></textarea><br>
     </div>
 
-    <input type="submit" value="Send">
+    <input type="submit" class="btn btn-primary my-1" value="Send">
   </form>
 </div>
-
 </div>
 </main>
 
