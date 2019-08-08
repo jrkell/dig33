@@ -1,4 +1,4 @@
-// Image Hover Effects by Mike Young https://miketricking.github.io/bootstrap-image-hover/
+// Based on Image Hover Effects by Mike Young https://miketricking.github.io/bootstrap-image-hover/
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -6,7 +6,7 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor: pointer; // Micro-interaction to indicate active link
 }
 
 .hovereffect .overlay {
@@ -50,7 +50,7 @@
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
@@ -61,6 +61,7 @@
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
+  background-color: red;  // Added to indicate button interactivity
 }
 
 .hovereffect:hover .overlay {

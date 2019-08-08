@@ -138,7 +138,7 @@ h2 {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default; }
+  cursor: pointer; }
 
 .hovereffect .overlay {
   width: 100%;
@@ -178,7 +178,7 @@ h2 {
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
@@ -187,7 +187,8 @@ h2 {
   transition: all 0.2s ease-in-out; }
 
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff; }
+  box-shadow: 0 0 5px #fff;
+  background-color: red; }
 
 .hovereffect:hover .overlay {
   opacity: 1;
