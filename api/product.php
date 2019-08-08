@@ -16,31 +16,48 @@ $product = mysqli_fetch_assoc(getProduct($title));
         $salt=number_format($product['salt'],2);
     }
 
-    echo "<div class='col-sm-6'>
+    echo "<div class='col-sm-6 text-center' style='padding:20px;'>
             <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
             <h3>" . strtoupper($product['title']) . "</h3>
             <p>{$product['long_desc']}</p>
         </div>
 
-        <div class='col-sm-6'>
-
+        <div class='col-sm-6' style='padding:20px;'>
+          <table class='table table-dark table-striped'>
+          <thead>
+          <tr>
             <h2>PRODUCT INFO</h2>
             <p>Description: {$product['short_desc']}</p>
-            <p>Contents: {$product['contents']}</p>
-            <p>Ingredients: {$product['ingredients']}</p>
-            <p>Allergy information: {$product['allergens']}</p>
-            <p>Alcohol percentage: " . number_format($product['alcohol'], 1) . "%</p>
-            <p>Nutritional values: {$product['nutritional']}</p>
-            <div class='values'>
-                <h5>Per 100ml</h5>
-                <p>Energy: {$product['energy_kj']}KJ/{$product['energy_kcal']}kcal</br>
-                Fat: {$fat}g</br>
-                Saturated fat: " . number_format($product['satfat'],1) . "g</br>
-                Carbohydrates: " . number_format($product['carb'],1) . "g</br>
-                Sugar: " . number_format($product['sugar'],1) . "g</br>
-                Fibers: " . number_format($product['fiber'],1) . "g</br>
-                Protein: " . number_format($product['protein'],1) . "g</br>
-                Salt: {$salt}g</p>
-            </div>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Contents</td><td> {$product['contents']}</td>
+            <tr>
+            <td>Ingredients</td><td> {$product['ingredients']}</td>
+            </tr>
+            <tr>
+            <td>Allergy information</td><td> {$product['allergens']}</td>
+            </tr>
+            <tr>
+            <td>Alcohol percentage</td><td> " . number_format($product['alcohol'], 1) . "%</td>
+            </tr>
+            <tr>
+            <td>Nutritional values</td><td> {$product['nutritional']}</<td>
+            </tr>
+            <tr>
+            <td></td><td>Per 100ml</td>
+            </tr>
+            <tr><td>Energy</td><td>{$product['energy_kj']}KJ/{$product['energy_kcal']}kcal</td></tr>
+            <tr><td>Fat</td><td> {$fat}g</td></tr>
+            <tr><td>Saturated fat</td><td> " . number_format($product['satfat'],1) . "g</td></tr>
+            <tr><td>Carbohydrates</td><td> " . number_format($product['carb'],1) . "g</td></tr>
+            <tr><td>Sugar</td><td> " . number_format($product['sugar'],1) . "g</td></tr>
+            <tr><td>Fibers</td><td> " . number_format($product['fiber'],1) . "g</td></tr>
+            <tr><td>Protein</td><td> " . number_format($product['protein'],1) . "g</td></tr>
+            <tr><td>Salt</td><td> {$salt}g</td></tr>
+
+            </tbody>
+            </table>
         </div>" ;
 ?>
