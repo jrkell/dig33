@@ -55,11 +55,6 @@
     margin-bottom: 10px;
 }
 
-.nbs-flexisel-item img:hover {
-    border-bottom: 5px red solid;
-    margin:0px;
-}
-
 /*** Navigation ***/
 
 .nbs-flexisel-nav-left,

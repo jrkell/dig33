@@ -1,8 +1,8 @@
 $tt-red: #e10017;
 header {
-  background-color: black;
+  background-color: #000;
   width: 100%;
-  max-width:1366px;
+  max-width: 1366px;
   margin: 0px auto;
 
 }
@@ -15,7 +15,7 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: transparent;
   }
     li {
       display: inline-block;

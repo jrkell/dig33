@@ -8,20 +8,20 @@ $("#pinata-div").click(function () {
     switch (clickCount) {
 
         case 0:
-            $("#pinata").attr("src", "images/pinata/pinata-small-swing.gif");
+            $("#pinata").attr("src", "images/pinata/pinata2.png");
             swing();
             ++clickCount;
             break;
 
         case 1:
-            $("#pinata").attr("src", "images/pinata/pinata-medium-swing.gif");
+            $("#pinata").attr("src", "images/pinata/pinata3.png");
             swing();
             ++clickCount;
             break;
 
         case 2:
 
-            $("#pinata").attr("src", "images/pinata/pinata-big-swing.gif");
+            $("#pinata").attr("src", "images/pinata/pinata4.png");
             resetSwing();
             $("#pinata").explode({
                 "minWidth": 3,
@@ -50,7 +50,7 @@ $("#pinata-div").click(function () {
 //Resets changes made by clicking or the explode plugin
 function restore() {
     $("#ticket-div").css("display", "none");
-    $("#pinata-div").html('<img src="images/pinata/pinata.gif" id="pinata">');
+    $("#pinata-div").html('<img src="images/pinata/pinata.png" id="pinata">');
     clickCount = 0;
     resetSwing();
 }
@@ -75,8 +75,8 @@ function resetSwing() {
 //Executes and configures product slider plugin
 function productSlider() {
     $("#product-slider").flexisel({
-        visibleItems: 3,
-        itemsToScroll: 1,
+        visibleItems: 5,
+        itemsToScroll: 3,
         animationSpeed: 200,
         infinite: true,
         navigationTargetSelector: null,
@@ -94,12 +94,12 @@ function productSlider() {
             landscape: {
                 changePoint: 640,
                 visibleItems: 2,
-                itemsToScroll: 1
+                itemsToScroll: 2
             },
             tablet: {
                 changePoint: 768,
                 visibleItems: 3,
-                itemsToScroll: 1
+                itemsToScroll: 3
             }
         },
         loaded: function (object) {

@@ -1,6 +1,6 @@
-$font-stack: 'Allerta', sans-serif;
+$font-stack: 'Open Sans', sans-serif;
 $font-title: 'Arbutus', serif;
-$font-heading: 'Ranchers', serif;
+$font-heading: 'Permanent Marker', serif;
 $tt-red: #e10017;
 $tt-green: #169f00;
 $tt-yellow: #ffcf11;
@@ -9,18 +9,16 @@ $tt-orange: #fe6600;
 
 body {
   font-family: $font-stack;
-  color: #f8f8ff;
+  color: white;
   margin: 0;
   padding: 0;
   background-color: black;
-  background-image:url(../images/bg-textured.jpg);
-  background-size: contain;
-  font-size:16px;
+  font-size:1em;
 }
 
 #container {
   width: 100%;
-  max-width:1366px;
+  max-width: 1366px;
   background-color: black;
   margin: 0px auto 0px auto;
 }
@@ -42,7 +40,7 @@ h1 {
 }
 h2 {
   color:$tt-yellow;
-  font-size:3em;
+  font-size:1.8em;
   font-family: $font-heading;
   text-transform: uppercase;
 }
@@ -53,23 +51,18 @@ h2 {
   margin: 10px auto 10px auto;
 }
 
-/* Call to Action links */
-
-.c2a {
-  a {
-    color: $tt-yellow;
-    font-family: $font-heading;
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
-    font-size: 1.8em;
-  }
-  a:hover {
-    text-decoration: none;
-    color: $tt-orange;
-  }
-
+@mixin transform($event) {
+  -ms-transform: $event; /* IE 9 */
+  -webkit-transform: $event; /* Safari 3-8 */
 }
+.event-left {
+  @include transform(rotate(-10deg));
+}
+
+.event-right {
+  @include transform(rotate(10deg));
+}
+
 /* Set card-overlay font-size to 5vw on small screens*/
 @media screen and (max-width: 600px) {
   div.card-img-overlay  h1 {
@@ -86,46 +79,5 @@ h2 {
   }
   div.card-img-overlay p {
     font-size: 2.8em;
-  }
-}
-
-
-
-.no-gutters {
-  margin:0;
-  padding:0;
-}
-
-.event-box {
-  background-color: #111111;
-}
-.event-text {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  p {
-    text-align: left;
-  }
-}
-
-
-
-.tt-icon {
-  margin-top:50px;
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width : 1024px) {
-  .tt-icon {
-    margin: 10px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .event-small {
-    background-color: red;
-  }
-  img.event-small {
-    max-width:none;
   }
 }
