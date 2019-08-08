@@ -24,13 +24,25 @@
     </div>
   </div>
   <div class="col-sm-6">
+    <div class="hovereffect">
       <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
+      <div class="overlay">
+        <h2>SYD * MELB * OCT 2020</h2>
+        <a class="info" href="#">BOOK NOW</a>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="row no-gutters">
   <div class="col-sm-6">
+    <div class="hovereffect">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
+      <div class="overlay">
+        <h2>PERTH * BRIS * NOV 2020</h2>
+        <a class="info" href="#">BOOK NOW</a>
+      </div>
+    </div>
   </div>
   <div class="col-sm-6 event-box text-center">
     <div class="event-text">
@@ -55,7 +67,12 @@
     </div>
   </div>
   <div class="col-sm-6">
+    <div class="hovereffect">
       <img src="images/events/event-bdo.jpg" class="img-fluid" alt="Big Day Out"/>
+      <div class="overlay">
+        <h2>SYD * BRIS * DEC 2020</h2>
+        <a class="info" href="#">BOOK NOW</a>
+      </div>
   </div>
 </div>
 
