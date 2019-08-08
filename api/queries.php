@@ -104,10 +104,11 @@ function listStockists() {
             <h3>{$row['name']}</h3>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
             <p>Give us a call: {$row['phone']}</p>
-            <a href='{$row['supurl']}'>Purchase from our Website</a><br><hr><br>
+            <a href='{$row['supurl']}'>BUY FROM {$row['name']}'</a><br><hr><br>
             </div>";
         }
         echo "</div>";
+
     }
 
   }
