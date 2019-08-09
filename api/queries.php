@@ -27,7 +27,7 @@ function getProduct($title) {
     return $result;
 }
 
-// Retreives a product title and price from ID 
+// Retreives a product title and price from ID
 function getProductFromID($id) {
     $query = "SELECT * FROM product WHERE product_id = '$id'";
     $result = performQuery($query);

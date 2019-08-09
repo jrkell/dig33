@@ -9,7 +9,7 @@
 
 .slider-row {
     margin-bottom: 50px;
-    background-color: #111111;
+    background-color: #000;
 }
 
 .nbs-flexisel-container {
@@ -33,10 +33,10 @@
     overflow: hidden;
     float: left;
     width: 100%;
-    background-image: url(../images/products/bg-textured.jpg;
+    background-image: url(../images/beer_box_nb.jpg);
     background-color: black;
-    object-fit:contain;
-    border: 1px solid #ccc;
+    background-size: contain;
+    border: 1px solid #000;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
