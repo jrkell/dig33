@@ -21,16 +21,16 @@
         <h2>CONNECT WITH US</h2>
         <p>
         <a href="#">
-            <i class="fa fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
         </a>
         <a href="#">
-            <i class="fa fa-facebook"></i>
+            <i class="fab fa-facebook"></i>
         </a>
         <a href="#">
-            <i class="fa fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
         </a>
         <a href="#">
-            <i class="fa fa-dribbble"></i>
+            <i class="fab fa-twitter"></i>
         </a>
       </p>
       </div>
