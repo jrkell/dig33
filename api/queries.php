@@ -27,6 +27,18 @@ function getProduct($title) {
     return $result;
 }
 
+// Retreives a product title and price from ID 
+function getProductFromID($id) {
+    $query = "SELECT * FROM product WHERE product_id = '$id'";
+    $result = performQuery($query);
+
+    if (mysqli_num_rows($result) == 0) {
+        die("Cart is empty.");
+    }
+    return $result;
+}
+
+
 // Checks the database to see if an account exists for the email address entered
 function userExists($userId, $table) {
     $query = "SELECT email FROM $table WHERE email = '$userId'";
