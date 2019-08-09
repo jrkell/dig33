@@ -11,6 +11,10 @@
     margin-bottom: 50px;
     background-color: #000;
 }
+.slider-bg {
+  background-image: url(../images/beer_box.png);
+  padding: 10px;
+}
 
 .nbs-flexisel-container {
     position: relative;
@@ -33,7 +37,7 @@
     overflow: hidden;
     float: left;
     width: 100%;
-    background-image: url(../images/beer_box_nb.jpg);
+    background-image: url(../images/bg-textured.jpg);
     background-color: black;
     background-size: contain;
     border: 1px solid #000;

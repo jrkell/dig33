@@ -17,13 +17,16 @@
         <div class="row slider-row">
             <div class="col-sm-12">
                 <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
+              </div>
+          </div>
+          <div class="row no-gutters slider-bg">
+
                 <ul id="product-slider">
                     <!--Call to a php function which executes an sql query to display all products in the slider-->
                     <?php sliderProducts() ?>
                 </ul>
-            </div>
-        </div>
 
+            </div>
         <div class='row' id='product'></div>
         <?php
             //If page is reached by clicking on a product from the slider, display that product.
