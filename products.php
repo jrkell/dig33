@@ -19,6 +19,7 @@
                 <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
               </div>
           </div>
+        </div>
           <div class="row no-gutters slider-bg">
 
                 <ul id="product-slider">
@@ -40,7 +41,6 @@
             ?>
 
 
-    </div> <!-- close container -->
 </main>
 
 <script>
