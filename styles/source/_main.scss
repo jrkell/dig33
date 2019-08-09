@@ -108,7 +108,12 @@ h2 {
   }
 }
 
-
+.img-crop {
+  width: inherit;
+  height: 380px;
+  object-fit: none;
+  object-position: center top;
+}
 
 .tt-icon {
   margin-top:50px;

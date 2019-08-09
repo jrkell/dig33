@@ -6,7 +6,7 @@
 <!-- PAGE CONTENT START -->
 <main id="container">
     <div class="row no-gutters">
-        <img class="img-fluid" src="images/banner.jpg" alt="Desperados home page"/>
+        <img src="images/banner.jpg" alt="Desperados home page"/>
     </div>
     <div class="container-fluid">
         <div class="text-center">
@@ -36,13 +36,16 @@
               </div>
             </div>
             <div class="col-sm-6">
-                <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
+                <img src="images/overlays/bg-launch.jpg" class="img-crop" alt="Desperados Australia Launch" /><br>
+                <img src="images/overlays/txt-launch.jpg" class="img-fluid" alt="Launch Party" />
             </div>
         </div>
 
         <div class="row no-gutters">
             <div class="col-sm-6">
-                <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
+                <img src="images/overlays/bg-promo.jpg" class="img-crop" alt="Desperados Competitions" />
+                <br>
+                <img src="images/overlays/txt-promo.jpg" class="img-fluid" alt="Win Tickets" />
             </div>
             <div class="col-sm-6 event-box text-center">
               <div class="event-text">
