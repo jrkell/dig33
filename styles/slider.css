@@ -33,8 +33,9 @@
     overflow: hidden;
     float: left;
     width: 100%;
-    background-image: url(../images/bg_dark.jpg);
-    background-color: black/
+    background-image: url(../images/products/bg-textured.jpg;
+    background-color: black;
+    object-fit:contain;
     border: 1px solid #ccc;
     border-radius: 5px;
     -moz-border-radius: 5px;
