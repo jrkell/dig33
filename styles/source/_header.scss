@@ -1,50 +1,58 @@
 $tt-red: #e10017;
+
 header {
-  background-color: black;
-  width: 100%;
-  max-width:1366px;
-  margin: 0px auto;
+    background-color: black;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0px auto;
 
 }
 
 
 nav {
-  margin: 0;
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  }
+    margin: 0;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
     li {
-      display: inline-block;
-      text-align: center;
-      border-right: 1px solid grey;
-      margin: 0 10px 0 10px;
-      padding: 0 10px 0 10px;
+        display: inline-block;
+        text-align: center;
+        border-right: 1px solid grey;
+        margin: 0 10px 0 10px;
+        padding: 0 10px 0 10px;
     }
+
     li:last-child {
-      border-right: none;
+        border-right: none;
     }
+
     a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 12px 16px;
-      text-decoration: none;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
     }
-    a:hover {
-      border-bottom: 2px red solid;
-      color: white;
+
+    a:hover,
+    .nav-active {
+        border-bottom: 2px red solid;
+        color: white;
     }
-  img {
-    margin-right:50px;
-    float: left;
-  }
+
+    img {
+        margin-right: 50px;
+        float: left;
+    }
 }
 
 a.navbar-brand:hover {
     background-color: transparent;
     border: none;
-  }
+}
