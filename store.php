@@ -29,10 +29,11 @@
               <p class="card-text">QUANTITY: </p>
               <!-- ADD TO CART BUTTON -->
 
-              <a href="#" class="btn btn-primary">BUY STUFF</a>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
             </div>
           </div>
         </div>
+                      <a href="#" class="btn btn-primary">VIEW CART</a>
       </div>
 </main>
 <!-- PAGE CONTENT END -->
