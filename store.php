@@ -33,7 +33,9 @@
             </div>
           </div>
         </div>
+        <div class="row">
                       <a href="#" class="btn btn-primary">VIEW CART</a>
+                      <div>
       </div>
 </main>
 <!-- PAGE CONTENT END -->
