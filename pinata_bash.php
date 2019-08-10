@@ -3,8 +3,9 @@
 <!--This feature is a work in progress and should be regarded as such-->
 
 <body>
-    <main class="pinata-content" id="container">
-        <div id="pinata-container">
+    <main id="container">
+      <div class="row no-gutters slider-bg">
+        <div class="pinata-content textured" id="pinata-container">
             <!--Checks if user has logged in or not-->
             <?php
             if(isset($_COOKIE["user_verified"]))
@@ -34,10 +35,11 @@
                     echo "<p class='error'>Cookie not set!</p>";
                 }
                 include "user_login.php";
-                
+
             }
             ?>
         </div>
+      </div>
     </main>
 </body>
 
