@@ -14,29 +14,32 @@
 
   <div class="row">
 
-    <div class="col-sm-6">
+    <div class="col-lg-6">
       <div class="socialhover">
-      <img src="images/social/social.jpg" class="img-fluid" alt="Social Media links" />
-      <div class="socialoverlay">
-        <h2>CONNECT WITH US</h2>
-        <p>
-        <a href="#">
-            <i class="fab fa-youtube"></i>
-        </a>
-        <a href="#">
-            <i class="fab fa-facebook"></i>
-        </a>
-        <a href="#">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#">
-            <i class="fab fa-twitter"></i>
-        </a>
-      </p>
-      </div>
+        <img src="images/social/social.jpg" class="img-fluid" alt="Social Media links" />
+          <div class="socialoverlay">
+            <h2>CONNECT WITH US</h2>
+            <p class="set1">
+              <a href="https://www.youtube.com/user/desperados" target="blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.facebook.com/desperados" target="blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </p>
+            <hr><hr>
+            <p class="set2">
+              <a href="https://www.instagram.com/desperados/" target="blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/Heineken" target="blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </p>
+          </div>
+        </div>
     </div>
-    </div>
-    <div class="col-sm-6">
+    <div class="col-lg-6">
   <form action="https://formspree.io/jarredkelly@gmail.com" method="POST">
     <div class="form-group">
       <label for="name">Name:</label>

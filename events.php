@@ -14,7 +14,7 @@
   </div>
 </div>
 <div class="row no-gutters">
-  <div class="col-sm-6 event-box text-center">
+  <div class="col-lg-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
     <h2>JAZZ CLUB</h2>
@@ -23,28 +23,28 @@
       <p>Jazz is making its way back to the top of the pack and you should not miss it.</p>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-lg-6">
     <div class="hovereffect">
       <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
       <div class="overlay">
-        <h2>SYD * MELB * OCT 2020</h2>
-        <a class="info" href="#">BOOK NOW</a>
+        <h1>SYD * MELB * OCT 2020</h1>
+        <h2>COMING SOON</h2>
       </div>
     </div>
   </div>
 </div>
 
 <div class="row no-gutters">
-  <div class="col-sm-6">
+  <div class="col-lg-6">
     <div class="hovereffect">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
       <div class="overlay">
-        <h2>PERTH * BRIS * NOV 2020</h2>
-        <a class="info" href="#">BOOK NOW</a>
+        <h1>PERTH * BRIS * NOV 2020</h1>
+        <h2>COMING SOON</h2>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 event-box text-center">
+  <div class="col-lg-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
     <h2>RIVER ROCK FEST</h2>
@@ -57,7 +57,7 @@
 </div>
 
 <div class="row no-gutters">
-  <div class="col-sm-6 event-box text-center">
+  <div class="col-lg-6 event-box text-center">
     <div class="event-text">
     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
     <h2>BIG DAY OUT</h2>
@@ -66,12 +66,12 @@
       <p>Be the one who attended the biggest event of the year, get in early and get your tickets.</p>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-lg-6">
     <div class="hovereffect">
       <img src="images/events/event-bdo.jpg" class="img-fluid" alt="Big Day Out"/>
       <div class="overlay">
-        <h2>SYD * BRIS * DEC 2020</h2>
-        <a class="info" href="#">BOOK NOW</a>
+        <h1>SYD * BRIS * DEC 2020</h1>
+        <h2>COMING SOON</h2>
       </div>
   </div>
 </div>

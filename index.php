@@ -24,7 +24,7 @@
         </div>
       </div>
         <div class="row no-gutters">
-            <div class="col-sm-6 event-box text-center">
+            <div class="col-lg-6 event-box text-center">
               <div class="event-text">
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
                 <h2>PRODUCT LAUNCH</h2>
@@ -34,7 +34,7 @@
                 <p>Our beer+ product will become your new go to drink.</p>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
                 <img src="images/overlays/bg-launch.jpg" class="img-crop" alt="Desperados Australia Launch" /><br>
                 <img src="images/overlays/txt-launch.jpg" class="img-fluid" alt="Launch Party" />
             </div>
