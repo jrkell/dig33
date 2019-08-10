@@ -14,7 +14,11 @@
                 <p>Thank you for placing your order</p>
             </div>
         </div>
-
+        <div class="row">
+          <div class="col-sm-12">
+                      <a href="#" class="btn btn-primary">VIEW CART</a>
+                    </div>
+        </div>
         <!-- php IF magic -->
         <div class="row">
 
@@ -33,10 +37,8 @@
             </div>
           </div>
         </div>
-        <div class="row">
-                      <a href="#" class="btn btn-primary">VIEW CART</a>
-                      <div>
       </div>
+    </div>
 </main>
 <!-- PAGE CONTENT END -->
 
