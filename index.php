@@ -6,9 +6,9 @@
 <!-- PAGE CONTENT START -->
 <main id="container">
     <div class="row container-fluid">
-        <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
 
         <div class="col-sm-12 text-center">
+          <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <p>Beer and tequila.. together at last!</p>
 <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
@@ -41,12 +41,12 @@
         </div>
 
         <div class="row no-gutters">
-            <div class="col-sm-6">
+            <div class="col-lg-6">
                 <img src="images/overlays/bg-promo.jpg" class="img-crop" alt="Desperados Competitions" />
                 <br>
                 <img src="images/overlays/txt-promo.jpg" class="img-fluid" alt="Win Tickets" />
             </div>
-            <div class="col-sm-6 event-box text-center">
+            <div class="col-lg-6 event-box text-center">
               <div class="event-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                 <h2>PROMOTIONS</h2>

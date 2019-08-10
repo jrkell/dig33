@@ -7,17 +7,17 @@
 <main id="container">
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-lg-12">
       <h1 class="text-center">Hello Australia!</h1>
     </div>
   </div>
 </div>
   <div class="row no-gutters">
-    <div class="col-sm-6 text-center">
+    <div class="col-lg-6 text-center">
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
 
     </div>
-    <div class="col-sm-6 event-box text-center">
+    <div class="col-lg-6 event-box text-center">
       <div class="event-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
             <h2>Beer + Down Under</h2>
@@ -33,23 +33,23 @@
     </div>
 
     <div class="row no-gutters">
-      <div class="col-sm-6 event-box text-center">
+      <div class="col-lg-6 event-box text-center">
         <div class="event-text">
           <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
                 <h2>Save the Koala</h2>
         <p>To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
       </div>
     </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-lg-6 text-center">
         <img src="images/koala.jpg" class="img-fluid" alt="Save the Koala" />
       </div>
     </div>
 
     <div class="row no-gutters">
-      <div class="col-sm-6 text-center">
+      <div class="col-lg-6 text-center">
 
     </div>
-      <div class="col-sm-6 event-box text-center">
+      <div class="col-lg-6 event-box text-center">
         <div class="event-text">
           <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
           <h2>Promotions</h2>
