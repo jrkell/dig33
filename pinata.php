@@ -7,7 +7,7 @@ if(isset($_GET['demo'])) {
             <main class='pinata-content'>
                 <div class='row'>
                     <div id='pinata-div'>
-                        <img src='images/pinata/pinata.png' id='pinata'>
+                        <img src='images/pinata/pinata1.gif' id='pinata'>
                     </div>
                     <div id='ticket-div'>
                         <img src='images/pinata/ticket.png' id='ticket'>
@@ -25,7 +25,7 @@ if(isset($_GET['demo'])) {
 } else {
     echo "<div class='row'>
             <div id='pinata-div'>
-                <img src='images/pinata/pinata.png' id='pinata'>
+                <img src='images/pinata/pinata1.gif' id='pinata'>
             </div>
             <div id='ticket-div'>
                 <img src='images/pinata/ticket.png' id='ticket'>
