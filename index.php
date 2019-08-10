@@ -5,11 +5,10 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-    <div class="row no-gutters">
-        <img src="images/banner.jpg" alt="Desperados home page"/>
-    </div>
-    <div class="container-fluid">
-        <div class="text-center">
+    <div class="row container-fluid">
+        <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
+
+        <div class="col-sm-12 text-center">
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <p>Beer and tequila.. together at last!</p>
 <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
