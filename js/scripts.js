@@ -1,3 +1,8 @@
+$("document").ready(function () {
+    activeNav();
+});
+
+
 //------------------- Pinata Bash relevant code -------------------
 var clickCount = 0;
 var iterations = 500;
@@ -168,3 +173,24 @@ function changeToLogin() {
     xhttp.send();
 }
 // -----------------------------------------------------------------------------------------------------------------------------------------
+
+// Adds class to currently active nav link for CSS styling
+function activeNav() {
+
+    // Get current url path
+    var url = window.location.pathname;
+
+    // Separate file name from url path
+    var filename = url.substring(url.lastIndexOf('/') + 1);
+
+    // Find each nav link, if filename matches url, assign active class, else remove active class
+    $(".navbar-nav").find("a").each(function () {
+        if ($(this).attr("href") == filename) {
+            $(this).addClass("nav-active");
+        } else {
+            if ($(this).hasClass("nav-active")) {
+                $(this).removeClass("nav-active");
+            }
+        }
+    });
+}
