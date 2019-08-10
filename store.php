@@ -19,17 +19,17 @@
         <div class="row">
 
           <!-- php WHILE magic -->
-          <div class="col-sm-4">
-          <div class="card text-center">
-            <img class="card-img-top" src=" ... " alt="Product image">
+          <div class="col-sm-4 slider-bg">
+          <div class="card text-center textured">
+            <img class="card-img-top" src="images/products/slider-original.png" alt="Product image">
             <div class="card-body">
               <p class="card-text">PRODUCT DESCRIPTION</p>
 
               <!-- QUANTITY -->
-
+              <p class="card-text">QUANTITY: </p>
               <!-- ADD TO CART BUTTON -->
 
-
+              <a href="#" class="btn btn-primary">BUY STUFF</a>
             </div>
           </div>
         </div>
