@@ -2,15 +2,7 @@
 
     <!--    Link to external JS for elements which require it in the footer rather than in the header-->
     <script src="js/scripts.js"></script>
-<<<<<<< HEAD
-    
-    <div class="social">
-      <a href="https://www.facebook.com/desperados" target="blank"><img src="images/social/facebook.png" alt="Facebook link" /></a>
-      <a href="https://www.instagram.com/desperados/" target="blank"><img src="images/social/instagram.png" alt="Instagram link" /></a>
-      <a href="https://www.youtube.com/user/desperados" target="blank"><img src="images/social/youtube.png" alt="YouTube link" /></a>
-    </div>
-=======
->>>>>>> e2213b444a0784e247932ad2e4de3cf8c5daec2d
+
 
   <div class="row textured">
     <div class="col-sm-6 disclaimer">

@@ -5,33 +5,38 @@
 ?>
 
 <!-- MAIN CONTENT -->
-<main>
+<main id="container">
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>CHECKOUT</h2>
 
 <?php
   // create cookie for testing
   /*$in_cart = [1 => 20, 2 => 30];
-  
+
   setcookie('cart_items', json_encode($in_cart), time()+86400*30 , '/'); // create cookie*/
 ?>
-
-  <table>
-    <tr>
-      <th>Flavour</th>
-      <th>Quantity</th>
-      <th>Price</th>
-      <th>GST</th>
-      <th>Total Price</th>
-    </tr>
+<table class="table table-dark">
+  <thead class="thead-light">
+  <tr>
+    <th>Flavour</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>GST</th>
+    <th>Total Price</th>
+  </tr>
+</thead>
 
 <?php
 
-  
+
   /*
   $list = $_COOKIE["cart_items"];
-  
-  $list = json_decode($list, true); 
-  
+
+  $list = json_decode($list, true);
+
   foreach ($list as $id => $qty) {
     $result = mysqli_fetch_assoc(getProductFromID($id));
     $name = $result["title"];
@@ -47,7 +52,7 @@
     echo "<td>$$net_price</td>";
     echo "</tr>";
   }
-  
+
   echo "<tr><td></td><th>TOTAL:</th>";
 
   echo "</tr>";
@@ -63,7 +68,7 @@ $total_price = 0;
       if ($qty>0) {
         $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
         $result = mysqli_fetch_assoc(performQuery($query));
-        
+
 
         $name = $result["title"];
         $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
@@ -94,10 +99,13 @@ $total_price = 0;
   ?>
 
   </table>
-  
+
   <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
   <script>paypal.Buttons().render('body');</script>
 </form>
+</div>
+</div>
+</div>
 </main>
 </body>
 <!-- PAGE CONTENT END -->
