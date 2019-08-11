@@ -67,6 +67,16 @@ body {
 .textured {
   background-image: url(../images/bg-textured.jpg); }
 
+.gold {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #403E3F; }
+
 /** HEADINGS **/
 h1 {
   font-family: "Arbutus", serif;
