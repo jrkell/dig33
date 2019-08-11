@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="row slider-row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 box-blue">
                 <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
               </div>
           </div>

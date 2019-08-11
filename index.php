@@ -24,8 +24,8 @@
         </div>
       </div>
         <div class="row no-gutters">
-            <div class="col-lg-6 event-box text-center">
-              <div class="event-text">
+            <div class="col-lg-6 box-blue text-center">
+              <div class="box-text">
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
                 <h2>PRODUCT LAUNCH</h2>
                 <p>Desperados is proud to introduce their exciting beer+ product to the Australian Market.</p>
@@ -46,8 +46,8 @@
                 <br>
                 <img src="images/overlays/txt-promo.jpg" class="img-fluid" alt="Win Tickets" />
             </div>
-            <div class="col-lg-6 event-box text-center">
-              <div class="event-text">
+            <div class="col-lg-6 box-blue text-center">
+              <div class="box-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                 <h2>PROMOTIONS</h2>
                 <p>In the Desperados spirit of fun, we have an exciting new competition for you to enter.</p>

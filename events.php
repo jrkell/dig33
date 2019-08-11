@@ -14,8 +14,8 @@
   </div>
 </div>
 <div class="row no-gutters">
-  <div class="col-lg-6 event-box text-center">
-    <div class="event-text">
+  <div class="col-lg-6 box-blue text-center">
+    <div class="box-text">
     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
     <h2>JAZZ CLUB</h2>
       <p>Get your groove on at the big band music festival. <p>
@@ -44,8 +44,8 @@
       </div>
     </div>
   </div>
-  <div class="col-lg-6 event-box text-center">
-    <div class="event-text">
+  <div class="col-lg-6 box-blue text-center">
+    <div class="box-text">
     <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
     <h2>RIVER ROCK FEST</h2>
     <p>Aussie legends will be playing in a town near you for the River Rock Fest.</p>
@@ -57,8 +57,8 @@
 </div>
 
 <div class="row no-gutters">
-  <div class="col-lg-6 event-box text-center">
-    <div class="event-text">
+  <div class="col-lg-6 box-blue text-center">
+    <div class="box-text">
     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
     <h2>BIG DAY OUT</h2>
       <p>Top bands from Australia and over seas will come together to present an awesome day and evening of top hits.</p>

@@ -17,8 +17,8 @@
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
 
     </div>
-    <div class="col-lg-6 event-box text-center">
-      <div class="event-text">
+    <div class="col-lg-6 box-green text-center">
+      <div class="box-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
             <h2>Beer + Down Under</h2>
       <p>We are excited to introduce Australia to a new unique experience with our beer+ products.
@@ -33,8 +33,8 @@
     </div>
 
     <div class="row no-gutters">
-      <div class="col-lg-6 event-box text-center">
-        <div class="event-text">
+      <div class="col-lg-6 box-green text-center">
+        <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
                 <h2>Save the Koala</h2>
         <p>To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
@@ -49,8 +49,8 @@
       <div class="col-lg-6 text-center">
 
     </div>
-      <div class="col-lg-6 event-box text-center">
-        <div class="event-text">
+      <div class="col-lg-6 box-green text-center">
+        <div class="box-text">
           <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
           <h2>Promotions</h2>
           <p>To coincide with our Australian release, we have a competition that is open to Australian residents.</p>
