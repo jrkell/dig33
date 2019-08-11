@@ -194,3 +194,13 @@ function activeNav() {
         }
     });
 }
+
+// Stockists cart page - when user changes a quantity, the Proceed to Checkout button
+// changes to an Update Prices Button
+function toggleCartButtons() {
+    var update = document.getElementById("update");
+    var proceed = document.getElementById("proceed");
+    proceed.style.display = "none";
+    update.style.display = "block";
+    
+}
