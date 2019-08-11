@@ -101,9 +101,10 @@ $total_price = 0;
   </table>
 
   <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
-  <script>paypal.Buttons().render('main');</script>
+  <script>paypal.Buttons().render('article');</script>
 
 </form>
+<article class="text-center"> </article>
 </div>
 </div>
 </div>
