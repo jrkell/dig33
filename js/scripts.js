@@ -202,5 +202,7 @@ function toggleCartButtons() {
     var proceed = document.getElementById("proceed");
     proceed.style.display = "none";
     update.style.display = "block";
+    document.cartForm.action = "stockist_cart.php";              
+
     
 }

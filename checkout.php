@@ -14,7 +14,7 @@
   
   setcookie('cart_items', json_encode($in_cart), time()+86400*30 , '/'); // create cookie*/
 ?>
-<form method="POST" name="cartForm" action="checkout.php">
+
   <table>
     <tr>
       <th>Flavour</th>
@@ -60,30 +60,29 @@ $total_price = 0;
   for ($i = 1; $i <= 7; $i++) {
     if (isset($_POST[$i])) {
       $qty = $_POST[$i];
-    } else {
-      $qty = 0;
+      if ($qty>0) {
+        $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
+        $result = mysqli_fetch_assoc(performQuery($query));
+        
+
+        $name = $result["title"];
+        $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
+        $gst = number_format((float)$result["price"] * $qty / 11, 2, '.', '');
+        $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
+
+        echo "<tr>";
+        echo "<td>$name</td>";
+        echo "<td>$qty</td>";
+        echo "<td>$$gross_price</td>";
+        echo "<td>$$gst</td>";
+        echo "<td>$$net_price</td>";
+        echo "</tr>";
+
+        $total_gross += $gross_price;
+        $total_gst += $gst;
+        $total_price += $net_price;
+      }
     }
-    
-    $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
-    $result = mysqli_fetch_assoc(performQuery($query));
-    
-
-    $name = $result["title"];
-    $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
-    $gst = number_format((float)$result["price"] * $qty / 11, 2, '.', '');
-    $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
-
-    echo "<tr>";
-    echo "<td>$name</td>";
-    echo "<td><input type='number' min='0' max='480' value=$qty step='24' id=$i name=$i onchange='toggleCartButtons()'></td>";
-    echo "<td>$$gross_price</td>";
-    echo "<td>$$gst</td>";
-    echo "<td>$$net_price</td>";
-    echo "</tr>";
-
-    $total_gross += $gross_price;
-    $total_gst += $gst;
-    $total_price += $net_price;
   }
 
   echo "<tr><td></td><th>TOTAL:</th>";
@@ -95,9 +94,9 @@ $total_price = 0;
   ?>
 
   </table>
-  <button id="update" type="submit" style="display:none">Update Prices</button>
-  <button id="proceed">Proceed to Checkout</button>
-
+  
+  <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+  <script>paypal.Buttons().render('body');</script>
 </form>
 </main>
 </body>
