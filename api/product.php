@@ -43,10 +43,10 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <td>Alcohol percentage</td><td> " . number_format($product['alcohol'], 1) . "%</td>
             </tr>
             <tr>
-            <td>Nutritional values</td><td> {$product['nutritional']}</<td>
+            <td></td><td></<td>
             </tr>
             <tr>
-            <td></td><td>Per 100ml</td>
+            <td>NUTRITIONAL VALUES</td><td>Per 100ml</td>
             </tr>
             <tr><td>Energy</td><td>{$product['energy_kj']}KJ/{$product['energy_kcal']}kcal</td></tr>
             <tr><td>Fat</td><td> {$fat}g</td></tr>
@@ -56,6 +56,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <tr><td>Fibers</td><td> " . number_format($product['fiber'],1) . "g</td></tr>
             <tr><td>Protein</td><td> " . number_format($product['protein'],1) . "g</td></tr>
             <tr><td>Salt</td><td> {$salt}g</td></tr>
+            <td></td><td> {$product['nutritional']}</<td>
 
             </tbody>
             </table>
