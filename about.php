@@ -17,7 +17,7 @@
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
 
     </div>
-    <div class="col-lg-6 box-green text-center">
+    <div class="col-lg-6 box-blue text-center">
       <div class="box-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
             <h2>Beer + Down Under</h2>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="row no-gutters">
-      <div class="col-lg-6 box-green text-center">
+      <div class="col-lg-6 box-blue text-center">
         <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
                 <h2>Save the Koala</h2>
@@ -49,7 +49,7 @@
       <div class="col-lg-6 text-center">
 
     </div>
-      <div class="col-lg-6 box-green text-center">
+      <div class="col-lg-6 box-blue text-center">
         <div class="box-text">
           <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
           <h2>Promotions</h2>

@@ -35,16 +35,13 @@
               </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/overlays/bg-launch.jpg" class="img-crop" alt="Desperados Australia Launch" /><br>
-                <img src="images/overlays/txt-launch.jpg" class="img-fluid" alt="Launch Party" />
+                <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
             </div>
         </div>
 
         <div class="row no-gutters">
             <div class="col-lg-6">
-                <img src="images/overlays/bg-promo.jpg" class="img-crop" alt="Desperados Competitions" />
-                <br>
-                <img src="images/overlays/txt-promo.jpg" class="img-fluid" alt="Win Tickets" />
+                <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
             </div>
             <div class="col-lg-6 box-blue text-center">
               <div class="box-text">
