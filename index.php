@@ -5,7 +5,7 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-    <div class="row container-fluid">
+    <div class="row no-gutters">
 
         <div class="col-sm-12 text-center">
           <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>

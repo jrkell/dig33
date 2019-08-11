@@ -2,7 +2,7 @@
 
 <!--This feature is a work in progress and should be regarded as such-->
 
-<body>
+
     <main id="container">
       <div class="row no-gutters slider-bg">
         <div class="pinata-content textured" id="pinata-container">
@@ -41,6 +41,6 @@
         </div>
       </div>
     </main>
-</body>
+
 
 <?php include 'footer.php'; ?>

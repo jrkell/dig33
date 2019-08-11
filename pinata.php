@@ -24,7 +24,8 @@ if(isset($_GET['demo'])) {
             <div class='col-sm-12 text-center'>
                 <button type='button' class='btn btn-warning' onclick='restore()'>Reset</button>
             </div>
-            </div>";
+            </div>
+            </main>";
     include 'footer.php';
 } else {
     echo "<div class='row'>
