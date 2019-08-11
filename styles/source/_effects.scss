@@ -204,7 +204,7 @@
 .socialhover p {
   width: 30%;
   text-transform: none;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 2;
 }
 
@@ -223,8 +223,8 @@
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  padding: 10px;
-  font-size: 1.8em;
+  padding: 16px;
+  font-size: 24px;
 }
 
 .set1 a:first-child i {
@@ -254,7 +254,7 @@
   transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-90deg) scale3d(1,1,1);
 }
 
-.hovereffect:hover hr:nth-child(4) {
+.socialhover:hover hr:nth-child(4) {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-180deg) scale3d(1,1,1);
