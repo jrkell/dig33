@@ -1,11 +1,26 @@
 footer {
   width: 100%;
+  max-width:1366px;
   text-align: center;
-  background-color: transparent;
+  background-color: black;
+  margin: 0px auto 0px auto;
+}
+.footer-bg {
+  width: 100%;
+  background-color: #111;
+  padding: 10px;
 }
 .social {
-  max-width: 1366px;
-  text-align: right;
+  a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration:none;
+    margin: 5px;
+  }
+  a:hover {
+    color: red;
+    text-decoration:none;
+  }
 }
 .disclaimer {
   font-size:12px;
@@ -14,4 +29,5 @@ footer {
   max-width: 1366px;
   margin: 0px auto;
   padding: 10px;
+  background-color: transparent;
 }

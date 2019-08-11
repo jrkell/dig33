@@ -60,7 +60,7 @@ body {
   padding: 25px; }
 
 .textured {
-  background-image: url(../images/bg_dark.jpg); }
+  background-image: url(../images/bg-textured.jpg); }
 
 /** HEADINGS **/
 h1 {
@@ -318,7 +318,7 @@ h2 {
 .socialhover p {
   width: 30%;
   text-transform: none;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 2; }
 
 .socialhover p a {
@@ -334,8 +334,8 @@ h2 {
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  padding: 10px;
-  font-size: 1.8em; }
+  padding: 16px;
+  font-size: 24px; }
 
 .set1 a:first-child i {
   -webkit-transform: translate3d(-60px, -60px, 0);
@@ -359,7 +359,7 @@ h2 {
   -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -90deg) scale3d(1, 1, 1);
   transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -90deg) scale3d(1, 1, 1); }
 
-.hovereffect:hover hr:nth-child(4) {
+.socialhover:hover hr:nth-child(4) {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -180deg) scale3d(1, 1, 1);
@@ -374,12 +374,24 @@ h2 {
 /** FOOTER STYLES **/
 footer {
   width: 100%;
-  text-align: center;
-  background-color: transparent; }
-
-.social {
   max-width: 1366px;
-  text-align: right; }
+  text-align: center;
+  background-color: black;
+  margin: 0px auto 0px auto; }
+
+.footer-bg {
+  width: 100%;
+  background-color: #111;
+  padding: 10px; }
+
+.social a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 5px; }
+.social a:hover {
+  color: red;
+  text-decoration: none; }
 
 .disclaimer {
   font-size: 12px;
@@ -387,7 +399,8 @@ footer {
   width: 100;
   max-width: 1366px;
   margin: 0px auto;
-  padding: 10px; }
+  padding: 10px;
+  background-color: transparent; }
 
 /** CONTACT FORM **/
 .contact-form div {
