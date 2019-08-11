@@ -104,7 +104,7 @@ $total_price = 0;
   <script>paypal.Buttons().render('article');</script>
 
 </form>
-<article class="text-center"> </article>
+<article class="text-center paypal"> </article>
 </div>
 </div>
 </div>

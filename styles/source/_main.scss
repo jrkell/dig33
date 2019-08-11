@@ -1,11 +1,17 @@
 $font-stack: 'Allerta', sans-serif;
 $font-title: 'Arbutus', serif;
 $font-heading: 'Ranchers', serif;
+
 $tt-red: #e10017;
 $tt-green: #169f00;
 $tt-yellow: #ffcf11;
 $tt-orange: #fe6600;
 
+$tt-dark1: #403E3F; /* Light grey */
+$tt-dark2: #1F1E26; /* Dark grey-blue */
+$tt-dark3: #25261E; /* Dark grey-green */
+$tt-dark4: #0D0C0B; /* Dark almost black */
+$tt-dark5: #262523; /* Dark grey */
 
 body {
   font-family: $font-stack;
@@ -21,7 +27,7 @@ body {
 #container {
   width: 100%;
   max-width:1366px;
-  background-color: black;
+  background-color: $tt-dark4;
   margin: 0px auto 0px auto;
 }
 
@@ -97,7 +103,7 @@ h2 {
 }
 
 .event-box {
-  background-color: #111111;
+  background-color: $tt-dark2;
 }
 .event-text {
   width: 80%;
@@ -133,4 +139,14 @@ h2 {
   img.event-small {
     max-width:none;
   }
+}
+
+
+
+/** SHOPPING CART **/
+.paypal {
+  margin-top: 50px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }

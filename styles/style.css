@@ -40,6 +40,11 @@ a.navbar-brand:hover {
   border: none; }
 
 /** MAIN STYLES **/
+/* Light grey */
+/* Dark grey-blue */
+/* Dark grey-green */
+/* Dark almost black */
+/* Dark grey */
 body {
   font-family: "Allerta", sans-serif;
   color: #f8f8ff;
@@ -53,7 +58,7 @@ body {
 #container {
   width: 100%;
   max-width: 1366px;
-  background-color: black;
+  background-color: #0D0C0B;
   margin: 0px auto 0px auto; }
 
 .row {
@@ -110,7 +115,7 @@ h2 {
   padding: 0; }
 
 .event-box {
-  background-color: #111111; }
+  background-color: #1F1E26; }
 
 .event-text {
   width: 80%;
@@ -138,6 +143,13 @@ h2 {
 
   img.event-small {
     max-width: none; } }
+/** SHOPPING CART **/
+.paypal {
+  margin-top: 50px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -372,16 +384,21 @@ h2 {
   filter: alpha(opacity=100); }
 
 /** FOOTER STYLES **/
+/* Light grey */
+/* Dark grey-blue */
+/* Dark grey-green */
+/* Dark almost black */
+/* Dark grey */
 footer {
   width: 100%;
   max-width: 1366px;
   text-align: center;
-  background-color: black;
+  background-color: #262523;
   margin: 0px auto 0px auto; }
 
 .footer-bg {
   width: 100%;
-  background-color: #111;
+  background-color: #262523;
   padding: 10px; }
 
 .social a {

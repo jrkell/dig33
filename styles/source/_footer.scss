@@ -1,13 +1,20 @@
+
+$tt-dark1: #403E3F; /* Light grey */
+$tt-dark2: #1F1E26; /* Dark grey-blue */
+$tt-dark3: #25261E; /* Dark grey-green */
+$tt-dark4: #0D0C0B; /* Dark almost black */
+$tt-dark5: #262523; /* Dark grey */
+
 footer {
   width: 100%;
   max-width:1366px;
   text-align: center;
-  background-color: black;
+  background-color: $tt-dark5;
   margin: 0px auto 0px auto;
 }
 .footer-bg {
   width: 100%;
-  background-color: #111;
+  background-color: $tt-dark5;
   padding: 10px;
 }
 .social {

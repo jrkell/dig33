@@ -4,7 +4,7 @@
     <script src="js/scripts.js"></script>
 
 
-  <div class="row textured">
+  <div class="row">
     <div class="col-sm-6 disclaimer">
       <p>Copyright &copy; 2019 Tequila Techies</p>
     </div>
