@@ -1,16 +1,18 @@
 .pinata-content {
-    width: 20vw;
-    height: 20vh;
-    margin: 20vh 40vw 0 40vw;
-    position: relative;
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+    margin: auto;
+    position: top center;
     display: block;
+    border: 2px solid red;
 }
 
 #pinata-div,
 #ticket-div {
-    position: absolute;
-    top: 0;
-    left: 0;
+  /*  position: top center;
+   top: 0;
+    left: 0; */
 }
 
 #ticket-div {
@@ -19,21 +21,21 @@
 }
 
 #pinata {
-    width: 20vw;
-    height: 20vw;
+    width: 444px;
+    max-width: 444px;
+    height: auto;
     margin: auto;
 }
 
 #ticket {
-    width: 10vw;
-    height: 10vw;
-    margin: 0 5vw;
+    width: 500px;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+/*    margin: 20vh 5vw; */
 }
 
-#restore {
-    width: 10vw;
-    margin: 40vh 45vw 0 45vw;
-}
+
 
 @-webkit-keyframes swinging {
     0% {
