@@ -23,16 +23,16 @@ $product = mysqli_fetch_assoc(getProduct($title));
         </div>
 
         <div class='col-sm-6' style='padding:20px;'>
-          <table class='table table-dark table-striped'>
+          <table class='table table-dark table-striped table-sm'>
           <thead>
           <tr>
-            <h2>PRODUCT INFO</h2>
-            <p>Description: {$product['short_desc']}</p>
+            <h2>{$product['title']}</h2>
+            <h3>{$product['short_desc']}</h3>
             </tr>
             </thead>
             <tbody>
             <tr>
-            <td>Contents</td><td> {$product['contents']}</td>
+            <td class='w-30'>PRODUCT INFO</td><td> {$product['contents']}</td>
             <tr>
             <td>Ingredients</td><td> {$product['ingredients']}</td>
             </tr>

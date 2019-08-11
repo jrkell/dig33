@@ -110,6 +110,7 @@ h2 {
 
   div.card-img-overlay p {
     font-size: 2.8em; } }
+/** Page section backgrounds **/
 .no-gutters {
   margin: 0;
   padding: 0; }
@@ -152,6 +153,10 @@ h2 {
   max-width: 250px;
   margin-left: auto;
   margin-right: auto; }
+
+/** PRODUCT INFO **/
+.w-30 {
+  width: 30% !important; }
 
 .hovereffect {
   width: 100%;

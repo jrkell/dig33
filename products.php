@@ -12,13 +12,10 @@
             <div class="col-sm-12 text-center">
                 <h1>BROWSE OUR PRODUCTS</h1>
                 <p>Beer and tequila.. together at last!</p>
+                <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
             </div>
         </div>
-        <div class="row slider-row">
-            <div class="col-sm-12 box-blue">
-                <h2 class="text-center">OUR BEER+ EXPERIENCE</h2>
-              </div>
-          </div>
+
         </div>
           <div class="row no-gutters slider-bg">
 
