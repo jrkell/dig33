@@ -31,33 +31,6 @@
 
 <?php
 
-
-  /*
-  $list = $_COOKIE["cart_items"];
-
-  $list = json_decode($list, true);
-
-  foreach ($list as $id => $qty) {
-    $result = mysqli_fetch_assoc(getProductFromID($id));
-    $name = $result["title"];
-    $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
-    $gst = number_format((float)$result["price"] * $qty / 11, 2, '.', '');
-    $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
-
-    echo "<tr>";
-    echo "<td>$name</td>";
-    echo "<td>$qty</td>";
-    echo "<td>$$gross_price</td>";
-    echo "<td>$$gst</td>";
-    echo "<td>$$net_price</td>";
-    echo "</tr>";
-  }
-
-  echo "<tr><td></td><th>TOTAL:</th>";
-
-  echo "</tr>";
-*/
-
 $total_gross = 0;
 $total_gst = 0;
 $total_price = 0;
@@ -68,7 +41,6 @@ $total_price = 0;
       if ($qty>0) {
         $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
         $result = mysqli_fetch_assoc(performQuery($query));
-
 
         $name = $result["title"];
         $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');

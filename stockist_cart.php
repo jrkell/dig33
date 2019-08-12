@@ -22,6 +22,7 @@
   <table class="table table-dark">
     <thead class="thead-light">
     <tr>
+      <th></th>
       <th>Flavour</th>
       <th>Quantity</th>
       <th>Price</th>
@@ -31,33 +32,6 @@
   </thead>
 
 <?php
-
-
-  /*
-  $list = $_COOKIE["cart_items"];
-
-  $list = json_decode($list, true);
-
-  foreach ($list as $id => $qty) {
-    $result = mysqli_fetch_assoc(getProductFromID($id));
-    $name = $result["title"];
-    $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
-    $gst = number_format((float)$result["price"] * $qty / 11, 2, '.', '');
-    $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
-
-    echo "<tr>";
-    echo "<td>$name</td>";
-    echo "<td>$qty</td>";
-    echo "<td>$$gross_price</td>";
-    echo "<td>$$gst</td>";
-    echo "<td>$$net_price</td>";
-    echo "</tr>";
-  }
-
-  echo "<tr><td></td><th>TOTAL:</th>";
-
-  echo "</tr>";
-*/
 
 $total_gross = 0;
 $total_gst = 0;
@@ -73,6 +47,10 @@ $total_price = 0;
     $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
     $result = mysqli_fetch_assoc(performQuery($query));
 
+    $img_query = "SELECT * FROM image WHERE title='tn_$i';";
+    $img_result = mysqli_fetch_assoc(performQuery($img_query));
+    $img = $img_result["url"];
+    $img_alt = $img_result["alt_desc"];
 
     $name = $result["title"];
     $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
@@ -80,6 +58,7 @@ $total_price = 0;
     $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
 
     echo "<tr>";
+    echo "<td><img src=$img alt=$img_alt/></td>";
     echo "<td>$name</td>";
     echo "<td><input type='number' min='0' max='480' value=$qty step='24' id=$i name=$i onchange='toggleCartButtons()'></td>";
     echo "<td>$$gross_price</td>";
