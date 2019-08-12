@@ -3,14 +3,17 @@
 <!--This feature is a work in progress and should be regarded as such-->
 
 
-    <main id="container">
-      <div class="row no-gutters slider-bg">
-        <div class="pinata-content textured" id="pinata-container">
+<main id="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h1>PINATA BASH</h1>
+      <p>Tap the pinata to reveal your ticket entry!</p>
+    </div>
+  </div>
             <!--Checks if user has logged in or not-->
             <?php
             if(isset($_COOKIE["user_verified"]))
             {
-                echo "<p>Welcome!</p>";
                 include "pinata.php";
             }
             else
@@ -38,8 +41,7 @@
 
             }
             ?>
-        </div>
-      </div>
+
     </main>
 
 
