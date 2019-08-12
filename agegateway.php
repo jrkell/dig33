@@ -15,7 +15,7 @@
 
         // if they are over 18, create cookie to not show age gate for 30 days
         if ($dob <= $min_date) {
-            setcookie("age_verified","true", time() + (86400*30) , "/"); // create cookie
+            setcookie("age_verified","true", time() + (86400*1) , "/"); // create cookie
             header("Location: index.php");
 
         // else give an error

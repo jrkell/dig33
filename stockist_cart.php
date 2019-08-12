@@ -13,10 +13,9 @@
               <h1>WHOLESALE ORDER FORM</h2>
 
 <?php
-  // create cookie for testing
-  /*$in_cart = [1 => 20, 2 => 30];
-
-  setcookie('cart_items', json_encode($in_cart), time()+86400*30 , '/'); // create cookie*/
+  if (isset($_GET["success"])) {
+    echo "<div>Account created. Welcome!<br>Place your order below.</div>";
+  }
 ?>
 <form method="POST" name="cartForm" action="checkout.php">
   <table class="table table-dark">
@@ -76,7 +75,7 @@ $total_price = 0;
   echo "<td>$$total_gst</td>";
   echo "<td>$$total_price</td></tr>";
 
-  //echo json_encode($result);
+  
   ?>
 
   </table>

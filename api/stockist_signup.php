@@ -1,28 +1,35 @@
 <?php
 include 'queries.php';
 
-//This feature is a work in progress and should be regarded as such
-
 if(isset($_POST)) {
+    // if the form has been submitted
+
+    // get inputs
     $name = $_POST['name'];
-      $email = $_POST['email'];
-      $address = $_POST['address'];
-      $pw = $_POST['pw'];
-}
+    $email = $_POST['email'];
+    $address = $_POST['address'];
+    $pw = $_POST['pw'];
 
+    // check if email is already used
+    if(userExists($email, 'stockist')) {
+        header("Location: ../wholesale.php?inuse&signup");
+        
+        // this will never run as already redirected...
+        // echo "<script>alert('An account already exists with that email!<br>Try logging in instead.');</script>";
+    } else {
+        // Password is hashed, stockist is added to database, page is redirected to login
+        $hash = password_hash($pw, PASSWORD_DEFAULT);
+        addStockist($name, $email, $address, $hash);
+        //$user = mysqli_fetch_assoc(getUser($email, 'stockist'));
+        //$id = $user['stockist_id'];
+        setcookie('stockist_verified', $email, 0 , '/'); // create cookie     
+        header("Location: ../stockist_cart.php?success");
+    }
 
-if(userExists($email, 'stockist')) {
-    // Checks if account already exists and notifies user
-    header("Location: ../stockists.php");
-    echo "<script>alert('An account already exists with that email!<br>Try logging in instead.');</script>";
-//} else if($pass1 != $pass2) {
-    // Reject sign up and prompt to correct password
 } else {
-    // Password is hashed, stockist is added to database, page is redirected to login
-    $hash = password_hash($pw, PASSWORD_DEFAULT);
-    addStockist($name, $email, $address, $hash);
-    header("Location: ../stockists.php");
-    echo "<script>alert('Successfully signed up. Welcome!');</script>;";
+    // redirect if the form hasn't been submitted
+    header("Location: ../wholesale.php");
 }
+
 
 ?>

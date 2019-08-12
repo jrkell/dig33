@@ -16,12 +16,18 @@
         </div>
 
         <?php
-    if(isset($_GET['success']))
+    /*if(isset($_GET['success']))
     {
         //success code
         echo '<p>You are logged in!</p>';
+    }*/
+    if(isset($_GET['inuse'])) {
+      echo "<div class='error'>Email address already in use. Try another address or <a href='wholesale.php'>log in.</a></div>";
     }
-    else if(isset($_GET['signup']))
+    if(isset($_GET['incorrect'])) {
+      echo "<div class='error'>Incorrect login details. Please try again.</div>";
+    }
+    if(isset($_GET['signup']))
     {
         // else show signup form
         echo '<form action="api/stockist_signup.php" method="post">
@@ -47,12 +53,12 @@
 
       <input type="submit" class="btn btn-primary" value="Signup">
       </form>
-      <p>Already signed up? <a href="stockists.php">Log in!</a></p>';
+      <p>Already signed up? <a href="wholesale.php">Log in!</a></p>';
     }
     else
     {
         // default - show login form
-        echo '<form action="api/stockist_login.php" method="post">
+      echo '<form action="api/stockist_login.php" method="post">
       <div class="form-group">
         <label for="login">Email:</label>
         <input type="text" class="form-control" name="login" id="login" required><br>
@@ -65,7 +71,7 @@
 
       <input class="btn btn-primary" type="submit" value="Login">
     </form>
-    <p>New here? <a href="stockists.php?signup">Sign up!</a></p>';
+    <p>New here? <a href="wholesale.php?signup">Sign up!</a></p>';
     }
 ?>
 

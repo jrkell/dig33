@@ -4,7 +4,10 @@
         header("Location: agegateway.php");
         die();
     }
+
     include 'api/queries.php';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -54,9 +57,9 @@
             <a class="navbar-brand" href="index.php"><img src="images/logo-sml.png" alt="Desperados Logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+            </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
@@ -76,18 +79,29 @@
                     <!-- Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Stockists
+                            Stockists
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="stockists.php">FIND A STOCKIST</a>
-                          <a class="dropdown-item" href="wholesale.php">WHOLESALE LOGIN</a>
+                            <a class="dropdown-item" href="stockists.php">FIND A STOCKIST</a>
+                            <a class="dropdown-item" href="wholesale.php">WHOLESALE LOGIN</a>
                         </div>
-                      </li>
+                    </li>
 
-                      <li class="nav-item">
-                          <a class="nav-link" href="contact.php">Contact Us</a>
-                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact Us</a>
+                    </li>
                 </ul>
-              </div>
+            </div>
         </nav>
+        <?php
+            if (isset($_COOKIE["stockist_verified"])) 
+            {
+                if($_COOKIE["stockist_verified"]!="false") {
+                    $email = $_COOKIE["stockist_verified"];
+                    $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
+                    $name = $user['name'];
+                    echo "<div>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/stockist_logout.php'>Logout</a></div>";
+                }
+            }
+        ?>
     </header>
