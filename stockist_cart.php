@@ -18,7 +18,7 @@
   }
 ?>
 <form method="POST" name="cartForm" action="checkout.php">
-  <table class="table table-dark table-striped order-form">
+  <table class="table table-dark table-striped">
     <thead class="thead-light">
     <tr>
       <th></th>
@@ -57,12 +57,12 @@ $total_price = 0;
     $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
 
     echo "<tr>";
-    echo "<td><img src=$img alt=$img_alt/></td>";
-    echo "<td>$name</td>";
-    echo "<td><input type='number' min='0' max='480' value=$qty step='24' id=$i name=$i onchange='toggleCartButtons()'></td>";
-    echo "<td>$$gross_price</td>";
-    echo "<td>$$gst</td>";
-    echo "<td>$$net_price</td>";
+    echo "<td class='align-middle order-form'><img src=$img alt=$img_alt/></td>";
+    echo "<td class='align-middle'>$name</td>";
+    echo "<td class='align-middle'><input type='number' min='0' max='480' value=$qty step='24' id=$i name=$i onchange='toggleCartButtons()'></td>";
+    echo "<td class='align-middle'>$$gross_price</td>";
+    echo "<td class='align-middle'>$$gst</td>";
+    echo "<td class='align-middle'>$$net_price</td>";
     echo "</tr>";
 
     $total_gross += $gross_price;
