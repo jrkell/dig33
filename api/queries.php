@@ -111,7 +111,7 @@ function listStockists() {
       echo "<div class='row'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo
-            "<div class='card col-sm-4'>
+            "<div class='card'>
             <img src='{$row['imgurl']}' class='card-img-top' alt='{$row['name']}'/>
             <div class='card-body'>
             <h5 class='card-title'>{$row['name']}</h5>
