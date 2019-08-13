@@ -94,13 +94,13 @@
             </div>
         </nav>
         <?php
-            if (isset($_COOKIE["stockist_verified"])) 
+            if (isset($_COOKIE["stockist_verified"]))
             {
                 if($_COOKIE["stockist_verified"]!="false") {
                     $email = $_COOKIE["stockist_verified"];
                     $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
                     $name = $user['name'];
-                    echo "<div>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/stockist_logout.php'>Logout</a></div>";
+                    echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/stockist_logout.php'>Logout</a></div>";
                 }
             }
         ?>

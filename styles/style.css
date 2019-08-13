@@ -54,6 +54,15 @@ a.navbar-brand:hover {
 .dropdown-menu.show {
   background-color: black; }
 
+.logged-in {
+  text-align: right; }
+  .logged-in a {
+    color: white;
+    text-decoration: none; }
+  .logged-in a:hover {
+    color: red;
+    border-bottom: 1px red solid; }
+
 /** MAIN STYLES **/
 /* Light grey */
 /* Dark grey-blue */
@@ -172,7 +181,7 @@ h2 {
 
   img.event-small {
     max-width: none; } }
-/** SHOPPING CART **/
+/** ORDER FORM AND SHOPPING CART **/
 .paypal {
   margin-top: 50px;
   max-width: 250px;
@@ -182,6 +191,9 @@ h2 {
 /** PRODUCT INFO **/
 .w-30 {
   width: 30% !important; }
+
+td.order-form {
+  vertical-align: middle; }
 
 .hovereffect {
   width: 100%;

@@ -77,3 +77,15 @@ a.navbar-brand:hover {
 .dropdown-menu.show {
   background-color: black;
 }
+
+.logged-in {
+  text-align: right;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    border-bottom: 1px red solid;
+  }
+}

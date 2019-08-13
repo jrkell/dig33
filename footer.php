@@ -2,20 +2,23 @@
 
     <!--    Link to external JS for elements which require it in the footer rather than in the header-->
     <script src="js/scripts.js"></script>
-
-
-  <div class="row footer-row align-items-center">
+    <div class="row footer-row">
+      <div class="col-sm-12">
+        <hr class="dark-line">
+      </div>
+    </div>
+    <div class="row footer-row align-items-end">
     <div class="col-sm-4 copyright">
       <img src="images/medallion.png" alt="Desperados medallion">
       <p>Copyright &copy; 2019 <a href="#">Tequila Techies</a></p>
-      <a href="#">Terms and Conditions</a> | 
+      <a href="#">Terms and Conditions</a> |
       <a href="#">Drink Responsibly</a>
     </div>
     <div class="col-sm-4 text-center">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
     </div>
     <div class="col-sm-4 social">
-      <span>Connect with us: </span>
+      <p>Connect with us </p>
       <a href="https://www.youtube.com/user/desperados" target="blank">
         <i class="fab fa-youtube"></i>
       </a>

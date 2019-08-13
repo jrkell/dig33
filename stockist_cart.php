@@ -18,7 +18,7 @@
   }
 ?>
 <form method="POST" name="cartForm" action="checkout.php">
-  <table class="table table-dark">
+  <table class="table table-dark table-striped order-form">
     <thead class="thead-light">
     <tr>
       <th></th>
@@ -75,7 +75,7 @@ $total_price = 0;
   echo "<td>$$total_gst</td>";
   echo "<td>$$total_price</td></tr>";
 
-  
+
   ?>
 
   </table>

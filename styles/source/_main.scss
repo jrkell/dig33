@@ -159,7 +159,7 @@ h2 {
 
 
 
-/** SHOPPING CART **/
+/** ORDER FORM AND SHOPPING CART **/
 .paypal {
   margin-top: 50px;
   max-width: 250px;
@@ -170,4 +170,8 @@ h2 {
 /** PRODUCT INFO **/
 .w-30 {
   width: 30% !important;
+}
+
+td.order-form {
+  vertical-align: middle;
 }
