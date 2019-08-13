@@ -57,7 +57,7 @@ $total_price = 0;
     $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
 
     echo "<tr>";
-    echo "<td class='align-middle order-form'><img src=$img alt=$img_alt/></td>";
+    echo "<td class='align-middle order-form'><img src=$img class='img-fluid' alt=$img_alt/></td>";
     echo "<td class='align-middle'>$name</td>";
     echo "<td class='align-middle'><input type='number' min='0' max='480' value=$qty step='24' id=$i name=$i onchange='toggleCartButtons()'></td>";
     echo "<td class='align-middle'>$$gross_price</td>";

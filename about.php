@@ -47,14 +47,16 @@
 
     <div class="row no-gutters">
       <div class="col-lg-6 text-center">
+        <img src="images/about-promo.jpg" class="img-fluid" alt="Promotions" />
+      </div>
 
-    </div>
       <div class="col-lg-6 box-blue text-center">
         <div class="box-text">
           <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
           <h2>Promotions</h2>
           <p>To coincide with our Australian release, we have a competition that is open to Australian residents.</p>
-          <p>The Pinata Bash gives you the chance to win tickets to one of our Launch Parties!</p>
+          <p>Use your specially marked receipts to play the Pinata Bash for your chance to win tickets to one of our Launch Parties!</p>
+
           <p class="disclaimer">For a limited time only. Conditions Apply.</p>
         </div>
       </div>
