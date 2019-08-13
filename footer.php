@@ -4,12 +4,15 @@
     <script src="js/scripts.js"></script>
 
 
-  <div class="row">
-    <div class="col-sm-6 disclaimer">
+  <div class="row footer-row align-items-center">
+    <div class="col-sm-4 copyright-img">
       <p>Copyright &copy; 2019 Tequila Techies</p>
     </div>
-    <div class="col-sm-6 social">
-      <p>Connect with us: </p>
+    <div class="col-sm-4 text-center">
+      <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
+    </div>
+    <div class="col-sm-4 social">
+      <span>Connect with us: </span>
       <a href="https://www.youtube.com/user/desperados" target="blank">
         <i class="fab fa-youtube"></i>
       </a>
@@ -24,8 +27,7 @@
       </a>
       </div>
   </div>
-  <div class="row">
-    <hr class="gold">
+  <div class="row footer-row">
     <div class="col-lg-12 disclaimer">
       <hr class="dark-line">
       <p>This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author.

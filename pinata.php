@@ -2,6 +2,7 @@
 
 //Displays different markup for the demo version while the release version is being finalised
 if(isset($_GET['demo'])) {
+    $title = "PINATA BASH - Porque no los dos?";
     include 'header.php';
     echo " <main id='container'>
       <div class='row text-center'>
@@ -10,7 +11,7 @@ if(isset($_GET['demo'])) {
           <p>Tap the pinata to reveal your ticket entry!</p>
         </div>
       </div>
-      
+
       <div class='pinata-content text-center'>
           <div id='pinata-div'>
             <img src='images/pinata/pinata1.gif' id='pinata'>
