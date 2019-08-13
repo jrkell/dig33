@@ -111,12 +111,13 @@ function listStockists() {
       echo "<div class='row'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo
-            "<div class='col-sm-4'>
-            <img src='{$row['imgurl']}' alt='{$row['name']}'/>
-            <h3>{$row['name']}</h3>
-            <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
-            <p>Give us a call: {$row['phone']}</p>
-            <a href='{$row['supurl']}'>BUY FROM {$row['name']}'</a><br><hr><br>
+            "<div class='card col-sm-4'>
+            <img src='{$row['imgurl']}' class='card-img-top' alt='{$row['name']}'/>
+            <div class='card-body'>
+            <h5 class='card-title'>{$row['name']}</h5>
+            <p class='card-text'>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
+            <p class='card-text'>Give us a call: {$row['phone']}</p>
+            <a href='{$row['supurl']}' class='card-link'>BUY FROM {$row['name']}'</a><br><hr><br>
             </div>";
         }
         echo "</div>";

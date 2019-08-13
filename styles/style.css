@@ -55,9 +55,11 @@ a.navbar-brand:hover {
   background-color: black; }
 
 .logged-in {
-  text-align: right; }
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 10px; }
   .logged-in a {
-    color: white;
+    color: gray;
     text-decoration: none; }
   .logged-in a:hover {
     color: red;
@@ -439,7 +441,7 @@ footer {
   width: 100%;
   max-width: 1366px;
   text-align: center;
-  background-color: #111;
+  background-color: #1e1e1f;
   margin: 0px auto 0px auto; }
 
 .footer-bg {

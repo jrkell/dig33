@@ -80,8 +80,10 @@ a.navbar-brand:hover {
 
 .logged-in {
   text-align: right;
+  padding:5px;
+  margin-bottom: 10px;
   a {
-    color: white;
+    color: gray;
     text-decoration: none;
   }
   a:hover {
