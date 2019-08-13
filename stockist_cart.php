@@ -70,7 +70,7 @@ $total_price = 0;
     $total_price += $net_price;
   }
 
-  echo "<tr><td></td><th>TOTAL:</th>";
+  echo "<tr><td></td><td></td><th>TOTAL:</th>";
   echo "<td>$$total_gross</td>";
   echo "<td>$$total_gst</td>";
   echo "<td>$$total_price</td></tr>";
