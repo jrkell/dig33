@@ -5,8 +5,11 @@
 
 
   <div class="row footer-row align-items-center">
-    <div class="col-sm-4 copyright-img">
-      <p>Copyright &copy; 2019 Tequila Techies</p>
+    <div class="col-sm-4 copyright">
+      <img src="images/medallion.png" alt="Desperados medallion">
+      <p>Copyright &copy; 2019 <a href="#">Tequila Techies</a></p>
+      <a href="#">Terms and Conditions</a> | 
+      <a href="#">Drink Responsibly</a>
     </div>
     <div class="col-sm-4 text-center">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>

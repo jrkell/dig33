@@ -42,8 +42,17 @@ footer {
 .footer-row {
   padding:0;
 }
-.copyright-img {
-  background-image: url(../images/medallion.png);
-  background-repeat:no-repeat;
-  position: top left;
+
+.copyright {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+  img {
+    float: left;
+  }
 }

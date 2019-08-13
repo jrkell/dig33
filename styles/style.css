@@ -457,10 +457,14 @@ footer {
 .footer-row {
   padding: 0; }
 
-.copyright-img {
-  background-image: url(../images/medallion.png);
-  background-repeat: no-repeat;
-  position: top left; }
+.copyright a {
+  color: white;
+  text-decoration: none; }
+.copyright a:hover {
+  color: yellow;
+  text-decoration: none; }
+.copyright img {
+  float: left; }
 
 /** CONTACT FORM **/
 .contact-form div {
