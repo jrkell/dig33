@@ -7,7 +7,6 @@ $tt-dark5: #262523; /* Dark grey */
 
 footer {
   width: 100%;
-  max-width:1366px;
   text-align: center;
   background-color: #1e1e1f;
   margin: 0px auto 0px auto;
@@ -41,6 +40,10 @@ footer {
 }
 .footer-row {
   padding:0;
+  width: 100%;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .copyright {

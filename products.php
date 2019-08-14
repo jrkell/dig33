@@ -11,7 +11,6 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h1>BROWSE OUR FLAVOURS</h1>
-                <p>Beer and tequila.. together at last!</p>
                 <h2 class="text-center">ENJOY THE BEER+ EXPERIENCE</h2>
             </div>
         </div>
