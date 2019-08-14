@@ -24,7 +24,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
         <div class='col-sm-6' style='padding:20px;'>
           <table class='table table-dark table-striped table-sm'>
-          <thead>
+          <thead class='text-center'>
           <tr>
             <h2>{$product['title']}</h2>
             <h3>{$product['short_desc']}</h3>
