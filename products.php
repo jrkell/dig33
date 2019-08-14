@@ -25,7 +25,7 @@
                 </ul>
 
             </div>
-        <div class='row' id='product'></div>
+        <div class='row transparent' id='product'></div>
         <?php
             //If page is reached by clicking on a product from the slider, display that product.
             if(isset($_GET['product'])) {

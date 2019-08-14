@@ -21,7 +21,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
             </div>
             <div class='box-text'>
-            <h3>" . strtoupper($product['title']) . "</h3>
+            <br><h3>" . strtoupper($product['title']) . "</h3>
             <p>{$product['long_desc']}</p>
             </div>
         </div>

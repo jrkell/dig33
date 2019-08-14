@@ -27,7 +27,6 @@ body {
 #container {
   width: 100%;
   max-width:1366px;
-  background-color: $tt-dark4;
   margin: 0px auto 0px auto;
 }
 
@@ -43,6 +42,9 @@ body {
   padding: 5px;
 }
 
+.transparent {
+  background-color: transparent;
+}
 .dark-line {
   display: block;
   margin-top: 0.5em;
