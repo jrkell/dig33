@@ -93,6 +93,10 @@ body {
 .textured {
   background-image: url(../images/bg-textured.jpg); }
 
+.boxed {
+  background-image: url(../images/beer_box.png);
+  padding: 5px; }
+
 .dark-line {
   display: block;
   margin-top: 0.5em;
@@ -171,7 +175,7 @@ h2 {
   object-position: center top; }
 
 .tt-icon {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px; }
 
 @media only screen and (max-width: 1024px) {
