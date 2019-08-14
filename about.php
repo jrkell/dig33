@@ -35,9 +35,9 @@
     <div class="row no-gutters">
       <div class="col-lg-6 box-blue text-center">
         <div class="box-text">
-          <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
+          <img src="images/icon-green.png" class="tt-icon" style="padding-top:25px;" alt="Icon"/>
                 <h2>Save the Koala</h2>
-        <p>To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
+        <p class="text-center">To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
       </div>
     </div>
       <div class="col-lg-6 text-center">
@@ -57,7 +57,7 @@
           <p>To coincide with our Australian release, we have a competition that is open to Australian residents.</p>
           <p>Use your specially marked receipts to play the Pinata Bash for your chance to win tickets to one of our Launch Parties!</p>
 
-          <p class="disclaimer">For a limited time only. Conditions Apply.</p>
+          <p class="disclaimer text-right">* For a limited time only. Conditions Apply.</p>
         </div>
       </div>
     </div>

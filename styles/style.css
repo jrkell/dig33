@@ -73,8 +73,8 @@ a.navbar-brand:hover {
 /* Dark almost black */
 /* Dark grey */
 body {
-  font-family: "Allerta", sans-serif;
-  color: #f8f8ff;
+  font-family: "Lexend Exa", sans-serif;
+  color: #FFF8DC;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -120,7 +120,7 @@ h1 {
 h2 {
   color: #ffcf11;
   font-size: 3em;
-  font-family: "Ranchers", serif;
+  font-family: "Special Elite", serif;
   text-transform: uppercase; }
 
 .contact-form {
@@ -130,7 +130,7 @@ h2 {
 /* Call to Action links */
 .c2a a {
   color: #ffcf11;
-  font-family: "Ranchers", serif;
+  font-family: "Special Elite", serif;
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
