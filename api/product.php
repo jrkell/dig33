@@ -16,27 +16,31 @@ $product = mysqli_fetch_assoc(getProduct($title));
         $salt=number_format($product['salt'],2);
     }
 
-    echo "<div class='col-lg-6 text-center' style='padding:20px;'>
-          <div class='boxed'>
-            <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
+    echo "<div class='row'>
+            <div class='col-lg-6 text-center'>
+              <div class='boxed'>
+                <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
+              </div>
             </div>
-            <div class='box-text'>
-            <br><h3>" . strtoupper($product['title']) . "</h3>
-            <p>{$product['long_desc']}</p>
+            <div class='col-lg-6 text-center'>
+              <div class='box-text'>
+              <h2 class='text-center'>{$product['title']}</h2>
+              <h3 class='text-center'>{$product['short_desc']}</h3><br>
+              <p>{$product['long_desc']}</p>
             </div>
-        </div>
+          </div>
 
-        <div class='col-lg-6' style='padding:20px;'>
+        <div class='row'>
+          <div class='col-lg-12'>
           <table class='table table-dark table-striped table-sm'>
-          <thead'>
+          <thead>
           <tr>
-            <h2 class='text-center'>{$product['title']}</h2>
-            <h3 class='text-center'>{$product['short_desc']}</h3><br>
+          <h3>PRODUCT INFO</h3>
             </tr>
             </thead>
             <tbody>
             <tr>
-            <td class='w-30'>PRODUCT INFO</td><td> {$product['contents']}</td>
+            <td class='w-30'>Contents</td><td> {$product['contents']}</td>
             <tr>
             <td>Ingredients</td><td> {$product['ingredients']}</td>
             </tr>
@@ -64,5 +68,6 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
             </tbody>
             </table>
+            </div>
         </div>" ;
 ?>
