@@ -457,8 +457,11 @@ footer {
 
 .footer-bg {
   width: 100%;
+  max-width: 1366px;
   background-color: #262523;
-  padding: 10px; }
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .social {
   display: block; }
@@ -481,11 +484,7 @@ footer {
   background-color: transparent; }
 
 .footer-row {
-  padding: 0;
-  width: 100%;
-  max-width: 1366px;
-  margin-left: auto;
-  margin-right: auto; }
+  padding: 0; }
 
 .copyright a {
   color: white;

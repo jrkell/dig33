@@ -10,7 +10,7 @@
         <div class="col-sm-12 text-center">
           <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
-            <p>Beer and tequila.. together at last!</p>
+            <h2>Beer and tequila.. together at last!</h2>
 <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
             <div class="row slider-row">
                 <div class="col-sm-12">
@@ -24,7 +24,7 @@
         </div>
       </div>
         <div class="row no-gutters">
-            <div class="col-lg-6 box-blue text-center">
+            <div class="col-lg-6 text-center">
               <div class="box-text">
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
                 <h2>PRODUCT LAUNCH</h2>
@@ -43,7 +43,7 @@
             <div class="col-lg-6">
                 <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
             </div>
-            <div class="col-lg-6 box-blue text-center">
+            <div class="col-lg-6 text-center">
               <div class="box-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                 <h2>PROMOTIONS</h2>
