@@ -71,26 +71,28 @@ a.navbar-brand:hover {
     border-bottom: 1px red solid; }
 
 /** MAIN STYLES **/
-/*'Lexend Exa', sans-serif; */
 /* Light grey */
 /* Dark grey-blue */
 /* Dark grey-green */
 /* Dark almost black */
 /* Dark grey */
 body {
-  font-family: "Special Elite", serif;
   color: #FFF8DC;
   margin: 0;
   padding: 0;
   background-color: black;
   background-image: url(../images/bg-textured.jpg);
-  background-size: contain;
-  font-size: 16px; }
+  background-size: contain; }
 
 #container {
   width: 100%;
   max-width: 1366px;
   margin: 0px auto 0px auto; }
+
+main {
+  font-family: "Julius Sans One", serif;
+  font-size: 16px;
+  color: #FFF8DC; }
 
 .row {
   padding: 25px; }
@@ -125,6 +127,12 @@ h1 {
 h2 {
   color: #ffcf11;
   font-size: 3em;
+  font-family: "Special Elite", serif;
+  text-transform: uppercase; }
+
+h3 {
+  color: #169f00;
+  font-size: 2.7em;
   font-family: "Special Elite", serif;
   text-transform: uppercase; }
 
@@ -184,7 +192,7 @@ h2 {
 
 .tt-icon {
   margin-top: 15px;
-  margin-bottom: 20px; }
+  margin-bottom: 15px; }
 
 @media only screen and (max-width: 1024px) {
   .tt-icon {

@@ -1,4 +1,4 @@
-$font-stack: 'Special Elite', serif; /*'Lexend Exa', sans-serif; */
+$font-stack: 'Julius Sans One', serif;
 $font-title: 'Arbutus', serif;
 $font-heading: 'Special Elite', serif;
 
@@ -14,20 +14,24 @@ $tt-dark4: #0D0C0B; /* Dark almost black */
 $tt-dark5: #262523; /* Dark grey */
 
 body {
-  font-family: $font-stack;
   color: #FFF8DC;
   margin: 0;
   padding: 0;
   background-color: black;
   background-image:url(../images/bg-textured.jpg);
   background-size: contain;
-  font-size:16px;
 }
 
 #container {
   width: 100%;
   max-width:1366px;
   margin: 0px auto 0px auto;
+}
+
+main {
+  font-family: $font-stack;
+  font-size: 16px;
+  color: #FFF8DC;
 }
 
 .row {
@@ -67,6 +71,12 @@ h1 {
 h2 {
   color:$tt-yellow;
   font-size:3em;
+  font-family: $font-heading;
+  text-transform: uppercase;
+}
+h3 {
+  color:$tt-green;
+  font-size:2.7em;
   font-family: $font-heading;
   text-transform: uppercase;
 }
@@ -145,7 +155,7 @@ h2 {
 
 .tt-icon {
   margin-top:15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width : 1024px) {
