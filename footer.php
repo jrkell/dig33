@@ -3,19 +3,22 @@
     <!--    Link to external JS for elements which require it in the footer rather than in the header-->
     <script src="js/scripts.js"></script>
 <div class="footer-bg">
-    <div class="row footer-row">
+    <div class="row text-center">
+      <div class="col-sm-12">
+      <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
+      <img src="images/medallion.png" style="float:left;" alt="Desperados medallion">
+    </div>
+    </div>
+    <div class="row footer-row text-center">
     <div class="col-sm-4 copyright">
-      <img src="images/medallion.png" alt="Desperados medallion">
       <a href="terms.php">Terms and Conditions</a> |
       <a href="responsible.php">Drink Responsibly</a> |
       <a href="cookies.php">Privacy</a>
     </div>
-    <div class="col-sm-4 text-center copyright">
-      <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
+    <div class="col-sm-4 copyright">
       <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a></p>
     </div>
     <div class="col-sm-4 social">
-      <p>Connect with us </p>
       <a href="https://www.youtube.com/user/desperados" target="blank">
         <i class="fab fa-youtube"></i>
       </a>

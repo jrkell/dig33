@@ -495,7 +495,8 @@ footer {
 
 .copyright {
   font-size: 14px;
-  display: block; }
+  display: block;
+  text-align: center; }
   .copyright a {
     color: white;
     text-decoration: none; }
