@@ -170,7 +170,7 @@ h2 {
   background-color: #25261E; }
 
 .box-text {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto; }
   .box-text p {
@@ -183,7 +183,7 @@ h2 {
   object-position: center top; }
 
 .tt-icon {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 20px; }
 
 @media only screen and (max-width: 1024px) {

@@ -12,10 +12,11 @@
     </div>
   </div>
 </div>
-  <div class="row no-gutters">
-    <div class="col-lg-6 boxed">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="boxed">
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
-
+    </div>
     </div>
     <div class="col-lg-6 text-center">
       <div class="box-text">
@@ -32,7 +33,7 @@
       </div>
     </div>
 
-    <div class="row no-gutters">
+    <div class="row">
       <div class="col-lg-6 text-center">
         <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" style="padding-top:25px;" alt="Icon"/>
@@ -40,14 +41,18 @@
         <p class="text-center">To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
       </div>
     </div>
-      <div class="col-lg-6 boxed">
+      <div class="col-lg-6">
+        <div class="boxed">
         <img src="images/koala.jpg" class="img-fluid" alt="Save the Koala" />
+      </div>
       </div>
     </div>
 
-    <div class="row no-gutters">
-      <div class="col-lg-6 boxed">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="boxed">
         <img src="images/about-promo.jpg" class="img-fluid" alt="Promotions" />
+      </div>
       </div>
 
       <div class="col-lg-6 text-center">

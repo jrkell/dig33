@@ -10,7 +10,7 @@
         <div class="col-sm-12 text-center">
           <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
-            <h2>Beer and tequila.. together at last!</h2>
+            <h2>Tequila Flavoured Beer</h2>
 <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
             <div class="row slider-row">
                 <div class="col-sm-12">
@@ -23,6 +23,7 @@
             </div> -->
         </div>
       </div>
+      <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 text-center">
               <div class="box-text">
@@ -34,15 +35,19 @@
                 <p>Our beer+ product will become your new go to drink.</p>
               </div>
             </div>
-            <div class="col-lg-6 boxed">
+            <div class="col-lg-6">
+              <div class="boxed">
                 <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
             </div>
+          </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-6 boxed">
+            <div class="col-lg-6">
+              <div class="boxed">
                 <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
             </div>
+          </div>
             <div class="col-lg-6 text-center">
               <div class="box-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
@@ -50,10 +55,11 @@
                 <p>In the Desperados spirit of fun, we have an exciting new competition for you to enter.</p>
                 <p>Purchase one of our participating products to receive a unique code for your chance to win a ticket to one of the upcoming music festivals.<p>
                 <p>Hit the Pinata in the Pinata Bash competition to see if you are one of the lucky players to win a ticket. Its fun, its easy and it can be rewarding.</p>
-                <a href="pinata.php?demo">Pinata Bash Demo</a>
+                <a class="btn btn-danger btn-lg" href="pinata.php?demo">Pinata Bash Demo</a>
               </div>
             </div>
         </div>
+      </div>
 </main>
 
 <script>
