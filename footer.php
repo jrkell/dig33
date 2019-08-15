@@ -7,12 +7,13 @@
     <div class="col-sm-4 copyright">
       <img src="images/medallion.png" alt="Desperados medallion">
 
-      <a href="#">Terms and Conditions</a> |
-      <a href="#">Drink Responsibly</a>
+      <a href="terms.php">Terms and Conditions</a> |
+      <a href="responsible.php">Drink Responsibly</a>
+      <a href="cookies.php">Privacy</a>
     </div>
     <div class="col-sm-4 text-center">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
-      <p>Copyright &copy; 2019 <a href="#">Tequila Techies</a></p>
+      <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a></p>
     </div>
     <div class="col-sm-4 social">
       <p>Connect with us </p>

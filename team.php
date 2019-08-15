@@ -10,7 +10,8 @@
     <div class="row">
         <div class="col-lg-6 text-center">
           <!-- Left column content -->
-
+          <h1>Tequila Techies</h1>
+          
         </div>
     </div>
 
