@@ -3,19 +3,23 @@
     <!--    Link to external JS for elements which require it in the footer rather than in the header-->
     <script src="js/scripts.js"></script>
 <div class="footer-bg">
-    <div class="row text-center">
-      <div class="col-sm-12">
-      <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
+    <div class="row footer-row text-center" style="border:1px red solid;">
+      <div class="col-sm-12 copyright">
       <img src="images/medallion.png" style="float:left;" alt="Desperados medallion">
+
+
     </div>
     </div>
-    <div class="row footer-row text-center">
+    <div class="row footer-row text-center" style="border:1px red solid;">
     <div class="col-sm-4 copyright">
-      <a href="terms.php">Terms and Conditions</a> |
-      <a href="responsible.php">Drink Responsibly</a> |
-      <a href="cookies.php">Privacy</a>
+      <ul>
+        <li><a href="terms.php">Terms and Conditions</a></li>
+      <li><a href="responsible.php">Drink Responsibly</a></li>
+      <li><a href="cookies.php">Privacy</a></li>
+    </ul>
     </div>
     <div class="col-sm-4 copyright">
+      <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
       <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a></p>
     </div>
     <div class="col-sm-4 social">
