@@ -45,12 +45,28 @@ $("#pinata-div").click(function () {
                 "groundDistance": 500
             });
 
+            congrats();
             $("#ticket-div").fadeIn(400);
 
             ++clickCount;
             break;
     }
 });
+//});
+
+function congrats() {
+    $("#pinata-top").html('<h1>ENTRY CONFIRMATION</h1>\
+                    <h2>Good Luck!</h2>\
+                    <p>Here is your ticket</p>');
+    $("#play-again").html("<div class='col-sm-12 text-center'>\
+                            <button type='button' class='btn btn-warning' onclick='playAgain()'>Play Again</button>\
+                            </div>");
+    document.cookie = "code_entered=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+}
+
+function playAgain() {
+    window.location.href = "pinata_bash.php";
+}
 
 //Resets changes made by clicking or the explode plugin
 function restore() {
@@ -202,7 +218,7 @@ function toggleCartButtons() {
     var proceed = document.getElementById("proceed");
     proceed.style.display = "none";
     update.style.display = "block";
-    document.cartForm.action = "stockist_cart.php";              
+    document.cartForm.action = "stockist_cart.php";
 
-    
+
 }

@@ -8,7 +8,7 @@
 
 <main id="container">
     <div class="row text-center">
-        <div class="col-sm-12">
+        <div class="col-sm-12" id="pinata-top">
             <h1>PINATA BASH</h1>
             <p>Tap the pinata to reveal your ticket entry!</p>
         </div>
