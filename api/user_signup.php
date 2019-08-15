@@ -21,6 +21,7 @@ if(userExists($userId, 'pinata_user')) {
     header("Location: ../pinata_bash.php?fail=exists");
 } else if($pass1 != $pass2) {
     // Reject sign up and prompt to correct password
+    header("Location: ../pinata_bash.php?fail=match");
 } else {
     // Password is hashed, user is added to database, page is redirected to login
     $hash = password_hash($pass1, PASSWORD_DEFAULT);
