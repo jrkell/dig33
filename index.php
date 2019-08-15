@@ -30,7 +30,7 @@
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
                 <h2>PRODUCT LAUNCH</h2>
                 <p>Desperados is proud to introduce their exciting beer+ product to the Australian Market.</p>
-                <p>First created in 1995 we remove the boring from beer by pushing boundaries of what is expected. Beer with a range of tequila flavours and an attitude that gets any party started.</p>
+                <p>First created in 1995 we removed the boring from beer by pushing boundaries of what is expected. Beer with a range of tequila flavours and an attitude that gets any party started.</p>
                 <p>Embrace your inner tequila and bend the rules of life.</p>
                 <p>Our beer+ product will become your new go to drink.</p>
               </div>
@@ -52,10 +52,11 @@
               <div class="box-text">
                 <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                 <h2>PROMOTIONS</h2>
-                <p>In the Desperados spirit of fun, we have an exciting new competition for you to enter.</p>
-                <p>Purchase one of our participating products to receive a unique code for your chance to win a ticket to one of the upcoming music festivals.<p>
-                <p>Hit the Pinata in the Pinata Bash competition to see if you are one of the lucky players to win a ticket. Its fun, its easy and it can be rewarding.</p>
+                <p>In the Desperados spirit of fun, we are giving away tickets to our launch parties!</p>
+                <p>Purchase one of our participating products to receive a unique code for your chance to win the Pinata Bash competition.<p><br>
+                  <div class="text-center">
                 <a class="btn btn-danger btn-lg" href="pinata.php?demo">Pinata Bash Demo</a>
+              </div>
               </div>
             </div>
         </div>

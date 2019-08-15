@@ -77,7 +77,6 @@ a.navbar-brand:hover {
 /* Dark almost black */
 /* Dark grey */
 body {
-  color: #FFF8DC;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -90,9 +89,9 @@ body {
   margin: 0px auto 0px auto; }
 
 main {
-  font-family: "Julius Sans One", serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 16px;
-  color: #FFF8DC; }
+  color: #f8f8ff; }
 
 .row {
   padding: 25px; }
@@ -494,14 +493,15 @@ footer {
 .footer-row {
   padding: 0; }
 
-.copyright a {
-  color: white;
-  text-decoration: none; }
-.copyright a:hover {
-  color: yellow;
-  text-decoration: none; }
-.copyright img {
-  float: left; }
+.copyright {
+  font-size: 14px;
+  display: block; }
+  .copyright a {
+    color: white;
+    text-decoration: none; }
+  .copyright a:hover {
+    color: red;
+    text-decoration: none; }
 
 /** CONTACT FORM **/
 .contact-form div {

@@ -1,4 +1,4 @@
-$font-stack: 'Julius Sans One', serif;
+$font-stack: 'Julius Sans One', sans-serif;
 $font-title: 'Arbutus', serif;
 $font-heading: 'Special Elite', serif;
 
@@ -14,7 +14,6 @@ $tt-dark4: #0D0C0B; /* Dark almost black */
 $tt-dark5: #262523; /* Dark grey */
 
 body {
-  color: #FFF8DC;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -31,7 +30,7 @@ body {
 main {
   font-family: $font-stack;
   font-size: 16px;
-  color: #FFF8DC;
+  color: #f8f8ff;
 }
 
 .row {

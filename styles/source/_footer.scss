@@ -46,15 +46,14 @@ footer {
  }
 
 .copyright {
+  font-size: 14px;
+  display: block;
   a {
     color: white;
     text-decoration: none;
   }
   a:hover {
-    color: yellow;
+    color: red;
     text-decoration: none;
-  }
-  img {
-    float: left;
   }
 }

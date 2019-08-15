@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="styles/slider.css">
     <link rel="stylesheet" type="text/css" href="styles/pinata.css">
     <!-- link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Arbutus%7CSpecial+Elite%uCJulius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus%7CSpecial+Elite%7CJulius+Sans+One&display=swap" rel="stylesheet">
     <!-- Link to Font Awesome icons - https://www.w3schools.com/bootstrap4/bootstrap_icons.asp -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <!-- Bootstrap 4 CDN -->
