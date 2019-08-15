@@ -13,11 +13,11 @@
   </div>
 </div>
   <div class="row no-gutters">
-    <div class="col-lg-6 text-center">
+    <div class="col-lg-6 boxed">
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
 
     </div>
-    <div class="col-lg-6 box-blue text-center">
+    <div class="col-lg-6 text-center">
       <div class="box-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
             <h2>Beer + Down Under</h2>
@@ -33,24 +33,24 @@
     </div>
 
     <div class="row no-gutters">
-      <div class="col-lg-6 box-blue text-center">
+      <div class="col-lg-6 text-center">
         <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" style="padding-top:25px;" alt="Icon"/>
                 <h2>Save the Koala</h2>
         <p class="text-center">To celebrate our launch we will be donating $2 from every bottle of Desperados Original to the Save the Koala Fund.</p>
       </div>
     </div>
-      <div class="col-lg-6 text-center">
+      <div class="col-lg-6 boxed">
         <img src="images/koala.jpg" class="img-fluid" alt="Save the Koala" />
       </div>
     </div>
 
     <div class="row no-gutters">
-      <div class="col-lg-6 text-center">
+      <div class="col-lg-6 boxed">
         <img src="images/about-promo.jpg" class="img-fluid" alt="Promotions" />
       </div>
 
-      <div class="col-lg-6 box-blue text-center">
+      <div class="col-lg-6 text-center">
         <div class="box-text">
           <img src="images/icon-red.png" class="tt-icon" alt="Icon"/>
           <h2>Promotions</h2>

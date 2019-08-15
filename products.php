@@ -14,17 +14,18 @@
                 <h2 class="text-center">ENJOY THE BEER+ EXPERIENCE</h2>
             </div>
         </div>
+    </div>
 
-        </div>
-          <div class="row no-gutters slider-bg">
+        <div class="row no-gutters slider-bg">
 
                 <ul id="product-slider">
                     <!--Call to a php function which executes an sql query to display all products in the slider-->
                     <?php sliderProducts() ?>
                 </ul>
 
-            </div>
-        <div class='transparent' id='product'></div>
+        </div>
+
+        <div class="row"  id="product">
         <?php
             //If page is reached by clicking on a product from the slider, display that product.
             if(isset($_GET['product'])) {
@@ -35,7 +36,7 @@
                 echo "<script>displayProduct()</script>";
             }
             ?>
-
+        </div>
 
 </main>
 

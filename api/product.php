@@ -16,23 +16,23 @@ $product = mysqli_fetch_assoc(getProduct($title));
         $salt=number_format($product['salt'],2);
     }
 
-    echo "<div class='row'>
-            <div class='col-lg-6 text-center'>
+    echo "<div class='col-lg-6 text-center'>
               <div class='boxed'>
                 <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
               </div>
             </div>
             <div class='col-lg-6 text-center'>
               <div class='box-text'>
+              <img src='images/icon-green.png' class='tt-icon' alt='Tequila Icon' />
               <h2 class='text-center'>{$product['title']}</h2>
               <h3 class='text-center'>{$product['short_desc']}</h3><br>
               <p>{$product['long_desc']}</p>
             </div>
           </div>
-
+          </div>
         <div class='row'>
-          <div class='col-lg-12'>
-          <table class='table table-dark table-striped table-sm'>
+          <div class='col-lg-6'>
+          <table class='table table-dark table-striped table-sm' style='width:100%;'>
           <thead>
           <tr>
           <h3 class='text-center'>PRODUCT INFO</h3>
@@ -69,5 +69,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </tbody>
             </table>
             </div>
+            <div class='col-lg-6'>
+
         </div>" ;
 ?>

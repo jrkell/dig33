@@ -12,9 +12,9 @@
       <h1 class="text-center">Aussie Music Festivals</h1>
     </div>
   </div>
-</div>
-<div class="row no-gutters">
-  <div class="col-lg-6 box-blue text-center">
+
+<div class="row">
+  <div class="col-lg-6 text-center">
     <div class="box-text">
     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
     <h2>JAZZ CLUB</h2>
@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="hovereffect">
+    <div class="boxed hovereffect">
       <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
       <div class="overlay">
         <h1>SYD * MELB * OCT 2020</h1>
@@ -34,9 +34,9 @@
   </div>
 </div>
 
-<div class="row no-gutters">
+<div class="row">
   <div class="col-lg-6">
-    <div class="hovereffect">
+    <div class="boxed hovereffect">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
       <div class="overlay">
         <h1>PERTH * BRIS * NOV 2020</h1>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </div>
-  <div class="col-lg-6 box-blue text-center">
+  <div class="col-lg-6 text-center">
     <div class="box-text">
     <img src="images/icon-green.png" class="tt-icon" alt="Icon"/>
     <h2>RIVER ROCK FEST</h2>
@@ -56,8 +56,8 @@
   </div>
 </div>
 
-<div class="row no-gutters">
-  <div class="col-lg-6 box-blue text-center">
+<div class="row">
+  <div class="col-lg-6 text-center">
     <div class="box-text">
     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
     <h2>BIG DAY OUT</h2>
@@ -67,7 +67,7 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="hovereffect">
+    <div class="boxed hovereffect">
       <img src="images/events/event-bdo.jpg" class="img-fluid" alt="Big Day Out"/>
       <div class="overlay">
         <h1>SYD * BRIS * DEC 2020</h1>
@@ -76,7 +76,7 @@
   </div>
 </div>
 
-
+</div>
 <!-- close container-fluid -->
 </main>
 

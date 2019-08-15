@@ -23,7 +23,7 @@
             </div> -->
         </div>
       </div>
-        <div class="row no-gutters">
+        <div class="row">
             <div class="col-lg-6 text-center">
               <div class="box-text">
                 <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
@@ -34,13 +34,13 @@
                 <p>Our beer+ product will become your new go to drink.</p>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 boxed">
                 <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
             </div>
         </div>
 
-        <div class="row no-gutters">
-            <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-6 boxed">
                 <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
             </div>
             <div class="col-lg-6 text-center">
