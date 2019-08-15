@@ -10,7 +10,7 @@
         <div class="col-sm-12 text-center">
           <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
-            <h2>Tequila Flavoured Beer</h2>
+            <h3>Tequila Flavoured Beer</h3>
 <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
             <div class="row slider-row">
                 <div class="col-sm-12">
