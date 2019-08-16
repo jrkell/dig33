@@ -5,18 +5,22 @@
 <div class="footer-bg">
     <div class="row footer-row">
     <div class="col-sm-4 copyright text-left">
+      <h5>About</h5>
       <ul class="list-unstyled">
         <li><a href="responsible.php">Drink Responsibly</a></li>
         <li><a href="terms.php">Terms &amp; Conditions</a></li>
-        <li><a href="cookies.php">Privacy</a></li>
+        <li><a href="cookies.php">Cookie Policy</a></li>
+        <li><a href="team.php">The Team</a></li>
 
       </ul>
     </div>
     <div class="col-sm-4 copyright">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
-      <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a></p>
+      <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a><br>
+        <a href="references.php">References</a></p>
     </div>
-    <div class="col-sm-4 social">
+    <div class="col-sm-4 social text-right">
+      <h5>Connect with us</h5>
       <a href="https://www.youtube.com/user/desperados" target="blank">
         <i class="fab fa-youtube"></i>
       </a>

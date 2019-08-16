@@ -135,6 +135,9 @@ h3 {
   font-family: "Special Elite", serif;
   text-transform: uppercase; }
 
+h5 {
+  color: #FFA263; }
+
 .contact-form {
   width: 50%;
   margin: 10px auto 10px auto; }
