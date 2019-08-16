@@ -32,7 +32,7 @@
                 fill = true,
                 explodeTime = 300,
                 maxAngle = 360,
-                gravity = 0,
+                gravity = 10,
                 round = false,
                 groundDistance = 400,
                 land=true,
@@ -164,7 +164,7 @@
                 "background-position-y": $target.css("background-position-y"),
             };
 
-            
+
             const ratioW = w / naturalWidth;
             const ratioH = h / naturalHeight;
 
@@ -231,7 +231,7 @@
                 finish&&finish();
             }
         });
-        
+
         function doRelease(cb) {
             const startTime = Date.now();
             let leftCnt = rags.length;
@@ -356,13 +356,13 @@
                         rag.biasy += (rag.vy + biasVy) * ratio;
 
                         if (gravity) {
-                            if (checkOutBound && checkOutBound(rag) 
+                            if (checkOutBound && checkOutBound(rag)
                                 || rag.biasy > rag.transYMax
                                || rag.biasy < rag.height/2) {
                                 leftCnt--;
                                 rag.land = true;
                                 rag.lastAngle = rag.finalAngleRad * angleRatio;
-                                
+
                                 if(land){
                                     rag.biasy = gravity>0?rag.transYMax:rag.height/2;
                                 }else{
@@ -554,7 +554,7 @@
             shuffle(rags);
             return rags;
         }
-        //get an array of 4 corners of radius        
+        //get an array of 4 corners of radius
         function getRadiusData() {
             let ret = ["border-top-left-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius"];
             const width = $target.width();
