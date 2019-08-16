@@ -17,9 +17,23 @@
         <!--Checks if user has logged in or not-->
         <?php
             $showLogin = true;
-            if(isset($_COOKIE["user_verified"]) && $_COOKIE["user_verified"]!="false")
+            if(isset($_COOKIE["user_verified"]))
             {
-                include "pinata.php";
+                if(isset($_COOKIE["code_entered"])) {
+                    echo "<h2>Code entered: " . $_COOKIE['code_entered'] . "</h2>";
+                    include "pinata.php";
+                } else {
+                    echo "<h1 class='text-center'>Enter Competition Code</h1>";
+                    if(isset($_GET['invalid'])) {
+                        echo "<p class='error'>Invalid Code Entered!</p>";
+                    }
+                    echo "<form action='api/enter_code.php' method='post'>
+                                Unique Code:<br>
+                                <input type='text' name='code'>
+                                <br><br>
+                                <input type='submit' value='Submit'>
+                            </form>";
+                }
             }
             else
             {

@@ -124,4 +124,22 @@ function listStockists() {
 
   }
 
+function isValidCode($code) {
+    $query = "SELECT code FROM entry_code";
+    $result = performQuery($query);
+//    $valid = false;
+    
+    if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            if($row['code'] == $code) {
+                return true;
+            }
+        }
+//    } else {
+        //reject
+    }
+    
+    return false;
+}
+
 ?>
