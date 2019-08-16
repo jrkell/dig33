@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row box-black">
   <div class="col-lg-6">
     <div class="boxed hovereffect">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
