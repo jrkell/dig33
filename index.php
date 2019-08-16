@@ -7,7 +7,7 @@
 <main id="container">
     <div class="row no-gutters">
 
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center box-black">
           <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page"/>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <h3>Tequila Flavoured Beer</h3>
@@ -42,7 +42,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row box-blue">
             <div class="col-lg-6">
               <div class="boxed">
                 <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />

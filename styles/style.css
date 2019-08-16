@@ -176,6 +176,9 @@ h3 {
 .box-green {
   background-color: #25261E; }
 
+.box-black {
+  background-color: black; }
+
 .box-text {
   width: 90%;
   margin-left: auto;
