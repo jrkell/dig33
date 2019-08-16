@@ -35,7 +35,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
           <table class='table table-dark table-striped table-sm' style='width:100%;'>
           <thead>
           <tr>
-          <h3 class='text-center'>PRODUCT INFO</h3>
+          <h2 class='text-center'>PRODUCT INFO</h2>
             </tr>
             </thead>
             <tbody>
