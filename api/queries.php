@@ -9,6 +9,7 @@ function performQuery($query) {
 
     //Check for query errors
     if(!$result) {
+        error_log("Database Query Failed: Perform Query");
         die("Database Query Failed: Perform Query");
     }
 
@@ -124,37 +125,42 @@ function listStockists() {
 
   }
 
+// Checks if the pinata bash code entered is valid (is stored in the database)
 function isValidCode($code) {
     $query = "SELECT code FROM entry_code";
     $result = performQuery($query);
-//    $valid = false;
     
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
-            if($row['code'] == $code) {
-                return true;
-            }
+            if($row['code'] == $code) return true;
         }
-//    } else {
-        //reject
     }
-    
     return false;
 }
 
-function codeEntry($code, $user) {
-    
-    if(!$user || !$code) {
-        return false;
-    }
-    
-    $date = date("Y-m-d");
-    $query = "INSERT INTO competition_entry VALUES ('$code', '$user', '$date)";
+// Checks if the pinata bash code entered has been used (is stored in the database with a competition entry)
+function duplicateCode($code) {
+    $query = "SELECT entry_code FROM competition_entry";
     $result = performQuery($query);
     
-    if(!$result) {
-        return false;
+    if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            if($row['entry_code'] == $code) return true;
+        }
     }
+    return false;
+}
+
+// Once a code has been validated and used to play pinata bash, it is entered into the database as a competition entry
+function codeEntry($code, $user) {
+    
+    if(!$user || !$code || !isValidCode($code) || duplicateCode($code)) return false;
+    
+    $date = date("Y-m-d");
+    $query = "INSERT INTO competition_entry VALUES ('$code', '$user', '$date')";
+    $result = performQuery($query);
+    
+    if(!$result) return false;
     
     return true;
 }
