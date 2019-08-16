@@ -31,7 +31,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
           </div>
           </div>
         <div class='row'>
-          <div class='col-lg-6'>
+          <div class='col-lg-12'>
           <table class='table table-dark table-striped table-sm' style='width:100%;'>
           <thead>
           <tr>
@@ -40,7 +40,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </thead>
             <tbody>
             <tr>
-            <td class='w-30'>Contents</td><td> {$product['contents']}</td>
+            <td class='w-30'>Contents</td><td class='w-70'> {$product['contents']}</td>
             <tr>
             <td>Ingredients</td><td> {$product['ingredients']}</td>
             </tr>
@@ -68,8 +68,5 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
             </tbody>
             </table>
-            </div>
-            <div class='col-lg-6'>
-
-        </div>" ;
+            </div>" ;
 ?>

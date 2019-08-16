@@ -213,6 +213,9 @@ h3 {
 .w-30 {
   width: 30% !important; }
 
+.w-70 {
+  width: 70% !important; }
+
 .order-form {
   height: 135px;
   padding: 0; }
