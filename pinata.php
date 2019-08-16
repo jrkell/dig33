@@ -37,9 +37,5 @@ if(isset($_GET['demo'])) {
                 <img src='images/pinata/ticket.png' id='ticket'>
             </div>
         </div>
-        <div class='row'>
-          <div class='col-sm-12 text-center'>
-            <button type='button' class='btn btn-warning' onclick='restore()'>Reset</button>
-            </div>
-        </div>";
+        <div class='row' id='play-again'></div>";
 } ?>
