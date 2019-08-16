@@ -30,8 +30,8 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </div>
           </div>
           </div>
-        <div class='row' style='width:100%;'>
-          <div class='col-lg-12'>
+        <div class='row'>
+          <div class='col-lg-6'>
           <table class='table table-dark table-striped table-sm'>
           <thead>
           <tr>
@@ -68,5 +68,13 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
             </tbody>
             </table>
+            </div>
+
+            <div class='col-lg-6 text-center'>
+            <div class='box-text'>
+            <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />
+            <h1>SOMETHING WILL GO HERE</h1>
+            </div>
+            </div>
             </div>" ;
 ?>
