@@ -142,4 +142,21 @@ function isValidCode($code) {
     return false;
 }
 
+function codeEntry($code, $user) {
+    
+    if(!$user || !$code) {
+        return false;
+    }
+    
+    $date = date("Y-m-d");
+    $query = "INSERT INTO competition_entry VALUES ('$code', '$user', '$date)";
+    $result = performQuery($query);
+    
+    if(!$result) {
+        return false;
+    }
+    
+    return true;
+}
+
 ?>
