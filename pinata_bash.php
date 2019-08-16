@@ -4,14 +4,15 @@
 
 
 <main id="container">
-  <div class="row text-center">
-    <div class="col-sm-12">
-      <h1>PINATA BASH</h1>
-      <p>Tap the pinata to reveal your ticket entry!</p>
+    <div class="row text-center">
+        <div class="col-sm-12">
+            <h1>PINATA BASH</h1>
+            <p>Tap the pinata to reveal your ticket entry!</p>
+        </div>
     </div>
-  </div>
-            <!--Checks if user has logged in or not-->
-            <?php
+    <div id="pinata-container">
+        <!--Checks if user has logged in or not-->
+        <?php
             if(isset($_COOKIE["user_verified"]))
             {
                 include "pinata.php";
@@ -41,8 +42,9 @@
 
             }
             ?>
+    </div>
 
-    </main>
+</main>
 
 
 <?php include 'footer.php'; ?>
