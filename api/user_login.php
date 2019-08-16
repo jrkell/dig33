@@ -12,12 +12,12 @@ if(isset($_POST)) {
 if(userExists($userId, 'pinata_user')) {
     
     // Retrieve stored hash
-    $user = mysqli_fetch_assoc(getUser($userId, 'pinata_user'));
-    $stored = $user['pword_hash'];
+    $pinata_user = mysqli_fetch_assoc(getUser($userId, 'pinata_user'));
+    $stored = $pinata_user['pword_hash'];
 
     // Check for password match
     if(password_verify($pass, $stored)) {
-        setcookie('user_verified', 'true', 0 , '/'); // create cookie
+        setcookie('user_verified', $userId, 0 , '/'); // create cookie
         header("Location: ../pinata_bash.php");
         
     } else {

@@ -2,13 +2,13 @@
 <h1>Sign Up</h1>
 <form action='api/user_signup.php' method='post'>
     Email:<br>
-    <input type='email' name='email'>
+    <input type='email' name='email' required>
     <br>
     First Name:<br>
-    <input type='text' name='first'>
+    <input type='text' name='first' required>
     <br>
     Surname:<br>
-    <input type='text' name='sur'>
+    <input type='text' name='sur' required>
     <br>
     Date of Birth:<br>
     <select name='day' required>
@@ -39,10 +39,10 @@
     </select>
     <br>
     Password:<br>
-    <input type='password' name='password1'>
+    <input type='password' name='password1' required>
     <br>
     Re-Enter Password:<br>
-    <input type='password' name='password2'>
+    <input type='password' name='password2' required>
     <br><br>
     <input type='submit' value='Sign Up'>
 </form>
