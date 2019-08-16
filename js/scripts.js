@@ -61,7 +61,7 @@ function congrats() {
     $("#play-again").html("<div class='col-sm-12 text-center'>\
                             <button type='button' class='btn btn-warning' onclick='playAgain()'>Play Again</button>\
                             </div>");
-    document.cookie = "code_entered=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    $.get("./api/enter_code.php");
 }
 
 function playAgain() {
