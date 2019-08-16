@@ -13,7 +13,7 @@
             <p>Tap the pinata to reveal your ticket entry!</p>
         </div>
     </div>
-    <div id="pinata-container">
+    <div id="pinata-container" class="text-center">
         <!--Checks if user has logged in or not-->
         <?php
             $showLogin = true;

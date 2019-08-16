@@ -55,7 +55,7 @@
                     <p>In the Desperados spirit of fun, we are giving away tickets to our launch parties!</p>
                     <p>Purchase one of our participating products to receive a unique code for your chance to win the Pinata Bash competition.<p><br>
                             <div class="text-center">
-                                <a class="btn btn-danger btn-lg" href="pinata_bash.php">Pinata Bash Demo</a>
+                                <a class="btn btn-danger btn-lg" href="pinata_bash.php">Got an Entry Code? Play Pinata Bash</a>
                             </div>
                 </div>
             </div>
