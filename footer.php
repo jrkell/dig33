@@ -4,7 +4,7 @@
     <script src="js/scripts.js"></script>
 <div class="footer-bg">
     <div class="row footer-row">
-    <div class="col-sm-4 copyright text-left">
+    <div class="col-sm-4 copyright">
       <h5>About</h5>
       <ul class="list-unstyled">
         <li><a href="responsible.php">Drink Responsibly</a></li>
@@ -19,7 +19,7 @@
       <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a><br>
         <a href="references.php">References</a></p>
     </div>
-    <div class="col-sm-4 social text-right">
+    <div class="col-sm-4 social">
       <h5>Connect with us</h5>
       <a href="https://www.youtube.com/user/desperados" target="blank">
         <i class="fab fa-youtube"></i>

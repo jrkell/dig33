@@ -42,7 +42,11 @@ footer {
   background-color: transparent;
 }
 .footer-row {
-  padding:0;
+  padding:10px;
+  ul {
+    display:inline-block;
+    text-align: left;
+  }
  }
 
 .copyright {

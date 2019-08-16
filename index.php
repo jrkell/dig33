@@ -4,10 +4,10 @@
 ?>
 
 <!-- PAGE CONTENT START -->
-<main id="container">
-    <div class="row no-gutters">
+<main id="container" style="max-width:100%">
+    <div class="row no-gutters box-black">
 
-        <div class="col-sm-12 text-center box-black">
+        <div class="col-sm-12 text-center box-black" >
             <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page" />
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <h3>Tequila Flavoured Beer</h3>
@@ -23,7 +23,7 @@
             </div> -->
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="max-width:1366px;">
         <div class="row">
             <div class="col-lg-6 text-center">
                 <div class="box-text">

@@ -7,7 +7,7 @@
 <main id="container">
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 ">
       <h1 class="text-center">Hello Australia!</h1>
     </div>
   </div>
@@ -21,7 +21,7 @@
     <div class="col-lg-6 text-center">
       <div class="box-text">
           <img src="images/icon-yellow.png" class="tt-icon" alt="Icon"/>
-            <h2>Beer + Down Under</h2>
+            <h2>Beer+ Down Under</h2>
       <p>We are excited to introduce Australia to a new unique experience with our beer+ products.
           Desperados will enhance your party spirit, bringing the spice to your life with a daring edge found in the touch of tequila.</p>
 

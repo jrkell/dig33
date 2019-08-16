@@ -121,7 +121,9 @@ h1 {
   font-family: "Arbutus", serif;
   text-transform: uppercase;
   font-size: 2em;
-  color: #e10017; }
+  color: #e10017;
+  margin-top: 10px;
+  padding-top: 10px; }
 
 h2 {
   color: #ffcf11;
@@ -502,7 +504,10 @@ footer {
   background-color: transparent; }
 
 .footer-row {
-  padding: 0; }
+  padding: 10px; }
+  .footer-row ul {
+    display: inline-block;
+    text-align: left; }
 
 .copyright {
   font-size: 14px;
