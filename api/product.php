@@ -30,9 +30,9 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </div>
           </div>
           </div>
-        <div class='row'>
+        <div class='row' style='width:100%;'>
           <div class='col-lg-12'>
-          <table class='table table-dark table-striped table-sm' style='width:100%;'>
+          <table class='table table-dark table-striped table-sm'>
           <thead>
           <tr>
           <h2 class='text-center'>PRODUCT INFO</h2>
