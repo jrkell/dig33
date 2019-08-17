@@ -10,7 +10,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 text-center">
-              <h1>CHECKOUT</h2>
+              <h1>CHECKOUT</h1>
 
 <?php
   // create cookie for testing
@@ -75,7 +75,7 @@ $total_price = 0;
   <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
   <script>paypal.Buttons().render('article');</script>
 
-</form>
+<h2><h2>
 <article class="text-center paypal"> </article>
 </div>
 </div>

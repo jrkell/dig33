@@ -60,6 +60,7 @@
   </form>
 </div>
 </div>
+</div>
 </main>
 
 <!-- PAGE CONTENT END -->
