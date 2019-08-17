@@ -15,12 +15,12 @@ footer {
   width: 100%;
   max-width: 1366px;
   background-color: $tt-dark5;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
+  margin: 0px auto 0px auto;
 }
 .social {
   display: block;
+  padding-top: 16px;
   a {
     color: white;
     font-size: 1.5em;
@@ -38,11 +38,10 @@ footer {
   width: 100;
   max-width: 1366px;
   margin: 0px auto;
-  padding: 10px;
+  padding: 0px 10px;
   background-color: transparent;
 }
 .footer-row {
-  padding:10px;
   ul {
     display:inline-block;
     text-align: left;
@@ -53,6 +52,8 @@ footer {
   font-size: 14px;
   display: block;
   text-align: center;
+  padding-top: 16px;
+
   a {
     color: white;
     text-decoration: none;

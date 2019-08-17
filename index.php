@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="row box-black">
+        <div class="row">
             <div class="col-lg-6">
                 <div class="boxed">
                     <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />

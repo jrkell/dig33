@@ -10,8 +10,7 @@ header {
   margin-right: auto; }
 
 nav {
-  margin: 0;
-  background-color: rgba(0, 0, 1, 0.1); }
+  margin: 0; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -72,14 +71,21 @@ a.navbar-brand:hover {
 
 .parallax {
   /* The image used */
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner2.jpg");
   min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: contain; }
 
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+    background-position: top;
+    max-height: 300px;
+    background-size: cover; } }
 /** MAIN STYLES **/
 /* Light grey */
 /* Dark grey-blue */
@@ -491,12 +497,12 @@ footer {
   width: 100%;
   max-width: 1366px;
   background-color: #262523;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto; }
+  padding: 0;
+  margin: 0px auto 0px auto; }
 
 .social {
-  display: block; }
+  display: block;
+  padding-top: 16px; }
   .social a {
     color: white;
     font-size: 1.5em;
@@ -512,19 +518,18 @@ footer {
   width: 100;
   max-width: 1366px;
   margin: 0px auto;
-  padding: 10px;
+  padding: 0px 10px;
   background-color: transparent; }
 
-.footer-row {
-  padding: 10px; }
-  .footer-row ul {
-    display: inline-block;
-    text-align: left; }
+.footer-row ul {
+  display: inline-block;
+  text-align: left; }
 
 .copyright {
   font-size: 14px;
   display: block;
-  text-align: center; }
+  text-align: center;
+  padding-top: 16px; }
   .copyright a {
     color: white;
     text-decoration: none; }

@@ -6,8 +6,9 @@
 <div class="footer-bg">
     <div class="row footer-row">
     <div class="col-sm-4 copyright">
-      <h5>About</h5>
+
       <ul class="list-unstyled">
+        <li>  <h5>About</h5></li>
         <li><a href="responsible.php">Drink Responsibly</a></li>
         <li><a href="terms.php">Terms &amp; Conditions</a></li>
         <li><a href="cookies.php">Cookie Policy</a></li>

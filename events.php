@@ -77,7 +77,7 @@
 </div>
 
 </div>
-<!-- close container-fluid -->
+</div><!-- close container-fluid -->
 </main>
 
 <!-- PAGE CONTENT END -->
