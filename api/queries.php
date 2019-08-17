@@ -115,10 +115,10 @@ function listStockists() {
             "<div class='col-sm-4 text-center'>
             <div class='stock-bg'>
             <img class='stock-img' src='{$row['imgurl']}' alt='{$row['name']}'/>
-            <h3>{$row['name']}</h3>
+            <h5>{$row['name']}</h5>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
             <p>Give us a call: {$row['phone']}</p>
-            <a class='btn btn-danger' ref='{$row['supurl']}'>Purchase from '{$row['name']}'</a><br><hr><br>
+            <a class='btn btn-dark' href='{$row['supurl']}'>Purchase from {$row['name']}</a><p />
             </div>
             </div>";
         }
