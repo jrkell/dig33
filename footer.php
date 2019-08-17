@@ -1,7 +1,8 @@
-<footer class="container-fluid">
+<footer class="container-fluid" style="max-width:100%">
 
     <!--    Link to external JS for elements which require it in the footer rather than in the header-->
     <script src="js/scripts.js"></script>
+
 <div class="footer-bg">
     <div class="row footer-row">
     <div class="col-sm-4 copyright">
@@ -17,7 +18,7 @@
     <div class="col-sm-4 copyright">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
       <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a><br>
-        <a href="references.php">References</a></p>
+      <a href="references.php">References</a></p>
     </div>
     <div class="col-sm-4 social">
       <h5>Connect with us</h5>

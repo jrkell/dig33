@@ -23,10 +23,12 @@ body {
 
 #container {
   width: 100%;
-  max-width:1366px;
   margin: 0px auto 0px auto;
 }
 
+.container-fluid {
+  max-width:1366px;
+}
 main {
   font-family: $font-stack;
   font-size: 16px;

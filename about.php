@@ -11,7 +11,7 @@
       <h1 class="text-center">Hello Australia!</h1>
     </div>
   </div>
-</div>
+
   <div class="row">
     <div class="col-lg-6">
       <div class="boxed">
@@ -65,6 +65,7 @@
           <p class="disclaimer text-right">* For a limited time only. Conditions Apply.</p>
         </div>
       </div>
+    </div>
     </div>
 </main>
 

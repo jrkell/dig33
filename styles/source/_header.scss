@@ -95,3 +95,14 @@ a.navbar-brand:hover {
     border-bottom: 1px red solid;
   }
 }
+.parallax {
+  /* The image used */
+  background-image: url("../images/banner.jpg");
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

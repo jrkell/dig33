@@ -70,6 +70,16 @@ a.navbar-brand:hover {
     color: red;
     border-bottom: 1px red solid; }
 
+.parallax {
+  /* The image used */
+  background-image: url("../images/banner.jpg");
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 /** MAIN STYLES **/
 /* Light grey */
 /* Dark grey-blue */
@@ -85,8 +95,10 @@ body {
 
 #container {
   width: 100%;
-  max-width: 1366px;
   margin: 0px auto 0px auto; }
+
+.container-fluid {
+  max-width: 1366px; }
 
 main {
   font-family: "Headland One", sans-serif;
