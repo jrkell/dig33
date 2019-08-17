@@ -1,17 +1,27 @@
 <!--This file contains the markup for displaying the sign up form and is a work in progress-->
-<h1>Sign Up</h1>
-<form action='api/user_signup.php' method='post'>
-    Email:<br>
-    <input type='email' name='email' required>
-    <br>
-    First Name:<br>
-    <input type='text' name='first' required>
-    <br>
-    Surname:<br>
-    <input type='text' name='sur' required>
-    <br>
-    Date of Birth:<br>
-    <select name='day' required>
+<h3>Sign Up</h3>
+<div class='row'>
+  <div class='col-sm-12'>
+
+<form action='api/user_signup.php' method='post' class='sign-up-form text-left'>
+  <div class='form-group'>
+    <label for='email'>Email address</label>
+    <input type='email' class='form-control' name='email' id='email' required>
+    <small id='emailHelp' class='form-text text-muted'>We'll never share your email with anyone else.</small>
+  </div>
+    <div class='form-group'>
+      <label for='firstname'>First Name</label>
+    <input type='text' class='form-control' name='first'  id='firstname' required>
+  </div>
+    <div class='form-group'>
+      <label for='surname'>Surname</label>
+    <input type='text' class='form-control' name='sur' id='surname' required>
+  </div>
+  <p>Date of Birth</p>
+  <div class='row'>
+    <div class='col'>
+  <div class='form-group'>
+    <select class='form-control' name='day' required>
         <option value=''>Day</option>
         <?php
             for ($i = 1; $i <= 31; $i++) {
@@ -20,7 +30,11 @@
             }
         ?>
     </select>
-    <select name='month' required>
+  </div>
+</div>
+<div class='col'>
+    <div class='form-group'>
+    <select class='form-control' name='month' required>
         <option value=''>Month</option>
         <?php
             for ($i = 1; $i <= 12; $i++) {
@@ -29,7 +43,11 @@
             }
         ?>
     </select>
-    <select name='year' required>
+  </div>
+</div>
+<div class='col'>
+  <div class='form-group'>
+    <select class='form-control' name='year' required>
         <option value=''>Year</option>
         <?php
             for ($i = 2019; $i >= 1900; $i--) {
@@ -37,15 +55,25 @@
             }
         ?>
     </select>
-    <br>
-    Password:<br>
-    <input type='password' name='password1' required>
-    <br>
-    Re-Enter Password:<br>
-    <input type='password' name='password2' required>
+</div>
+</div>
+</div>
+
+  <div class='form-group'>
+     <label for='password1'>Password</label>
+    <input type='password' class='form-control' name='password1' id='password1' required>
+</div>
+
+<div class='form-group'>
+  <label for='password2'>Re-enter Password</label>
+    <input type='password' class='form-control' name='password2' id='password2' required>
     <br><br>
-    <input type='submit' value='Sign Up'>
+    <button type='submit' class='btn btn-dark' value='Sign Up'>Submit</button>
 </form>
 <br><br>
 <p>Already have an account?</p>
-<button onclick='changeToLogin()'>Login</button>
+<button class='btn btn-dark' onclick='changeToLogin()'>Login</button>
+
+</div>
+
+</div>

@@ -51,7 +51,7 @@
         <input type="password" class="form-control" name="pw" id="pw" required><br>
       </div>
 
-      <input type="submit" class="btn btn-primary" value="Signup">
+      <input type="submit" class="btn btn-dark" value="Signup">
       </form>
       <p>Already signed up? <a href="wholesale.php">Log in!</a></p>';
     }
@@ -69,7 +69,7 @@
         <input type="password" class="form-control" name="pw" id="pw" required><br>
       </div>
 
-      <input class="btn btn-primary" type="submit" value="Login">
+      <input class="btn btn-dark" type="submit" value="Sign in">
     </form>
     <p>New here? <a href="wholesale.php?signup">Sign up!</a></p>';
     }

@@ -13,14 +13,14 @@
     <div id="pinata-container" class="text-center">
         <?php
             $showLogin = true;
-        
+
             // If the user is logged in
             if(isset($_COOKIE["user_verified"]))
             {
                 // If the user has entered a code and that code has been validated,
                 // display their code and the pinata bash game and allow them to play
                 if(isset($_COOKIE["code_entered"])) {
-                    echo "<h2>Code entered: " . $_COOKIE['code_entered'] . "</h2>
+                    echo "<h5>Code entered: " . $_COOKIE['code_entered'] . "</h5>
                     <div class='pinata-content text-center'>
                         <div id='pinata-div'>
                             <img src='images/pinata/pinata1.gif' id='pinata'>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class='row' id='play-again'></div>";
-                    
+
                 // Else if the user has not yet entered a code, display the code entry form
                 } else {
                     echo "<h2 class='text-center'>Enter Competition Code</h2>";
@@ -48,10 +48,10 @@
                                 <input type='submit' value='Submit'>
                             </form>";
                 }
-                
+
             // Else if the user is not logged in
             } else {
-                
+
                 // If login has failed
                 if(isset($_GET['fail']))
                 {
@@ -60,7 +60,7 @@
                     {
                         echo "<p class='error'>Incorrect Password!</p>";
                     }
-                    
+
                     // If the entered email address has not been registered, prompt the user to register it
                     else if($_GET['fail'] == 'user')
                     {
@@ -68,13 +68,13 @@
                         include "user_signup.php";
                         $showLogin = false;
                     }
-                    
+
                     // If the user has tried to register an account that already exists, prompt them to login instead
                     else if($_GET['fail'] == 'exists')
                     {
                         echo "<p class='error'>An account already exists with that email!<br>Try logging in instead.</p>";
                     }
-                    
+
                     // If the user has tried to register an account with passwords that don't match, prompt them to try again
                     else if($_GET['fail'] == 'match')
                     {
@@ -83,13 +83,13 @@
                         $showLogin = false;
                     }
                 }
-                
+
                 // Else if login has not failed and therefor has not yet been attempted, prompt the user to login
                 else
                 {
                     echo "<p class='error'>Please Log In!</p>";
                 }
-                
+
                 // If the show login flag has not been set to false (i.e. if the signup form has not been displayed) display the login form
                 if($showLogin) {
                     include "user_login.php";

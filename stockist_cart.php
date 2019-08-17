@@ -79,8 +79,8 @@ $total_price = 0;
   ?>
 
   </table>
-  <button id="update" type="submit" style="display:none">Update Prices</button>
-  <button id="proceed">Proceed to Checkout</button>
+  <button id="update" type="submit" class="btn btn-dark" style="display:none">Update Prices</button>
+  <button id="proceed" class="btn btn-danger">Proceed to Checkout</button>
 
 </form>
 </div>
