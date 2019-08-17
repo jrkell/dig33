@@ -20,6 +20,7 @@
                 <?php listStockists() ?>
 
         </div>
+    </div>
 
 </main>
 <!-- PAGE CONTENT END -->

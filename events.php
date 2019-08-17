@@ -12,6 +12,7 @@
       <h1 class="text-center">Aussie Music Festivals</h1>
     </div>
   </div>
+</div>
 
 <div class="row">
   <div class="col-lg-6 text-center">
