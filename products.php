@@ -14,9 +14,8 @@
                 <h2 class="text-center">ENJOY THE BEER+ EXPERIENCE</h2>
             </div>
         </div>
-    </div>
 
-        <div class="row no-gutters slider-bg">
+        <div class="row slider-bg">
 
                 <ul id="product-slider">
                     <!--Call to a php function which executes an sql query to display all products in the slider-->
@@ -37,7 +36,7 @@
             }
             ?>
         </div>
-
+      </div>
 </main>
 
 <script>
