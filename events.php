@@ -12,7 +12,7 @@
       <h1 class="text-center">Aussie Music Festivals</h1>
     </div>
   </div>
-</div>
+
 
 <div class="row">
   <div class="col-lg-6 text-center">
@@ -25,24 +25,16 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="boxed hovereffect">
+    <div class="boxed">
       <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
-      <div class="overlay">
-        <h1>SYD * MELB * OCT 2020</h1>
-        <h2>COMING SOON</h2>
-      </div>
     </div>
   </div>
 </div>
 
-<div class="row box-black">
+<div class="row box-blue">
   <div class="col-lg-6">
-    <div class="boxed hovereffect">
+    <div class="boxed">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
-      <div class="overlay">
-        <h1>PERTH * BRIS * NOV 2020</h1>
-        <h2>COMING SOON</h2>
-      </div>
     </div>
   </div>
   <div class="col-lg-6 text-center">
@@ -68,12 +60,8 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="boxed hovereffect">
+    <div class="boxed">
       <img src="images/events/event-bdo.jpg" class="img-fluid" alt="Big Day Out"/>
-      <div class="overlay">
-        <h1>SYD * BRIS * DEC 2020</h1>
-        <h2>COMING SOON</h2>
-      </div>
   </div>
 </div>
 

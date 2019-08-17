@@ -109,15 +109,17 @@ function listStockists() {
     $result = performQuery($query);
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
-      echo "<div class='row'>";
+      echo "<div class='row no-gutters'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo
             "<div class='col-sm-4 text-center'>
-            <img src='{$row['imgurl']}' alt='{$row['name']}'/>
+            <div class='stock-bg'>
+            <img class='stock-img' src='{$row['imgurl']}' alt='{$row['name']}'/>
             <h3>{$row['name']}</h3>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
             <p>Give us a call: {$row['phone']}</p>
-            <a href='{$row['supurl']}'>Purchase from our Website</a><br><hr><br>
+            <a class='btn btn-danger' ref='{$row['supurl']}'>Purchase from '{$row['name']}'</a><br><hr><br>
+            </div>
             </div>";
         }
         echo "</div>";
@@ -129,7 +131,7 @@ function listStockists() {
 function isValidCode($code) {
     $query = "SELECT code FROM entry_code";
     $result = performQuery($query);
-    
+
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
             if($row['code'] == $code) return true;
@@ -142,7 +144,7 @@ function isValidCode($code) {
 function duplicateCode($code) {
     $query = "SELECT entry_code FROM competition_entry";
     $result = performQuery($query);
-    
+
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
             if($row['entry_code'] == $code) return true;
@@ -153,15 +155,15 @@ function duplicateCode($code) {
 
 // Once a code has been validated and used to play pinata bash, it is entered into the database as a competition entry
 function codeEntry($code, $user) {
-    
+
     if(!$user || !$code || !isValidCode($code) || duplicateCode($code)) return false;
-    
+
     $date = date("Y-m-d");
     $query = "INSERT INTO competition_entry VALUES ('$code', '$user', '$date')";
     $result = performQuery($query);
-    
+
     if(!$result) return false;
-    
+
     return true;
 }
 

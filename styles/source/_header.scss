@@ -106,11 +106,11 @@ a.navbar-brand:hover {
   background-size: contain;
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1000px) {
   .parallax {
     background-attachment: scroll;
     background-position: top;
-    max-height:300px;
+    min-height:300px;
     background-size: cover;
   }
 }

@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row box-blue">
       <div class="col-lg-6 text-center">
         <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" style="padding-top:25px;" alt="Icon"/>
