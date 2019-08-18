@@ -41,6 +41,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </div>
           </div>
           <div class='col-lg-6'>
+          <div class='table-responsive'>
           <table class='table table-dark table-striped table-sm'>
           <thead>
           <tr>
@@ -77,6 +78,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
             </tbody>
             </table>
+            </div>
             </div>
             </div>
           " ;

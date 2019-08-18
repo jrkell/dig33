@@ -134,6 +134,10 @@ main {
   border-width: 1px;
   border-color: #403E3F; }
 
+table {
+  font-family: sans-serif;
+  font-size: 0.9em; }
+
 /** HEADINGS **/
 h1 {
   font-family: "Arbutus", serif;

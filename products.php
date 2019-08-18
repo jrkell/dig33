@@ -15,6 +15,7 @@
             </div>
         </div>
 
+
         <div class="row slider-bg">
 
                 <ul id="product-slider">
@@ -23,6 +24,7 @@
                 </ul>
 
         </div>
+
 
         <div class="row"  id="product">
         <?php
