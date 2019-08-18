@@ -19,6 +19,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- site favicon -->
+    <link rel='shortcut icon' href='images/icons/techila.ico' type='image/x-icon' />
+
+
     <!-- reference to external font, css and js -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
