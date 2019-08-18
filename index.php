@@ -7,7 +7,7 @@
 <main id="container">
     <div class="row no-gutters box-black">
         <div class="col-sm-12 text-center box-black" >
-            <img src="images/banner.jpg" class="img-fluid" alt="Desperados home page" />
+            <a href="#promo" class="clear-link"><img src="images/banner.jpg" class="img-fluid" alt="Desperados home page" /></a>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <h3>Tequila Flavoured Beer</h3>
             <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="col-lg-6 text-center">
-                <div class="box-text">
+                <div class="box-text" id="promo">
                     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
                     <h2>PROMOTIONS</h2>
                     <p>In the Desperados spirit of fun, we are giving away tickets to our launch parties!</p>

@@ -109,6 +109,13 @@ h5 {
   }
 
 }
+
+.clear-link {
+  a, a:hover {
+    border:0;
+    text-decoration: none;
+  }
+}
 /* Set card-overlay font-size to 5vw on small screens*/
 @media screen and (max-width: 600px) {
   div.card-img-overlay  h1 {
