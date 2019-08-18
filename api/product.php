@@ -27,10 +27,17 @@ $product = mysqli_fetch_assoc(getProduct($title));
               <h2 class='text-center'>{$product['title']}</h2>
               <h3 class='text-center'>{$product['short_desc']}</h3><br>
               <p>{$product['long_desc']}</p>
+              </div>
             </div>
-          </div>
-          </div>
+            </div>
         <div class='row' style='padding-top:40px;'>
+          <div class='col-lg-6 text-center'>
+            <div class='box-text'>
+            <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />
+            <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
+            <iframe width='560' height='315' src='{$product['video']}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            </div>
+            </div>
           <div class='col-lg-6'>
           <table class='table table-dark table-striped table-sm'>
           <thead>
@@ -69,12 +76,6 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </tbody>
             </table>
             </div>
-
-            <div class='col-lg-6 text-center'>
-            <div class='box-text'>
-            <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
-            <iframe width='560' height='315' src='{$product['video']}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
             </div>
-            </div>
-            </div>" ;
+          " ;
 ?>
