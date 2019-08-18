@@ -30,7 +30,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             </div>
           </div>
           </div>
-        <div class='row'>
+        <div class='row' style='padding-top:40px;'>
           <div class='col-lg-6'>
           <table class='table table-dark table-striped table-sm'>
           <thead>
@@ -72,8 +72,8 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
             <div class='col-lg-6 text-center'>
             <div class='box-text'>
-            <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />
-            <h1>SOMETHING WILL GO HERE</h1>
+            <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
+            <iframe width='560' height='315' src='https://www.youtube.com/embed/cqtug3RS17s' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
             </div>
             </div>
             </div>" ;
