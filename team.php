@@ -14,8 +14,8 @@
         </div>
       </div>
     <div class="row box-blue">
-        <div class="col-lg-2 text-center">
-          <div class="card bg-dark text-white" style="width: 200px;">
+        <div class="col-lg-4 text-center">
+          <div class="card bg-dark text-white" style="width: 300px;">
             <img class="card-img-top" src="images/team/dion.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-subtitle">Dion</h3>
@@ -25,8 +25,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 text-center">
-          <div class="card bg-dark text-white" style="width: 200px;">
+        <div class="col-lg-4 text-center">
+          <div class="card bg-dark text-white" style="width: 300px;">
             <img class="card-img-top" src="images/team/tania.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-subtitle">Tania</h3>
@@ -36,8 +36,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 text-center">
-          <div class="card bg-dark text-white" style="width: 200px;">
+        <div class="col-lg-4 text-center">
+          <div class="card bg-dark text-white" style="width: 300px;">
             <img class="card-img-top" src="images/team/barb.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-subtitle">Barb</h3>
@@ -47,9 +47,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row box-blue text-center">
 
-        <div class="col-lg-2 text-center">
-          <div class="card bg-dark text-white" style="width: 200px;">
+        <div class="col-lg-6 text-center">
+          <div class="card bg-dark text-white" style="width: 300px;">
             <img class="card-img-top" src="images/team/jared.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-subtitle">Jared</h3>
@@ -60,8 +62,8 @@
           </div>
         </div>
 
-        <div class="col-lg-2 text-center">
-          <div class="card bg-dark text-white" style="width: 200px;">
+        <div class="col-lg-6 text-center">
+          <div class="card bg-dark text-white text-center" style="width: 300px;">
             <img class="card-img-top" src="images/team/michael.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-subtitle">Michael</h3>
@@ -71,6 +73,7 @@
             </div>
           </div>
         </div>
+      </div>
 
 
 

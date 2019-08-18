@@ -18,7 +18,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
 
     echo "<div class='col-lg-6 text-center'>
               <div class='boxed'>
-                <img src={$product['url']} class='img-fluid' alt={$product['alt_desc']} />
+                <img src={$product['url']} class='img-fluid' alt={$product['short_desc']} />
               </div>
             </div>
             <div class='col-lg-6 text-center'>
@@ -73,7 +73,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <div class='col-lg-6 text-center'>
             <div class='box-text'>
             <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
-            <iframe width='560' height='315' src='https://www.youtube.com/embed/cqtug3RS17s' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+            <iframe width='560' height='315' src='{$product['video']} frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
             </div>
             </div>
             </div>" ;
