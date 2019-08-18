@@ -166,6 +166,9 @@ h5 {
   width: 50%;
   margin: 10px auto 10px auto; }
 
+.btn {
+  margin-bottom: 25px; }
+
 /* Call to Action links */
 .c2a a {
   color: #ffcf11;
@@ -251,7 +254,7 @@ h5 {
   background-color: black;
   font-size: 14px;
   font-family: sans-serif;
-  margin: 5px;
+  margin: 10px;
   padding: 5px; }
 
 /** PRODUCT INFO **/
