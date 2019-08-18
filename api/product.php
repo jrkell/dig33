@@ -35,9 +35,11 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <div class='box-text'>
             <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />
             <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
-            <iframe width='560' height='315' src='{$product['video']}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+              <div class='embed-responsive embed-responsive-16by9'>
+              <iframe class='embed-responsive-item' src='{$product['video']}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+              </div>
             </div>
-            </div>
+          </div>
           <div class='col-lg-6'>
           <table class='table table-dark table-striped table-sm'>
           <thead>
