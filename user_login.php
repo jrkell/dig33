@@ -13,4 +13,4 @@
 </form>
 <br><br>
 <p>Don't have an account?</p>
-<button onclick='changeToSignUp()'>Sign Up</button>
+<button class="btn btn-dark" onclick='changeToSignUp()'>Sign Up</button>

@@ -56,7 +56,7 @@
       <textarea rows="4" cols="50" name="message" id="message" class="form-control"></textarea><br>
     </div>
 
-    <input type="submit" class="btn btn-primary my-1" value="Send">
+    <input type="submit" class="btn btn-dark my-1" value="Send">
   </form>
 </div>
 </div>

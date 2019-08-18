@@ -30,7 +30,7 @@
     if(isset($_GET['signup']))
     {
         // else show signup form
-        echo '<form action="api/stockist_signup.php" method="post">
+        echo '<form action="api/stockist_signup.php" class="sign-up-form text-left" method="post">
       <div class="form-group">
         <label for="name">Business Name:</label>
         <input type="text" class="form-control" name="name" id="name" required><br>
@@ -52,13 +52,13 @@
       </div>
 
       <input type="submit" class="btn btn-dark" value="Signup">
-      </form>
-      <p>Already signed up? <a href="wholesale.php">Log in!</a></p>';
+      <p>Already signed up? <a class="btn btn-warning" href="wholesale.php">Log in!</a></p>
+      </form>';
     }
     else
     {
         // default - show login form
-      echo '<form action="api/stockist_login.php" method="post">
+      echo '<form action="api/stockist_login.php" class="sign-up-form text-left" method="post">
       <div class="form-group">
         <label for="login">Email:</label>
         <input type="text" class="form-control" name="login" id="login" required><br>
@@ -70,9 +70,8 @@
       </div>
 
       <input class="btn btn-dark" type="submit" value="Sign in">
-    </form>
-    <p>New here? <a href="wholesale.php?signup">Sign up!</a></p>';
-    }
+      <p>New here? <a class="btn btn-warning" href="wholesale.php?signup">Sign up!</a></p>
+    </form>';}
 ?>
 
 
