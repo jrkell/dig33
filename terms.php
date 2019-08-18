@@ -7,9 +7,8 @@
 <!-- MAIN CONTENT -->
 <main id="container">
   <div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12" style="font-family:sans-serif">
-          <!-- Left column content -->
+    <div class="row fineprint">
+        <div class="col-lg-12 box-blue">
           <h1 class="text-center">Terms and Conditions</h1>
          <h5>ACCEPTANCE OF THESE TERMS</h5>
          <p>Welcome to our website dedicated to our brand Desperados (the “Website”). These terms and conditions together with our Privacy and Cookie Policy govern your use of this Website. This Website should not be used by those under legal purchasing age for alcohol in their country of residence.</p>

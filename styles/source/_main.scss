@@ -217,3 +217,21 @@ h5 {
   height: 135px;
   padding:0;
 }
+
+/** FOOTER LINK PAGES - FINEPRINT **/
+
+.fineprint {
+  font-family: sans-serif;
+  h5 {
+    margin-top:30px;
+  }
+  h2 {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+.fineprint div {
+  padding: 50px;
+}
+}
