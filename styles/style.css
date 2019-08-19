@@ -156,6 +156,9 @@ h5 {
 .right {
   float: right; }
 
+.bottom {
+  border-bottom: 2px solid #262523; }
+
 /* Call to Action links */
 .c2a a {
   color: #ffcf11;
