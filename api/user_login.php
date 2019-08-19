@@ -2,7 +2,7 @@
 
 include 'queries.php';
 
-//This feature is a work in progress and should be regarded as such
+// This feature is a work in progress and should be regarded as such
 
 if(isset($_POST)) {
     $userId = $_POST['email'];

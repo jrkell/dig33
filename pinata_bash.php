@@ -13,9 +13,13 @@
     <div id="pinata-container" class="text-center">
         <?php
             $showLogin = true;
+            if(isset($_COOKIE["stockist_verified"])) {
+                echo "<p class='error'>Desperado staff and stockists are not eligible to participate in promotions. Please log out to continue.</p>";
+            }
+
 
             // If the user is logged in
-            if(isset($_COOKIE["user_verified"]))
+            else if(isset($_COOKIE["user_verified"]))
             {
                 // If the user has entered a code and that code has been validated,
                 // display their code and the pinata bash game and allow them to play
@@ -79,6 +83,13 @@
                     else if($_GET['fail'] == 'match')
                     {
                         echo "<p class='error'>The passwords entered do not match!</p>";
+                        include "user_signup.php";
+                        $showLogin = false;
+                    }
+
+                    else if($_GET['fail'] == 'stockist')
+                    {
+                        echo "<p class='error'>Desperado staff and stockists are not eligible to participate in promotions. Please log out to continue.</p>";
                         include "user_signup.php";
                         $showLogin = false;
                     }
