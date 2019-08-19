@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row box-dark divide">
 
     <div class="col-lg-6">
       <div class="socialhover ">
@@ -40,23 +40,25 @@
         </div>
     </div>
     <div class="col-lg-6">
+      <div class="box-text contact-form">
   <form action="https://formspree.io/jarredkelly@gmail.com" method="POST">
     <div class="form-group">
       <label for="name">Name:</label>
-      <input type="text" class="form-control" name="name" id="name"><br>
+      <input type="text" class="form-control" name="name" id="name">
     </div>
 
     <div class="form-group">
-    <label for="email">Email Address:</label>
-      <input type="email" class="form-control" name="email" id="email"><br>
+    <label for="email">Email:</label>
+      <input type="email" class="form-control" name="email" id="email">
     </div>
 
     <div>
     <label for="message">Message:</label>
-      <textarea rows="4" cols="50" name="message" id="message" class="form-control"></textarea><br>
+      <textarea rows="3" cols="50" name="message" id="message" class="form-control"></textarea>
     </div>
-
-    <input type="submit" class="btn btn-dark my-1" value="Send">
+    <div class="text-center">
+    <input type="submit" class="btn btn-dark my-3" value="Send">
+  </div>
   </form>
 </div>
 </div>

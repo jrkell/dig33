@@ -109,7 +109,7 @@ function listStockists() {
     $result = performQuery($query);
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
-      echo "<div class='row no-gutters'>";
+      echo "<div class='row'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo
             "<div class='col-sm-4 text-center'>

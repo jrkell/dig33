@@ -171,6 +171,7 @@ h5 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  padding:10px;
   p {
     text-align: left;
   }
@@ -223,11 +224,12 @@ h5 {
   padding: 25px 0px;
 }
 .stock-bg {
-  background-color: black;
+  background-color: $tt-dark4;
   font-size:14px;
   font-family: sans-serif;
   margin:10px;
   padding:5px;
+  border: 2px solid $tt-dark5;
 
 }
 

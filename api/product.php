@@ -31,7 +31,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
           </div>
           </div> <!-- Close first row -->
 
-        <div class='row' style='padding-top:40px;'>
+        <div class='row box-dark divide' style='padding-top:40px;'>
           <div class='col-lg-6 text-center'>
             <div class='box-text'>
               <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />

@@ -15,12 +15,12 @@
             </div>
         </div>
 
-    </div>
+
 
                 <?php listStockists() ?>
 
 
-
+    </div>
 </main>
 <!-- PAGE CONTENT END -->
 
