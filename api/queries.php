@@ -167,4 +167,15 @@ function codeEntry($code, $user) {
     return true;
 }
 
+
+
+function addOrder($stockist_id) {
+
+    $query = "INSERT INTO orders(stockist_id, purchase_date) VALUES ($stockist_id, CURDATE());";
+    performQuery($query);
+    $order_id = performQuery("SELECT LAST_INSERT_ID();");
+    return mysqli_fetch_assoc($order_id);
+
+}
+
 ?>

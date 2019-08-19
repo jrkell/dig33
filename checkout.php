@@ -12,12 +12,6 @@
             <div class="col-sm-12 text-center">
               <h1>CHECKOUT</h1>
 
-<?php
-  // create cookie for testing
-  /*$in_cart = [1 => 20, 2 => 30];
-
-  setcookie('cart_items', json_encode($in_cart), time()+86400*30 , '/'); // create cookie*/
-?>
 <table class="table table-dark">
   <thead class="thead-light">
   <tr>
@@ -31,21 +25,33 @@
 
 <?php
 
-$total_gross = 0;
-$total_gst = 0;
-$total_price = 0;
 
+
+$email = $_COOKIE["stockist_verified"];
+$user = mysqli_fetch_assoc(getUser($email, 'stockist'));
+$stockist_id = $user['stockist_id'];
+$order_id = addOrder($stockist_id);
+$order_id = $order_id['LAST_INSERT_ID()'];
+
+
+  $total_gross = 0;
+  $total_gst = 0;
+  $total_price = 0;
   for ($i = 1; $i <= 7; $i++) {
     if (isset($_POST[$i])) {
       $qty = $_POST[$i];
       if ($qty>0) {
         $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
         $result = mysqli_fetch_assoc(performQuery($query));
+        
+        
 
         $name = $result["title"];
         $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
         $gst = number_format((float)$result["price"] * $qty / 11, 2, '.', '');
         $net_price = number_format((float)$result["price"] * $qty, 2, '.', '');
+        $price_each = $result["price"];
+        performQuery("INSERT into order_item(order_id, price_each, product_id, qty) VALUES ($order_id, $price_each, $i, $qty);");
 
         echo "<tr>";
         echo "<td>$name</td>";
