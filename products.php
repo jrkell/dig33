@@ -26,7 +26,7 @@
         </div>
 
 
-        <div class="row"  id="product">
+        <div  id="product">
         <?php
             //If page is reached by clicking on a product from the slider, display that product.
             if(isset($_GET['product'])) {
