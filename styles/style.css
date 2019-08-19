@@ -3,7 +3,7 @@ header {
   background-color: #0D0C0B;
   width: 100%;
   margin: 0px auto;
-  border-bottom: 2px solid #262523; }
+  border-bottom: 2px solid #0D0C0B; }
 
 .navbar {
   max-width: 1366px;
@@ -235,6 +235,17 @@ h5 {
 
   img.event-small {
     max-width: none; } }
+/** LOGIN CHECK **/
+.error {
+  max-width: 500px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #e10017;
+  background: white;
+  padding: 10px;
+  border: 2px solid #e10017;
+  margin: 20px auto; }
+
 /** ORDER FORM AND SHOPPING CART **/
 .paypal {
   margin-top: 50px;
