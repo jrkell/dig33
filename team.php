@@ -13,10 +13,10 @@
           <h2>Meet the Team</h2>
         </div>
       </div>
-    <div class="row box-black">
+    <div class="row">
         <div class="col-lg-4">
-          <div class="team dion-bg">
-              <img src="images/team/dion.jpg" class="left" alt="Dion PM">
+          <div class="stock-bg">
+              <img src="images/team/dion.jpg" class="stock-img" alt="Dion PM">
               <h3>Dion</h3>
               <h5>Project Manager</h5>
               <p>Dion is providing a Project Management role for this project, and assisting back-end roles. </p>
@@ -25,19 +25,19 @@
           </div>
 
         <div class="col-lg-4">
-        <div class="team tania-bg">
-          <img src="images/team/tania.jpg" class="left" alt="Tania UX Design">
+        <div class="stock-bg">
+          <img src="images/team/tania.jpg" class="stock-img" alt="Tania UX Design">
             <div>
               <h3>Tania</h3>
               <h5>UX Design</h5>
-              <p>Tania is new to the design development process, completing a Bachelor of Arts Digital Design.</p>
+              <p>Tania is an aspiring art teacher and is completing a Bachelor of Arts Digital Design.</p>
                 <p></p>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-        <div class="team barb-bg">
-            <img src="images/team/barb.jpg" class="left" alt="Barb Front End">
+        <div class="stock-bg">
+            <img src="images/team/barb.jpg" class="stock-img" alt="Barb Front End">
             <div>
               <h3>Barb</h3>
               <h5>Front-end Developer</h5>
@@ -47,11 +47,11 @@
         </div>
       </div>
     </div>
-      <div class="row box-black">
+      <div class="row">
 
         <div class="col-lg-6">
-        <div class="team jared-bg">
-            <img src="images/team/jared.jpg" class="left" alt="Jared Back End">
+        <div class="stock-bg">
+            <img src="images/team/jared.jpg" class="stock-img" alt="Jared Back End">
             <div>
               <h3>Jared</h3>
               <h5>Back-end Developer</h5>
@@ -62,8 +62,8 @@
         </div>
 
         <div class="col-lg-6">
-        <div class="team michael-bg">
-            <img src="images/team/michael.jpg" class="left" alt="Michael TA">
+        <div class="stock-bg">
+            <img src="images/team/michael.jpg" class="stock-img" alt="Michael TA">
             <div>
               <h3>Michael</h3>
               <h5>Information Architect</h5>

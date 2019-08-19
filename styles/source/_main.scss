@@ -16,7 +16,7 @@ $tt-dark5: #262523; /* Dark grey */
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: $tt-dark4;
  background-image:url(../images/bg-textured.jpg);
   background-size: contain;
 }

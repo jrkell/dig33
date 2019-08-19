@@ -1,6 +1,6 @@
 /** HEADER STYLES **/
 header {
-  background-color: black;
+  background-color: #0D0C0B;
   width: 100%;
   margin: 0px auto; }
 
@@ -15,7 +15,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: black; }
+    background-color: #0D0C0B; }
   nav li {
     display: inline-block;
     text-align: center;
@@ -44,7 +44,7 @@ a.navbar-brand:hover {
 
 .dropdown-menu a {
   display: block;
-  background-color: black;
+  background-color: #0D0C0B;
   color: white;
   text-align: center;
   padding: 12px 16px;
@@ -53,10 +53,10 @@ a.navbar-brand:hover {
 .dropdown-menu .nav-active {
   border-bottom: 2px red solid;
   color: white;
-  background-color: black; }
+  background-color: #0D0C0B; }
 
 .dropdown-menu.show {
-  background-color: black; }
+  background-color: #0D0C0B; }
 
 .logged-in {
   text-align: right;
@@ -69,23 +69,6 @@ a.navbar-brand:hover {
     color: red;
     border-bottom: 1px red solid; }
 
-.parallax {
-  /* The image used */
-  background-image: url("../images/banner2.jpg");
-  min-height: 550px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain; }
-
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1000px) {
-  .parallax {
-    background-attachment: scroll;
-    background-position: top;
-    min-height: 300px;
-    background-size: cover; } }
 /** MAIN STYLES **/
 /* Light grey */
 /* Dark grey-blue */
@@ -95,7 +78,7 @@ a.navbar-brand:hover {
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #0D0C0B;
   background-image: url(../images/bg-textured.jpg);
   background-size: contain; }
 

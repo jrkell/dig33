@@ -5,7 +5,7 @@
 
 <!-- PAGE CONTENT START -->
 <main id="container">
-    <div class="row no-gutters box-black">
+    <div class="row no-gutters box-dark">
         <div class="col-sm-12 text-center box-black" >
             <a href="#promo" class="clear-link"><img src="images/banner.jpg" class="img-fluid" alt="Desperados home page" /></a>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
