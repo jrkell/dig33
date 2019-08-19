@@ -169,6 +169,12 @@ h5 {
 .btn {
   margin-bottom: 25px; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
 /* Call to Action links */
 .c2a a {
   color: #ffcf11;
@@ -267,6 +273,36 @@ h5 {
 .order-form {
   height: 135px;
   padding: 0; }
+
+/** TEAM MEMBERS **/
+.team {
+  height: 360px;
+  font-family: sans-serif; }
+  .team img {
+    float: left;
+    padding: 10px 10px 40px 10px; }
+  .team h3 {
+    padding-top: 20px; }
+
+.dion-bg {
+  background-image: url(../images/team/dion-bg.png);
+  background-size: cover; }
+
+.tania-bg {
+  background-image: url(../images/team/tania-bg.png);
+  background-size: cover; }
+
+.barb-bg {
+  background-image: url(../images/team/barb-bg.png);
+  background-size: cover; }
+
+.jared-bg {
+  background-image: url(../images/team/jared-bg.png);
+  background-size: cover; }
+
+.michael-bg {
+  background-image: url(../images/team/michael-bg.png);
+  background-size: cover; }
 
 /** FOOTER LINK PAGES - FINEPRINT **/
 .fineprint {
