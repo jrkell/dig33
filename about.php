@@ -12,7 +12,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row box-blue divide">
     <div class="col-lg-6">
       <div class="boxed">
       <img src="images/australia.jpg" class="img-fluid" alt="Desperados Australia"/>
@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <div class="row box-blue">
+    <div class="row box-blue divide">
       <div class="col-lg-6 text-center">
         <div class="box-text">
           <img src="images/icon-green.png" class="tt-icon" style="padding-top:25px;" alt="Icon"/>
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row box-blue divide">
       <div class="col-lg-6">
         <div class="boxed">
         <img src="images/about-promo.jpg" class="img-fluid" alt="Promotions" />

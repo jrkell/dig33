@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row divide box-blue">
             <div class="col-lg-6 text-center">
                 <div class="box-text">
                     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
@@ -34,14 +34,14 @@
                     <p>Our beer+ product will become your new go to drink.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="boxed">
+            <div class="col-lg-6 ">
+                <div class="box-black no-gutters">
                     <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row divide box-blue">
             <div class="col-lg-6">
                 <div class="boxed">
                     <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />

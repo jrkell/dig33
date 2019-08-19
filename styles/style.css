@@ -226,6 +226,10 @@ h5 {
   .box-text p {
     text-align: left; }
 
+.divide {
+  border: 2px solid #262523;
+  margin: 20px; }
+
 .img-crop {
   width: inherit;
   height: 556px;
