@@ -34,15 +34,15 @@ $("#pinata-div").click(function () {
                 "radius": 350,
                 "minRadius": 15,
                 "release": false,
-                "fadeTime": 300,
+                "fadeTime": 0,
                 "recycle": false,
                 "recycleDelay": 500,
                 "explodeTime": 300,
                 "round": false,
                 "minAngle": 0,
                 "maxAngle": 360,
-                "gravity": 0,
-                "groundDistance": 500
+                "gravity": 5,
+                "groundDistance": 400
             });
 
             congrats();
@@ -86,8 +86,8 @@ function swing() {
 
 //Cancels CSS animations
 function resetSwing() {
-    $(".pinata-content").css("-webkit-transform-origin", "none");
-    $(".pinata-content").css("transform-origin", "none");
+    $(".pinata-content").css("-webkit-transform-origin", "0");
+    $(".pinata-content").css("transform-origin", "0");
     $(".pinata-content").css("-webkit-animation", "none");
     $(".pinata-content").css("animation", "none");
 }
