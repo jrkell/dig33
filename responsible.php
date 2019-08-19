@@ -8,7 +8,7 @@
 <main id="container">
   <div class="container-fluid">
     <div class="row fineprint">
-        <div class="col-lg-12 box-blue">
+        <div class="col-lg-12 box-dark">
           <h1 class="text center">Drink Responsibly</h1>
           <h2>You can't control everything in life, but you can control how much you drink.
 It's up to you to make the most of it.</h2>

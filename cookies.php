@@ -8,7 +8,7 @@
 <main id="container">
   <div class="container-fluid">
     <div class="row fineprint">
-        <div class="col-lg-12 box-blue">
+        <div class="col-lg-12 box-dark">
           <h1 class="text-center">Cookie Policy</h1>
           <p>Desperados® of Heineken Brouwerijen B.V. ("HEINEKEN") uses cookies to give you a better online experience. In order to make full use of this website, your computer, tablet or mobile phone will need to accept cookies. We feel that it is important that you know what cookies our website uses and for what purposes. This will help to protect your privacy, while at the same time providing you with the best online experience.
 HEINEKEN aims to make your online experience and interaction as informative and relevant as possible. We use cookies or similar techniques to achieve this.</p>
