@@ -25,17 +25,13 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="boxed">
       <img src="images/events/event-jazz.jpg" class="img-fluid" alt="Jazz Club"/>
-    </div>
   </div>
 </div>
 
 <div class="row box-dark divide">
   <div class="col-lg-6">
-    <div class="boxed">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
-    </div>
   </div>
   <div class="col-lg-6 text-center">
     <div class="box-text">
@@ -60,9 +56,7 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="boxed">
       <img src="images/events/event-bdo.jpg" class="img-fluid" alt="Big Day Out"/>
-  </div>
 </div>
 
 </div>

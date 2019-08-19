@@ -95,7 +95,7 @@ main {
   color: #f8f8ff; }
 
 .row {
-  padding: 0; }
+  padding: 20px; }
 
 .textured {
   background-image: url(../images/bg-textured.jpg); }
@@ -147,10 +147,8 @@ h5 {
 
 .contact-form {
   width: 50%;
-  margin: 10px auto 10px auto; }
-
-.btn {
-  margin-bottom: 25px; }
+  margin: 10px auto 10px auto;
+  font-family: sans-serif; }
 
 .left {
   float: left; }
@@ -498,9 +496,11 @@ footer {
   padding: 0px 10px;
   background-color: transparent; }
 
-.footer-row ul {
-  display: inline-block;
-  text-align: left; }
+.footer-row {
+  padding: 0; }
+  .footer-row ul {
+    display: inline-block;
+    text-align: left; }
 
 .copyright {
   font-size: 14px;
