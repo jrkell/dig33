@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row divide box-blue">
+        <div class="row divide box-dark">
             <div class="col-lg-6 text-center">
                 <div class="box-text">
                     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
@@ -34,18 +34,14 @@
                     <p>Our beer+ product will become your new go to drink.</p>
                 </div>
             </div>
-            <div class="col-lg-6 ">
-                <div class="box-black no-gutters">
+            <div class="col-lg-6 text-right">
                     <img src="images/auslaunch.jpg" class="img-fluid" alt="Desperados Australia Launch" />
-                </div>
             </div>
         </div>
 
-        <div class="row divide box-blue">
+        <div class="row divide box-dark">
             <div class="col-lg-6">
-                <div class="boxed">
                     <img src="images/promos.jpg" class="img-fluid" alt="Desperados Competitions" />
-                </div>
             </div>
             <div class="col-lg-6 text-center">
                 <div class="box-text" id="promo">
@@ -53,9 +49,9 @@
                     <h2>PROMOTIONS</h2>
                     <p>In the Desperados spirit of fun, we are giving away tickets to our launch parties!</p>
                     <p>Purchase one of our participating products to receive a unique code for your chance to win the Pinata Bash competition.<p><br>
-                            <div class="text-center">
-                                <a class="btn btn-danger btn-lg" href="pinata_bash.php">Got an Entry Code? Play Pinata Bash</a>
-                            </div>
+                        <div class="text-center">
+                            <a class="btn btn-danger btn-lg" href="pinata_bash.php">Got an Entry Code? Play Pinata Bash</a>
+                        </div>
                 </div>
             </div>
         </div>

@@ -112,7 +112,7 @@ main {
   color: #f8f8ff; }
 
 .row {
-  padding: 25px; }
+  padding: 0; }
 
 .textured {
   background-image: url(../images/bg-textured.jpg); }
@@ -213,8 +213,8 @@ h5 {
 .box-blue {
   background-color: #1F1E26; }
 
-.box-green {
-  background-color: #25261E; }
+.box-dark {
+  background-color: #0D0C0B; }
 
 .box-black {
   background-color: black; }
@@ -482,7 +482,8 @@ footer {
   width: 100%;
   text-align: center;
   background-color: #262523;
-  margin: 0px auto 0px auto; }
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #0D0C0B; }
 
 .footer-bg {
   width: 100%;

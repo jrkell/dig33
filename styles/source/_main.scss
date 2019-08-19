@@ -36,7 +36,7 @@ main {
 }
 
 .row {
-  padding: 25px;
+  padding: 0;
 }
 
 .textured {
@@ -160,8 +160,8 @@ h5 {
 .box-blue {
   background-color: $tt-dark2;
 }
-.box-green {
-  background-color: $tt-dark3;
+.box-dark{
+  background-color: $tt-dark4;
 }
 .box-black {
   background-color: black;

@@ -14,7 +14,7 @@
   </div>
 
 
-<div class="row box-blue divide">
+<div class="row box-dark divide">
   <div class="col-lg-6 text-center">
     <div class="box-text">
     <img src="images/icon-orange.png" class="tt-icon" alt="Icon" />
@@ -31,7 +31,7 @@
   </div>
 </div>
 
-<div class="row box-blue divide">
+<div class="row box-dark divide">
   <div class="col-lg-6">
     <div class="boxed">
       <img src="images/events/event-rock.jpg" class="img-fluid" alt="River Rock Fest"/>
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<div class="row box-blue divide">
+<div class="row box-dark divide">
   <div class="col-lg-6 text-center">
     <div class="box-text">
     <img src="images/icon-red.png" class="tt-icon" alt="Icon" />
