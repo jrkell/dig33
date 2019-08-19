@@ -52,12 +52,13 @@ $("#pinata-div").click(function () {
             break;
     }
 });
-//});
 
 function congrats() {
+    var name = document.cookie.split("pinata_name=");
+    var split = name[1].split(";");
     $("#pinata-top").html('<h1>ENTRY CONFIRMATION</h1>\
-                    <h2>Good Luck!</h2>\
-                    <p>Here is your ticket</p>');
+                    <h2>Good Luck ' + split[0] + '!</h2>\
+                    <p>Your entry ticket has been emailed to you.</p>');
     $("#play-again").html("<div class='col-sm-12 text-center'>\
                             <button type='button' class='btn btn-warning' onclick='playAgain()'>Play Again</button>\
                             </div>");

@@ -47,6 +47,21 @@
     <title>
         <?php echo $title; ?>
     </title>
+    <?php
+            if (isset($_COOKIE["stockist_verified"]))
+            {
+                    $email = $_COOKIE["stockist_verified"];
+                    $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
+                    $name = $user['name'];
+            }
+        
+            if (isset($_COOKIE["user_verified"]))
+            {
+                    $pinata_email = $_COOKIE["user_verified"];
+                    $pinata_user = mysqli_fetch_assoc(getUser($pinata_email, 'pinata_user'));
+                    $pinata_name = $pinata_user['first_name'];
+                    setcookie('pinata_name', $pinata_name, 0 , '/');
+            } ?>
 </head>
 
 
@@ -100,22 +115,12 @@
         <?php
             if (isset($_COOKIE["stockist_verified"]))
             {
-//                if($_COOKIE["stockist_verified"]!="false") {
-                    $email = $_COOKIE["stockist_verified"];
-                    $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
-                    $name = $user['name'];
                     echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
-//                }
             }
         
             if (isset($_COOKIE["user_verified"]))
             {
-//                if($_COOKIE["user_verified"]!="false") {
-                    $pinata_email = $_COOKIE["user_verified"];
-                    $pinata_user = mysqli_fetch_assoc(getUser($pinata_email, 'pinata_user'));
-                    $pinata_name = $pinata_user['first_name'];
                     echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
-//                }
             }
         ?>
     </header>
