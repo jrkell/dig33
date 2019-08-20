@@ -56,7 +56,7 @@
         </div>
 
         <input type="submit" class="btn btn-dark" value="Signup">
-        <p>Already signed up? <a class="btn btn-warning" href="wholesale.php">Log in!</a></p>
+        <p>Already signed up? <a class="btn btn-warning my-4" href="wholesale.php">Log in!</a></p>
         </form>';
       }
       else
@@ -74,7 +74,7 @@
         </div>
 
         <input class="btn btn-dark" type="submit" value="Sign in">
-        <p>New here? <a class="btn btn-warning" href="wholesale.php?signup">Sign up!</a></p>
+        <p>New here? <a class="btn btn-warning my-4" href="wholesale.php?signup">Sign up!</a></p>
       </form>';}
     }
 ?>

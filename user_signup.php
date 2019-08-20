@@ -68,11 +68,11 @@
   <label for='password2'>Re-enter Password</label>
     <input type='password' class='form-control' name='password2' id='password2' required>
     <br><br>
-    <button type='submit' class='btn btn-dark' value='Sign Up'>Submit</button>
+    <button type='submit' class='btn btn-dark my-4' value='Sign Up'>Submit</button>
 </form>
 <br><br>
 <p>Already have an account?</p>
-<button class='btn btn-dark' onclick='changeToLogin()'>Login</button>
+<button class='btn btn-dark my-4' onclick='changeToLogin()'>Login</button>
 
 </div>
 

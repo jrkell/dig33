@@ -50,6 +50,7 @@
                                 <input type='text' name='code'>
                                 <br><br>
                                 <input type='submit' value='Submit'>
+                                <br><br>
                             </form>";
                 }
 

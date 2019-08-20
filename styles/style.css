@@ -172,6 +172,17 @@ h5 {
   text-decoration: none;
   color: #fe6600; }
 
+.text-link a {
+  color: white;
+  font-family: "Special Elite", serif;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: underline;
+  font-size: 1em; }
+.text-link a:hover {
+  text-decoration: none;
+  color: #fe6600; }
+
 .clear-link a, .clear-link a:hover {
   border: 0;
   text-decoration: none; }
