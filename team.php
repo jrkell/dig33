@@ -13,62 +13,81 @@
           <h2>Meet the Team</h2>
         </div>
       </div>
-    <div class="row">
-        <div class="col-lg-4">
-          <div class="stock-bg">
-              <img src="images/team/dion.jpg" class="stock-img" alt="Dion PM">
-              <h3>Dion</h3>
-              <h5>Project Manager</h5>
-              <p>Dion is providing a Project Management role for this project, and assisting back-end roles. </p>
-                <p>Dion is a fulltime Technical Services Manager in local government, and completing a Bachelor of Technology for his professional development</p>
-            </div>
-          </div>
 
-        <div class="col-lg-4">
-        <div class="stock-bg">
-          <img src="images/team/tania.jpg" class="stock-img" alt="Tania UX Design">
-            <div>
-              <h3>Tania</h3>
-              <h5>UX Design</h5>
-              <p>Tania is an aspiring art teacher and is completing a Bachelor of Arts Digital Design.</p>
-                <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-        <div class="stock-bg">
-            <img src="images/team/barb.jpg" class="stock-img" alt="Barb Front End">
-            <div>
-              <h3>Barb</h3>
-              <h5>Front-end Developer</h5>
-              <p>Barbara an experienced front-end developer that is completing a Bachelor of Arts in Internet Communication and Digital Design.</p>
 
+<div class="card-group">
+  <div class="card mb-3 team bg-dark text-light" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-lg-4">
+        <img src="images/team/dion.jpg" class="card-img-top" alt="Dion PM">
+      </div>
+      <div class="col-lg-8">
+          <div class="card-body">
+              <h3 class="card-title">Dion</h3>
+              <h5 class="card-subtitle">Project Manager</h5>
+              <p class="card-text">Dion is a fulltime Technical Services Manager in local government, and completing a Bachelor of Technology for his professional development</p>
           </div>
         </div>
       </div>
     </div>
-      <div class="row">
-
-        <div class="col-lg-6">
-        <div class="stock-bg">
-            <img src="images/team/jared.jpg" class="stock-img" alt="Jared Back End">
-            <div>
-              <h3>Jared</h3>
-              <h5>Back-end Developer</h5>
-              <p>Jared is the back-end developer for this project. He is assisting with the Information Architect role. </p>
-                <p>He is completing his Bachelor of IT, and this is his final unit. He is working fulltime as a Workforce Planner.</p>
+      <div class="card mb-3 team bg-dark text-light" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-lg-4">
+            <img src="images/team/tania.jpg" class="card-img-top" alt="Tania UX Design">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h3 class="card-title">Tania</h3>
+              <h5 class="card-subtitle">UX Design</h5>
+              <p class="card-text">Tania is an aspiring art teacher and is completing a Bachelor of Arts Digital Design.</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="col-lg-6">
-        <div class="stock-bg">
-            <img src="images/team/michael.jpg" class="stock-img" alt="Michael TA">
-            <div>
-              <h3>Michael</h3>
-              <h5>Information Architect</h5>
-              <p>Michael is the Information Architect for this project. He is also supporting with UX and front-end development. </p>
-                <p>Michael is a Bachelor of IT student, studying a minor in internet design and has secured employment as a graduate software integration engineer.</p>
+
+    <div class="card-group">
+      <div class="card mb-3 team bg-dark text-light" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-lg-4">
+            <img src="images/team/barb.jpg" class="card-img-top" alt="Barb Front End">
+          </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h3 class="card-title">Barb</h3>
+              <h5 class="card-subtitle">Front-end Developer</h5>
+              <p class="card-text">Barbara an experienced front-end developer that is completing a Bachelor of Arts in Internet Communication and Digital Design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="card mb-3 team bg-dark text-light" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-lg-4">
+              <img src="images/team/jared.jpg" class="card-img-top" alt="Jared Back End">
+            </div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h3 class="card-title">Jared</h3>
+              <h5 class="card-subtitle">Back-end Developer</h5>
+              <p class="card-text">Jared is completing his Bachelor of IT, and this is his final unit. He is working fulltime as a Workforce Planner.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="card-group">
+  <div class="card mb-3 team bg-dark text-light" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-lg-4">
+        <img src="images/team/michael.jpg" class="card-img-top" alt="Michael TA">
+</div>
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h3 class="card-title">Michael</h3>
+              <h5 class="card-subtitle">Information Architect</h5>
+                <p class="card-text">Michael is studying a Bachelor of IT and has secured employment as a graduate software integration engineer.</p>
             </div>
           </div>
         </div>
