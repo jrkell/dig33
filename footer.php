@@ -19,7 +19,7 @@
     <div class="col-sm-4 copyright">
       <img src="images/footer-img.png" alt="Barley and Agave Plant"/>
       <p>Copyright &copy; 2019 <a href="team.php">Tequila Techies</a><br>
-      <a href="references.php">References</a></p>
+      <a href="docs/references.pdf">References</a></p>
     </div>
     <div class="col-sm-4 social">
       <h5>Connect with us</h5>
