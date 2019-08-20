@@ -16,7 +16,7 @@
 
     <div class="col-lg-6">
       <div class="socialhover ">
-        <img src="images/social/social.jpg" class="img-fluid" alt="Social Media links" />
+        <img src="images/social.jpg" class="img-fluid" alt="Social Media links" />
           <div class="socialoverlay d-none d-xl-block">
             <h2>CONNECT WITH US</h2>
             <p class="set1">
