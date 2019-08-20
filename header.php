@@ -54,7 +54,7 @@
                     $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
                     $name = $user['name'];
             }
-        
+
             if (isset($_COOKIE["user_verified"]))
             {
                     $pinata_email = $_COOKIE["user_verified"];
@@ -71,8 +71,21 @@
 
 <body class="bg-dark text-white">
     <header>
+      <div class="login text-right">
+      <?php
+          if (isset($_COOKIE["stockist_verified"]))
+          {
+                  echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
+          }
 
+          if (isset($_COOKIE["user_verified"]))
+          {
+                  echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
+          }
+      ?>
+      </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
+
             <a class="navbar-brand" href="index.php"><img src="images/logo-sml.png" alt="Desperados Logo" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -112,15 +125,4 @@
                 </ul>
             </div>
         </nav>
-        <?php
-            if (isset($_COOKIE["stockist_verified"]))
-            {
-                    echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
-            }
-        
-            if (isset($_COOKIE["user_verified"]))
-            {
-                    echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
-            }
-        ?>
-    </header>
+      </header>
