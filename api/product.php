@@ -35,7 +35,7 @@ $product = mysqli_fetch_assoc(getProduct($title));
             <div class='box-text'>
               <img src='images/icon-orange.png' class='tt-icon' alt='Tequila Icon' />
               <h2 class='text-center'>THE BEER+ EXPERIENCE</h2>
-                <div class='embed-responsive embed-responsive-16by9'>
+                <div class='embed-responsive embed-responsive-16by9 ytvideo'>
                   <iframe class='embed-responsive-item' src='{$product['video']}' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
                 </div>
             </div>

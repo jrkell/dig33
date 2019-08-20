@@ -276,6 +276,9 @@ h5 {
   height: 135px;
   padding: 0; }
 
+.ytvideo {
+  margin-bottom: 35px; }
+
 /** TEAM MEMBERS **/
 .team {
   font-family: sans-serif;
