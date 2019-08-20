@@ -57,7 +57,7 @@
             <div class="card-body">
               <h3 class="card-title">Barb</h3>
               <h5 class="card-subtitle">Front-end Developer</h5>
-              <p class="card-text">Barbara an experienced front-end developer that is completing a Bachelor of Arts in Internet Communication and Digital Design.</p>
+              <p class="card-text">Barbara is an experienced front-end developer that is completing a Bachelor of Arts in Internet Communication and Digital Design.</p>
             </div>
           </div>
         </div>
