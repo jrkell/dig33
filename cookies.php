@@ -22,7 +22,7 @@ This Cookie Policy provides you with information about the cookies we use and wh
 <p>Once you have given us your agreement to the use of cookies, we shall store a cookie on your computer or device to remember this for next time. If you wish to withdraw your cookie consent at any time, you will have to delete our cookies using your internet browser settings. You should do this through the browser settings for each browser you use.</p>
 <p> Please be aware that some of our services will not function if your browser does not accept cookies. However, you can allow cookies from specific websites by making them “trusted websites” in your internet browser.</p>
 <p>The following links may assist you in managing your cookies settings, or you can use the 'Help' option in your internet browser for more details.</p>
-<p><ul>
+<p><ul class="text-link">
   <li><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies">Internet Explorer</a></li>
   <li><a href="http://support.mozilla.com/en-US/kb/Cookies">Mozilla Firefox</a></li>
   <li><a href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95647">Google Chrome</a></li>
