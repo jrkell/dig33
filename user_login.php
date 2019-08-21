@@ -4,10 +4,10 @@
 <h3 class="text-center">Login</h3>
 <form action='api/user_login.php' method='post'>
     Email:<br>
-    <input type='email' name='email'>
+    <input type='email' name='email' required>
     <br>
     Password:<br>
-    <input type='password' name='password'>
+    <input type='password' name='password' required>
     <br><br>
     <input type='submit' value='Login'>
 </form>
