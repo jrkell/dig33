@@ -51,7 +51,7 @@ function userExists($userId, $table) {
     return TRUE;
 }
 
-// Query to add user to database using information entered (work in progress)
+// Query to add user to database using information entered
 function addUser($email, $first, $dob, $sur, $pass) {
     $query = "INSERT INTO pinata_user VALUES ('$email', '$first', '$dob', '$sur', '$pass')";
     global $connection;
@@ -65,7 +65,7 @@ function addUser($email, $first, $dob, $sur, $pass) {
     mysqli_close($connection);
 }
 
-// Query to add stockist to database using information entered (work in progress)
+// Query to add stockist to database using information entered
 function addStockist($name, $email, $address, $pw) {
     $query = "INSERT INTO stockist VALUES (DEFAULT,'$name','$email','$address','$pw')";
     global $connection;
@@ -79,7 +79,7 @@ function addStockist($name, $email, $address, $pw) {
     mysqli_close($connection);
 }
 
-// Retrieves user from database with the id passed in (work in progress)
+// Retrieves user from database with the id passed in
 function getUser($userId, $table) {
     $query = "SELECT * FROM $table WHERE email = '$userId'";
     $result = performQuery($query);
