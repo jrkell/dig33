@@ -25,7 +25,7 @@
 
     <!-- reference to external font, css and js -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.min.css">
     <link rel="stylesheet" type="text/css" href="styles/slider.css">
     <link rel="stylesheet" type="text/css" href="styles/pinata.css">
     <!-- link to Google Fonts -->
