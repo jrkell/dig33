@@ -43,8 +43,8 @@ $order_id = $order_id['LAST_INSERT_ID()'];
       if ($qty>0) {
         $query = "SELECT product_id, title, price FROM product WHERE product_id=$i;";
         $result = mysqli_fetch_assoc(performQuery($query));
-        
-        
+
+
 
         $name = $result["title"];
         $gross_price = number_format((float)$result["price"] * $qty / 1.1, 2, '.', '');
@@ -87,7 +87,7 @@ $order_id = $order_id['LAST_INSERT_ID()'];
 </div>
 </div>
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

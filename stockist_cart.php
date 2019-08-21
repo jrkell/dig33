@@ -85,7 +85,7 @@ $total_price = 0;
 </div>
 </div>
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

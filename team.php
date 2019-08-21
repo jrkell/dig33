@@ -100,7 +100,7 @@
 
 </div>
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

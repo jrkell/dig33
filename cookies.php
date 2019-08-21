@@ -70,7 +70,7 @@ The Website uses cookies for the following purposes:</p>
 
 </div>
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

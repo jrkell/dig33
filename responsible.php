@@ -52,7 +52,7 @@ The percentage of alcohol in a typical serving of beer is around 5%; for wine it
 
 </div>
 </main>
-</body>
+
 <!-- PAGE CONTENT END -->
 
 

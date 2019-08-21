@@ -58,10 +58,11 @@
 
     <body class="bg-dark text-white">
       <main id="container" class="text-center">
-        <div class="row">
-          <div class="col-sm-12">
-        <img src="images/logo.png" class="img-fluid" alt="Desperados - Tequila Flavoured Beer">
-        <p>To continue, please enter your date of birth</p>
+        <div class="container-fluid">
+            <div class="row divide box-dark" style="padding:80px 20px;">
+                <div class="col-sm-12">
+                  <p><img src="images/logo.png" class="img-fluid" alt="Desperados - Tequila Flavoured Beer"></p>
+                  <p>To continue, please enter your date of birth</p>
 
 
         <form action="agegateway.php" method="POST">
@@ -100,8 +101,17 @@
 
             <input type="submit" value="Go">
         </form>
-            </div>
-
+        </div>
+      </div>
+      <div class="row footer-row">
+        <div class="col-lg-12 disclaimer">
+          <hr class="dark-line">
+          <p>This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author.
+            All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia).
+            No part of this work may be reproduced without consent of the original copyright owners. See code comments for references.
+          </p>
+        </div>
+      </div>
 </div>
 </main>
 </body>
