@@ -51,6 +51,8 @@
                                 <br><br>
                                 <input type='submit' value='Submit'>
                                 <br><br>
+                                <p>Your entry code is located on specially marked tickets</p>
+                                <img src='images/pinata/instructions.png' class='fluid-img' alt='Pinata instructions' />
                             </form>";
                 }
 
