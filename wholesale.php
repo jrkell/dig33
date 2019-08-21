@@ -52,12 +52,12 @@
         <label for="pw">Password:</label>
           <input type="password" class="form-control" name="pw" id="pw" required><br>
         </div>
-        
+
         <div class="form-group">
         <label for="pw2">Re-enter Password:</label>
           <input type="password" class="form-control" name="pw2" id="pw2" required><br>
         </div>
-        
+
         <div class="form-group text-center">
         <input type="submit" class="btn btn-dark my-4" value="Signup">
         <p>Already signed up?</p><a class="btn btn-warning my-4" href="wholesale.php">Log in!</a>
@@ -70,17 +70,19 @@
         echo '<form action="api/stockist_login.php" class="sign-up-form text-left" method="post">
         <div class="form-group">
           <label for="login">Email:</label>
-          <input type="text" class="form-control" name="login" id="login" required><br>
+          <input type="text" class="form-control" name="login" id="login" required>
         </div>
 
         <div class="form-group">
         <label for="pw">Password:</label>
-          <input type="password" class="form-control" name="pw" id="pw" required><br>
+          <input type="password" class="form-control" name="pw" id="pw" required>
         </div>
-        
-        <div class="form-group text-center">
+
+        <div class="form-group">
         <input class="btn btn-dark my-4" type="submit" value="Sign in">
-        <p>New here?</p> <a class="btn btn-warning my-4" href="wholesale.php?signup">Sign up!</a>
+        </div>
+        <div class="text-center">
+        <p>New here?</p> <a class="btn btn-warning mt-3 mb-5" href="wholesale.php?signup">Sign up!</a>
         </div>
       </form>';}
     }
