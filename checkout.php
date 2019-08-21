@@ -86,8 +86,8 @@
   <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
   <script>paypal.Buttons().render('article');</script>
 
-<h2></h2>
-<article class="text-center paypal"> </article>
+
+<article class="text-center paypal"><h2 style="display:none">Paypal Payment</h2></article>
 </div>
 </div>
 </div>
