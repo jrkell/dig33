@@ -118,7 +118,7 @@ function listStockists() {
             <h5>{$row['name']}</h5>
             <p>{$row['street']}, {$row['suburb']}, {$row['state']}</p>
             <p>Give us a call: {$row['phone']}</p>
-            <a class='btn btn-dark' href='{$row['supurl']}'>Purchase from {$row['name']}</a><p />
+            <a class='btn btn-dark' href='{$row['supurl']}'>Purchase from {$row['name']}</a></p>
             </div>
             </div>";
         }

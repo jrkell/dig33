@@ -56,6 +56,6 @@
 
 <!-- Footer -->
 <?php
-  $title = "DESPERADOS - Porque no los dos?";
-  include 'footer.php';
+    $title = "DESPERADOS - Porque no los dos?";
+    include 'footer.php';
 ?>
