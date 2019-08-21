@@ -7,13 +7,13 @@
     <div class="row text-center">
         <div class="col-sm-12" id="pinata-top">
             <h1>PINATA BASH</h1>
-            <p>Tap the pinata to reveal your ticket entry!</p>
+            <h3>Tap the pinata for your chance to win Launch Party tickets!</3>
         </div>
     </div>
     <div id="pinata-container" class="text-center">
         <?php
             $showLogin = true;
-        
+
             // Ensuring that a logged in stockist/wholesaler cannot also log in to pinata bash
             if(isset($_COOKIE["stockist_verified"])) {
                 echo "<p class='error'>Desperado staff and stockists are not eligible to participate in promotions. Please log out to continue.</p>";
@@ -48,12 +48,12 @@
                         echo "<p class='error'>The code entered has already been used! Please try a different one.</p>";
                     }
                     echo "<form action='api/enter_code.php' method='post'>
-                                Unique Code:<br>
-                                <input type='text' name='code'>
-                                <br><br>
-                                <input type='submit' value='Submit'>
-                                <br><br>
-                                <p>Your entry code is located on specially marked tickets</p>
+                              <div class='form-group'>
+                                <label for='pinatacode'>Unique Code:</label>
+                                <input type='text' size='20' id='pinatacode' name='code'>
+                                </div>
+                                <button type='submit' class='btn btn-warning mb-5' value='Submit'>Submit</button>
+                                <p>Need help? Your entry code is located on specially marked tickets</p>
                                 <img src='images/pinata/instructions.png' class='fluid-img' alt='Pinata instructions' />
                             </form>";
                 }
