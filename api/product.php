@@ -1,9 +1,11 @@
 <?php
 require 'queries.php';
 
+// get and display the product info
 $title = $_GET['product'];
 $product = mysqli_fetch_assoc(getProduct($title));
 
+    
     if($product['fat'] < 0.1) {
         $fat="< 0.1";
     } else {

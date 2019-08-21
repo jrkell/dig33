@@ -1,6 +1,7 @@
 <?php
     include 'queries.php';
 
+    // if the form has been submitted, assign to variables
     if(isset($_POST)) {
         $email = $_POST['login'];
         $pw = $_POST['pw'];
@@ -11,7 +12,7 @@
         // Retrieve stored hash
         $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
         $stored = $user['pword_hash'];
-        //$id = $user['stockist_id'];
+        
         // Check for password match
         if(password_verify($pw, $stored)) {
             setcookie('stockist_verified', $email, 0 , '/'); // create cookie     

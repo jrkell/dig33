@@ -10,16 +10,7 @@
             <a href="#promo" class="clear-link"><img src="images/banner.jpg" class="img-fluid" alt="Desperados home page" /></a>
             <h1>WELCOME TO THE BEER+ EXPERIENCE</h1>
             <h3>Tequila Flavoured Beer</h3>
-            <!-- REMOVING SLIDER FROM HOME PAGE TO TEST DESIGN IDEATION * BARB
-            <div class="row slider-row">
-                <div class="col-sm-12">
-                    <h2>Our Products</h2>
-                    <ul id="product-slider">
-                        Call to a php function which executes an sql query to display all products in the slider
-                        <?php sliderProducts() ?>
-                    </ul>
-                </div>
-            </div> -->
+
         </div>
     </div>
     <div class="container-fluid">
@@ -72,6 +63,6 @@
 
 
 <?php
-  $title = "DESPERADOS - Porque no los dos?";
-  include 'footer.php';
+    $title = "DESPERADOS - Porque no los dos?";
+    include 'footer.php';
 ?>

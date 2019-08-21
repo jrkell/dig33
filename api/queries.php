@@ -109,7 +109,7 @@ function listStockists() {
     $result = performQuery($query);
     // for each row, output as list
     if (mysqli_num_rows($result) > 0) {
-      echo "<div class='row'>";
+        echo "<div class='row'>";
         while ($row = mysqli_fetch_assoc($result)) {
             echo
             "<div class='col-sm-4 text-center'>
@@ -124,8 +124,7 @@ function listStockists() {
         }
         echo "</div>";
     }
-
-  }
+}
 
 // Checks if the pinata bash code entered is valid (is stored in the database)
 function isValidCode($code) {
@@ -168,7 +167,7 @@ function codeEntry($code, $user) {
 }
 
 
-
+// adds an order to the orders table when one is placed
 function addOrder($stockist_id) {
 
     $query = "INSERT INTO orders(stockist_id, purchase_date) VALUES ($stockist_id, CURDATE());";

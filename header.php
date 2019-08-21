@@ -74,16 +74,18 @@
     <header>
         <div class="login text-right">
             <?php
-          if (isset($_COOKIE["stockist_verified"]))
-          {
-                  echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
-          }
+                // if stockist is logged in, show name and logout button
+                if (isset($_COOKIE["stockist_verified"]))
+                {
+                        echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
+                }
 
-          if (isset($_COOKIE["user_verified"]))
-          {
-                  echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
-          }
-      ?>
+                // if pinata user is logged in, show name and logout button
+                if (isset($_COOKIE["user_verified"]))
+                {
+                        echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
+                }
+            ?>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
 

@@ -48,7 +48,7 @@
                         echo "<p class='error'>The code entered has already been used! Please try a different one.</p>";
                     }
                     echo "<form action='api/enter_code.php' method='post'>
-                              <div class='form-group'>
+                            <div class='form-group'>
                                 <label for='pinatacode'>Unique Code:</label>
                                 <input type='text' size='20' id='pinatacode' name='code'>
                                 </div>

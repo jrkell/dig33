@@ -13,6 +13,7 @@
               <h1>WHOLESALE ORDER FORM</h1>
 
 <?php
+  // if user has been created, show success message
   if (isset($_GET["success"])) {
     echo "<div>Account created. Welcome!<br>Place your order below.</div>";
   }
@@ -31,10 +32,12 @@
 
 <?php
 
-$total_gross = 0;
-$total_gst = 0;
-$total_price = 0;
+  // start running total
+  $total_gross = 0;
+  $total_gst = 0;
+  $total_price = 0;
 
+  // display each product
   for ($i = 1; $i <= 7; $i++) {
     if (isset($_POST[$i])) {
       $qty = $_POST[$i];
@@ -68,6 +71,7 @@ $total_price = 0;
     $total_price += $net_price;
   }
 
+  // display total
   echo "<tr><td></td><th>TOTAL:</th>";
   echo "<td>$$total_gross</td>";
   echo "<td>$$total_gst</td>";
@@ -77,6 +81,7 @@ $total_price = 0;
   ?>
 
   </table>
+  <!-- button changes to "update" when prices are changed -->
   <button id="update" type="submit" class="btn btn-dark" style="display:none">Update Prices</button>
   <button id="proceed" class="btn btn-danger">Proceed to Checkout</button>
 
