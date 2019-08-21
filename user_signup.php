@@ -67,10 +67,8 @@
             <div class='form-group'>
                 <label for='password2'>Re-enter Password</label>
                 <input type='password' class='form-control' name='password2' id='password2' required>
-                <br><br>
                 <button type='submit' class='btn btn-dark my-4' value='Sign Up'>Submit</button>
 
-                <br><br>
                 <p>Already have an account?</p>
                 <button class='btn btn-dark my-4' onclick='changeToLogin()'>Login</button>
 
@@ -78,5 +76,4 @@
         </form>
 
     </div>
-  </div>
-  
+</div>
