@@ -18,16 +18,16 @@
 
         <div class="row slider-bg">
 
-                <ul id="product-slider">
-                    <!--Call to a php function which executes an sql query to display all products in the slider-->
-                    <?php sliderProducts() ?>
-                </ul>
+            <ul id="product-slider">
+                <!--Call to a php function which executes an sql query to display all products in the slider-->
+                <?php sliderProducts() ?>
+            </ul>
 
         </div>
 
 
-        <div  id="product">
-        <?php
+        <div id="product">
+            <?php
             //If page is reached by clicking on a product from the slider, display that product.
             if(isset($_GET['product'])) {
                 $product = $_GET['product'];
@@ -38,7 +38,7 @@
             }
             ?>
         </div>
-      </div>
+    </div>
 </main>
 
 <script>

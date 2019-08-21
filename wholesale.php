@@ -28,6 +28,9 @@
       }
       if(isset($_GET['signup']))
       {
+          if(isset($_GET['no-match'])) {
+              echo "<p class='error'>The passwords entered do not match!</p>";
+          }
           // else show signup form
           echo '<form action="api/stockist_signup.php" class="sign-up-form text-left" method="post">
         <div class="form-group">
@@ -48,6 +51,11 @@
         <div class="form-group">
         <label for="pw">Password:</label>
           <input type="password" class="form-control" name="pw" id="pw" required><br>
+        </div>
+        
+        <div class="form-group">
+        <label for="pw2">Re-enter Password:</label>
+          <input type="password" class="form-control" name="pw2" id="pw2" required><br>
         </div>
 
         <input type="submit" class="btn btn-dark" value="Signup">

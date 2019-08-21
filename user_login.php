@@ -7,10 +7,8 @@
     <input type='email' name='email' required>
     <br>
     Password:<br>
-    <input type='password' name='password' required>
-    <br><br>
-    <input type='submit' value='Login'>
+    <input type='password' name='password' required><br>
+    <input class="btn btn-dark my-4" type='submit' value='Login'>
 </form>
-<br><br>
 <p>Don't have an account?</p>
-<button class="btn btn-dark my-4" onclick='changeToSignUp()'>Sign Up</button>
+<button class="btn btn-warning my-4" onclick='changeToSignUp()'>Sign Up</button>
