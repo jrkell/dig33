@@ -1,5 +1,6 @@
 <?php
 
+    // logout for stockist
     if(isset($_GET['stockist'])) {
         if(isset($_COOKIE['stockist_verified'])) {
         // set cookie to time in the past - browser deletes it
@@ -7,6 +8,7 @@
         }
     }
 
+    // logout for pinata bash user
     if(isset($_GET['user'])) {
         if(isset($_COOKIE['user_verified'])) {
         // set cookie to time in the past - browser deletes it

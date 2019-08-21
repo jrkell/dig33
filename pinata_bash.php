@@ -13,6 +13,8 @@
     <div id="pinata-container" class="text-center">
         <?php
             $showLogin = true;
+        
+            // Ensuring that a logged in stockist/wholesaler cannot also log in to pinata bash
             if(isset($_COOKIE["stockist_verified"])) {
                 echo "<p class='error'>Desperado staff and stockists are not eligible to participate in promotions. Please log out to continue.</p>";
             }

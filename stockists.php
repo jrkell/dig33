@@ -16,11 +16,8 @@
             </div>
         </div>
 
-
-
-                <?php listStockists() ?>
-
-
+        <!-- Call to the api function that retrieves all stockists from the database and loops through them to display a list -->
+        <?php listStockists() ?>
     </div>
 </main>
 <!-- PAGE CONTENT END -->

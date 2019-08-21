@@ -1,4 +1,4 @@
-<!--This file contains the markup for displaying the login form and is a work in progress-->
+<!--This file contains the markup for displaying the login form -->
 
 
 <h3 class="text-center">Login</h3>

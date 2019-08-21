@@ -48,20 +48,21 @@
         <?php echo $title; ?>
     </title>
     <?php
-            if (isset($_COOKIE["stockist_verified"]))
-            {
-                    $email = $_COOKIE["stockist_verified"];
-                    $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
-                    $name = $user['name'];
-            }
+        // If a stockist or pinata user is logged in, fetch and store their details, setting cookies if appropriate
+        if (isset($_COOKIE["stockist_verified"]))
+        {
+            $email = $_COOKIE["stockist_verified"];
+            $user = mysqli_fetch_assoc(getUser($email, 'stockist'));
+            $name = $user['name'];
+        }
 
-            if (isset($_COOKIE["user_verified"]))
-            {
-                    $pinata_email = $_COOKIE["user_verified"];
-                    $pinata_user = mysqli_fetch_assoc(getUser($pinata_email, 'pinata_user'));
-                    $pinata_name = $pinata_user['first_name'];
-                    setcookie('pinata_name', $pinata_name, 0 , '/');
-            } ?>
+        if (isset($_COOKIE["user_verified"]))
+        {
+            $pinata_email = $_COOKIE["user_verified"];
+            $pinata_user = mysqli_fetch_assoc(getUser($pinata_email, 'pinata_user'));
+            $pinata_name = $pinata_user['first_name'];
+            setcookie('pinata_name', $pinata_name, 0 , '/');
+        } ?>
 </head>
 
 
@@ -71,8 +72,8 @@
 
 <body class="bg-dark text-white">
     <header>
-      <div class="login text-right">
-      <?php
+        <div class="login text-right">
+            <?php
           if (isset($_COOKIE["stockist_verified"]))
           {
                   echo "<div class='logged-in'>Logged in as $name<br><a href='./stockist_cart.php'>Place an order</a> | <a href='./api/logout.php?stockist'>Logout</a></div>";
@@ -83,7 +84,7 @@
                   echo "<div class='logged-in'>Pinata Bash player: $pinata_name<br><a href='./pinata_bash.php'>Play Pinata Bash</a> | <a href='./api/logout.php?user'>Logout</a></div>";
           }
       ?>
-      </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
 
             <a class="navbar-brand" href="index.php"><img src="images/logo-sml.png" alt="Desperados Logo" class="img-fluid" /></a>
@@ -125,4 +126,4 @@
                 </ul>
             </div>
         </nav>
-      </header>
+    </header>

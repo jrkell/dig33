@@ -19,7 +19,6 @@
 #pinata-div .explode-wrapper canvas {
     position: absolute;
     top: 0 !important;
-    /*    left: 0 !important;*/
     height: 60vh !important;
 
 }
