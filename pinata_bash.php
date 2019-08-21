@@ -29,10 +29,10 @@
                     echo "<h5>Code entered: " . $_COOKIE['code_entered'] . "</h5>
                     <div class='pinata-content text-center'>
                         <div id='pinata-div'>
-                            <img src='images/pinata/pinata1.gif' id='pinata'>
+                            <img src='images/pinata/pinata1.gif' id='pinata' alt='Hit the Pinata!'>
                         </div>
                         <div id='ticket-div'>
-                            <img src='images/pinata/ticket.png' id='ticket'>
+                            <img src='images/pinata/ticket.png' id='ticket' alt='The Golden Ticket'>
                         </div>
                     </div>
                     <div class='row' id='play-again'></div>";
