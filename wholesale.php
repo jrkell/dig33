@@ -16,11 +16,6 @@
         </div>
 
         <?php
-    /*if(isset($_GET['success']))
-    {
-        //success code
-        echo '<p>You are logged in!</p>';
-    }*/
     if(isset($_COOKIE["user_verified"])) {
       echo "<div class='error'>Wholesale purchasing is only available to Desperado stockists.<br>Please see your nearest stockist to purchase or log out of pinata bash to continue.</a></div>";
     }
@@ -81,7 +76,7 @@
 
 
 
-          </div>
+    </div>
 </main>
 <!-- PAGE CONTENT END -->
 

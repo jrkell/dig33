@@ -1,7 +1,5 @@
 <?php include 'header.php'; ?>
 
-<!--This feature is a work in progress and should be regarded as such-->
-
 <body>
     <main class="pinata-content" id="container">
         <div id="pinata-container">

@@ -1,8 +1,6 @@
 <?php
 include 'queries.php';
 
-//This feature is a work in progress and should be regarded as such
-
 if(isset($_POST)) {
     $name = $_POST['name'];
       $email = $_POST['email'];

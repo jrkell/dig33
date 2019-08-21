@@ -53,6 +53,8 @@ $("#pinata-div").click(function () {
     }
 });
 
+// Changes the text on the pinata bash page to inform the user that they have entered,
+// sourcing their name from a cookie set in header.php
 function congrats() {
     var name = document.cookie.split("pinata_name=");
     var split = name[1].split(";");
