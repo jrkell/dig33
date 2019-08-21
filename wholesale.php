@@ -57,9 +57,11 @@
         <label for="pw2">Re-enter Password:</label>
           <input type="password" class="form-control" name="pw2" id="pw2" required><br>
         </div>
-
-        <input type="submit" class="btn btn-dark" value="Signup">
-        <p>Already signed up? <a class="btn btn-warning my-4" href="wholesale.php">Log in!</a></p>
+        
+        <div class="form-group text-center">
+        <input type="submit" class="btn btn-dark my-4" value="Signup">
+        <p>Already signed up?</p><a class="btn btn-warning my-4" href="wholesale.php">Log in!</a>
+        </div>
         </form>';
       }
       else
@@ -75,9 +77,11 @@
         <label for="pw">Password:</label>
           <input type="password" class="form-control" name="pw" id="pw" required><br>
         </div>
-
-        <input class="btn btn-dark" type="submit" value="Sign in">
-        <p>New here? <a class="btn btn-warning my-4" href="wholesale.php?signup">Sign up!</a></p>
+        
+        <div class="form-group text-center">
+        <input class="btn btn-dark my-4" type="submit" value="Sign in">
+        <p>New here?</p> <a class="btn btn-warning my-4" href="wholesale.php?signup">Sign up!</a>
+        </div>
       </form>';}
     }
 ?>
