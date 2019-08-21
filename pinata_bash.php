@@ -7,7 +7,7 @@
     <div class="row text-center">
         <div class="col-sm-12" id="pinata-top">
             <h1>PINATA BASH</h1>
-            <h3>Tap the pinata for your chance to win Launch Party tickets!</3>
+            <h5>Tap the pinata for your chance to win Launch Party tickets!</h5>
         </div>
     </div>
     <div id="pinata-container" class="text-center">
